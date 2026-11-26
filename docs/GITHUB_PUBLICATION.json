@@ -84,5 +84,13 @@
     "third_party/GraphMAE.bundle"
   ],
   "credential_pattern_scanned_text_files": 939,
-  "pdf_compiled": false
+  "pdf_compiled": false,
+  "os_metadata_omitted_from_git": [
+    "third_party/GraphMAE-main-audit/chem/.DS_Store",
+    "third_party/GraphMAE-main-audit/chem/init_weights/.DS_Store",
+    "third_party/GraphMAE-main-audit/imgs/.DS_Store",
+    "third_party/GraphMAE/chem/.DS_Store",
+    "third_party/GraphMAE/chem/init_weights/.DS_Store",
+    "third_party/GraphMAE/imgs/.DS_Store"
+  ]
 }

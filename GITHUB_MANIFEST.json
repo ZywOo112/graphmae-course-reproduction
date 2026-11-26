@@ -117,8 +117,8 @@
       "sha256": "869ac79197881c17966f46199d67a8bc778721e12e9b457a7ea07e4d30dbe195"
     },
     "docs/GITHUB_PUBLICATION.json": {
-      "bytes": 6708,
-      "sha256": "ac79329783c9fed5cabf4a9e775060d5b7659f19a54d61b0e65bcdb10e72e016"
+      "bytes": 7065,
+      "sha256": "7015820e1e9ad3f78363490703392c278cc193976de8deefc042f293d01fbeb4"
     },
     "docs/PROJECT_FILES.txt": {
       "bytes": 6397,
@@ -3676,10 +3676,6 @@
       "bytes": 6320,
       "sha256": "675f78df5ba1925d6b825839fcbbbd5f63838a31469c953387de0ef9661fdaef"
     },
-    "third_party/GraphMAE-main-audit/chem/.DS_Store": {
-      "bytes": 8196,
-      "sha256": "244fc6d2098da0cae2a759ad2b70f59ddf8ce467674ce2f5bf92f72c1afc1eec"
-    },
     "third_party/GraphMAE-main-audit/chem/README.md": {
       "bytes": 1080,
       "sha256": "d7fce93203c404f984be1e49d419868bb3052681b6ef2377ca280370ced88748"
@@ -3699,10 +3695,6 @@
     "third_party/GraphMAE-main-audit/chem/finetune.sh": {
       "bytes": 341,
       "sha256": "d4e72778cd863e6863c021c7066abe32b273c211d401a8f5c892c80f4585ddd5"
-    },
-    "third_party/GraphMAE-main-audit/chem/init_weights/.DS_Store": {
-      "bytes": 6148,
-      "sha256": "d227ac51e04775c90f14dd4b706fcdc249f2127e18baea75a2293e12590b34a8"
     },
     "third_party/GraphMAE-main-audit/chem/loader.py": {
       "bytes": 56645,
@@ -3780,10 +3772,6 @@
       "bytes": 9491,
       "sha256": "a03084d41ce0ab1057d590c1f847e07583d925189cdeef5683688862fb861e63"
     },
-    "third_party/GraphMAE-main-audit/imgs/.DS_Store": {
-      "bytes": 6148,
-      "sha256": "9f42876819b82dc108014b71087cff6b5c2680e4213fff3079ce1dd300be9330"
-    },
     "third_party/GraphMAE-main-audit/imgs/ablation.jpg": {
       "bytes": 339635,
       "sha256": "ab59a6ff48f597f399f15d62f258ce20154ad137ae703063f47df303a2c89f0d"
@@ -3836,10 +3824,6 @@
       "bytes": 3173,
       "sha256": "fa7d7819277f33b1daefc71b0c595f44a458d0ce0543d0224f18c0f361515a63"
     },
-    "third_party/GraphMAE/chem/.DS_Store": {
-      "bytes": 8196,
-      "sha256": "244fc6d2098da0cae2a759ad2b70f59ddf8ce467674ce2f5bf92f72c1afc1eec"
-    },
     "third_party/GraphMAE/chem/README.md": {
       "bytes": 1080,
       "sha256": "d7fce93203c404f984be1e49d419868bb3052681b6ef2377ca280370ced88748"
@@ -3859,10 +3843,6 @@
     "third_party/GraphMAE/chem/finetune.sh": {
       "bytes": 341,
       "sha256": "d4e72778cd863e6863c021c7066abe32b273c211d401a8f5c892c80f4585ddd5"
-    },
-    "third_party/GraphMAE/chem/init_weights/.DS_Store": {
-      "bytes": 6148,
-      "sha256": "d227ac51e04775c90f14dd4b706fcdc249f2127e18baea75a2293e12590b34a8"
     },
     "third_party/GraphMAE/chem/loader.py": {
       "bytes": 56645,
@@ -3935,10 +3915,6 @@
     "third_party/GraphMAE/graphmae/utils.py": {
       "bytes": 8768,
       "sha256": "a4da768699f4bb93664d6d9d4de9681a2e99cd79ee2d13aac5727c5069247812"
-    },
-    "third_party/GraphMAE/imgs/.DS_Store": {
-      "bytes": 6148,
-      "sha256": "9f42876819b82dc108014b71087cff6b5c2680e4213fff3079ce1dd300be9330"
     },
     "third_party/GraphMAE/imgs/ablation.jpg": {
       "bytes": 339635,
