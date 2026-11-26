@@ -1,0 +1,7 @@
+{
+  "session_id": "01a1cddf-6163-7061-a1f3-bdf5774aa614",
+  "prompt_source": "response_item/user/input_text",
+  "prompt_sha256": "b9cb7c370c64fb6cb1f1e4e0db54fcd2f9287eee39fbf5b56d72289f815eca15",
+  "response_scope": "assistant final response; exact UTF-8 text; commentary separately exported when session is finalized",
+  "created_utc": "2026-11-12T03:54:55.797206+00:00"
+}

@@ -1,0 +1,303 @@
+[
+  {
+    "epoch": 200,
+    "utc": "2026-11-14T07:18:50.570036+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 44348,
+        "memory.used": 1113,
+        "utilization.gpu": 39
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 18351,
+        "memory.used": 27140,
+        "utilization.gpu": 96
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 27700,
+        "memory.used": 17791,
+        "utilization.gpu": 91
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 45460,
+        "memory.used": 0,
+        "utilization.gpu": 0
+      }
+    ],
+    "full_nvidia_smi": "Sat Nov 14 07:18:50 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   50C    P0            168W /  300W |    1113MiB /  46068MiB |     18%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   69C    P0            220W /  300W |   27140MiB /  46068MiB |     97%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   67C    P0            232W /  300W |   17791MiB /  46068MiB |     90%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   38C    P8             38W /  300W |       0MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2737928      C   ...业/GraphMAE/.venv/bin/python       1104MiB |\n|    1   N/A  N/A         2700941      C   ...aconda3/envs/cohba/bin/python       9698MiB |\n|    1   N/A  N/A         2706090      C   .venv_server/bin/python               17428MiB |\n|    2   N/A  N/A         2704671      C   .venv_server/bin/python               17782MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  {
+    "epoch": 400,
+    "utc": "2026-11-14T07:18:54.005284+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 44348,
+        "memory.used": 1113,
+        "utilization.gpu": 33
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 18351,
+        "memory.used": 27140,
+        "utilization.gpu": 97
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 27700,
+        "memory.used": 17791,
+        "utilization.gpu": 90
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 45460,
+        "memory.used": 0,
+        "utilization.gpu": 0
+      }
+    ],
+    "full_nvidia_smi": "Sat Nov 14 07:18:54 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   51C    P0            165W /  300W |    1113MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   69C    P0            218W /  300W |   27140MiB /  46068MiB |     94%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   67C    P0            228W /  300W |   17791MiB /  46068MiB |     75%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   38C    P8             55W /  300W |       0MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2737928      C   ...业/GraphMAE/.venv/bin/python       1104MiB |\n|    1   N/A  N/A         2700941      C   ...aconda3/envs/cohba/bin/python       9698MiB |\n|    1   N/A  N/A         2706090      C   .venv_server/bin/python               17428MiB |\n|    2   N/A  N/A         2704671      C   .venv_server/bin/python               17782MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  {
+    "epoch": 600,
+    "utc": "2026-11-14T07:18:57.348878+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 44348,
+        "memory.used": 1113,
+        "utilization.gpu": 36
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 18351,
+        "memory.used": 27140,
+        "utilization.gpu": 95
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 27700,
+        "memory.used": 17791,
+        "utilization.gpu": 36
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 45460,
+        "memory.used": 0,
+        "utilization.gpu": 0
+      }
+    ],
+    "full_nvidia_smi": "Sat Nov 14 07:18:57 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   51C    P0            164W /  300W |    1113MiB /  46068MiB |     13%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   69C    P0            218W /  300W |   27140MiB /  46068MiB |     95%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   65C    P0            173W /  300W |   17791MiB /  46068MiB |     49%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   38C    P8             38W /  300W |       0MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2737928      C   ...业/GraphMAE/.venv/bin/python       1104MiB |\n|    1   N/A  N/A         2700941      C   ...aconda3/envs/cohba/bin/python       9698MiB |\n|    1   N/A  N/A         2706090      C   .venv_server/bin/python               17428MiB |\n|    2   N/A  N/A         2704671      C   .venv_server/bin/python               17782MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  {
+    "epoch": 800,
+    "utc": "2026-11-14T07:19:00.720268+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 44348,
+        "memory.used": 1113,
+        "utilization.gpu": 36
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 18351,
+        "memory.used": 27140,
+        "utilization.gpu": 100
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 27700,
+        "memory.used": 17791,
+        "utilization.gpu": 84
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 45460,
+        "memory.used": 0,
+        "utilization.gpu": 0
+      }
+    ],
+    "full_nvidia_smi": "Sat Nov 14 07:19:00 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   50C    P0            169W /  300W |    1113MiB /  46068MiB |      3%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   71C    P0            240W /  300W |   27140MiB /  46068MiB |    100%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   66C    P0            207W /  300W |   17791MiB /  46068MiB |     71%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   38C    P8             52W /  300W |       0MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2737928      C   ...业/GraphMAE/.venv/bin/python       1104MiB |\n|    1   N/A  N/A         2700941      C   ...aconda3/envs/cohba/bin/python       9698MiB |\n|    1   N/A  N/A         2706090      C   .venv_server/bin/python               17428MiB |\n|    2   N/A  N/A         2704671      C   .venv_server/bin/python               17782MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  {
+    "epoch": 1000,
+    "utc": "2026-11-14T07:19:04.122938+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 44348,
+        "memory.used": 1113,
+        "utilization.gpu": 36
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 18351,
+        "memory.used": 27140,
+        "utilization.gpu": 96
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 27700,
+        "memory.used": 17791,
+        "utilization.gpu": 90
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 45460,
+        "memory.used": 0,
+        "utilization.gpu": 0
+      }
+    ],
+    "full_nvidia_smi": "Sat Nov 14 07:19:04 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   51C    P0            166W /  300W |    1113MiB /  46068MiB |      3%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   69C    P0            219W /  300W |   27140MiB /  46068MiB |     97%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   67C    P0            224W /  300W |   17791MiB /  46068MiB |     92%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   38C    P8             58W /  300W |       0MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2737928      C   ...业/GraphMAE/.venv/bin/python       1104MiB |\n|    1   N/A  N/A         2700941      C   ...aconda3/envs/cohba/bin/python       9698MiB |\n|    1   N/A  N/A         2706090      C   .venv_server/bin/python               17428MiB |\n|    2   N/A  N/A         2704671      C   .venv_server/bin/python               17782MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  {
+    "epoch": 1200,
+    "utc": "2026-11-14T07:19:07.507886+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 44348,
+        "memory.used": 1113,
+        "utilization.gpu": 36
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 18351,
+        "memory.used": 27140,
+        "utilization.gpu": 94
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 27700,
+        "memory.used": 17791,
+        "utilization.gpu": 0
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 45460,
+        "memory.used": 0,
+        "utilization.gpu": 0
+      }
+    ],
+    "full_nvidia_smi": "Sat Nov 14 07:19:07 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   51C    P0            164W /  300W |    1113MiB /  46068MiB |      2%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   69C    P0            197W /  300W |   27140MiB /  46068MiB |     96%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   61C    P0            102W /  300W |   17791MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   38C    P8             72W /  300W |       0MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2737928      C   ...业/GraphMAE/.venv/bin/python       1104MiB |\n|    1   N/A  N/A         2700941      C   ...aconda3/envs/cohba/bin/python       9698MiB |\n|    1   N/A  N/A         2706090      C   .venv_server/bin/python               17428MiB |\n|    2   N/A  N/A         2704671      C   .venv_server/bin/python               17782MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  {
+    "epoch": 1400,
+    "utc": "2026-11-14T07:19:10.823952+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 44348,
+        "memory.used": 1113,
+        "utilization.gpu": 36
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 18351,
+        "memory.used": 27140,
+        "utilization.gpu": 96
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 27700,
+        "memory.used": 17791,
+        "utilization.gpu": 0
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 45460,
+        "memory.used": 0,
+        "utilization.gpu": 0
+      }
+    ],
+    "full_nvidia_smi": "Sat Nov 14 07:19:10 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   51C    P0            168W /  300W |    1113MiB /  46068MiB |      5%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   68C    P0            202W /  300W |   27140MiB /  46068MiB |     96%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   59C    P0             91W /  300W |   17791MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   38C    P8             57W /  300W |       0MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         2737928      C   ...业/GraphMAE/.venv/bin/python       1104MiB |\n|    1   N/A  N/A         2700941      C   ...aconda3/envs/cohba/bin/python       9698MiB |\n|    1   N/A  N/A         2706090      C   .venv_server/bin/python               17428MiB |\n|    2   N/A  N/A         2704671      C   .venv_server/bin/python               17782MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  }
+]

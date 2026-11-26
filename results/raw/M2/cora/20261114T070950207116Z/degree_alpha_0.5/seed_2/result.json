@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": false,
+  "seed": 2,
+  "degree_alpha": 0.5,
+  "initial_model_sha256": "cdbad526dd397fec4d33613d90b3e196c3f8bfbcbd128c5cc058ceed9a66f543",
+  "best_val_accuracy": 0.788,
+  "best_val_correct": 394,
+  "selected_epoch": 300,
+  "pretrain_epochs": 1500,
+  "probe_epochs": 300,
+  "periodic_probes": 7,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 1.02042555809021,
+  "last_loss": 0.4250713586807251,
+  "pretrain_seconds": 21.54492778086569,
+  "periodic_probe_seconds": 3.832038918044418,
+  "final_probe_seconds": 0.4858847090508789,
+  "total_seconds": 26.91355613595806,
+  "peak_allocated_mib": 472.689453125,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2737928",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 665570,
+      "mean_masked_times_per_node": 623.1928838951311,
+      "mask_rate_within_group": 0.4154619225967541,
+      "share_of_masked_selections": 0.32770556376169374
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 719284,
+      "mean_masked_times_per_node": 763.5711252653928,
+      "mask_rate_within_group": 0.5090474168435952,
+      "share_of_masked_selections": 0.3541526341703594
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 646146,
+      "mean_masked_times_per_node": 925.7106017191977,
+      "mask_rate_within_group": 0.6171404011461318,
+      "share_of_masked_selections": 0.31814180206794684
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "b68a9181f2a8bf5abab22188ee71ea84316e24a606b7fa1f6a61f65b99d8a70f",
+    "classifier_best_val.pt": "671fa67a2abaab7db56c8628ee2b846e37b23e67c317d007418f9788721577b7"
+  }
+}

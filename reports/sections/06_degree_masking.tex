@@ -1,0 +1,32 @@
+\section{Degree-aware Masking方法设计}\label{sec:degree-method}
+\subsection{动机与度数定义}
+均匀策略使每个节点每轮具有相同纳入概率，不考虑可用于重建的邻域大小。本文提出一个探索性假设：高度数节点具有更多邻居上下文，适度提高其被掩码频率，或可促使编码器学习这部分节点的表示。然而，高度数节点也影响更多邻居，同时遮蔽它们可能削弱上下文，低度数节点获得的重建监督则可能减少。该假设需要通过实验判断，不预设正向效果。
+
+从与M1相同的预处理图中排除所有自环，并以唯一邻居定义度数：
+\begin{equation}\label{eq:degree}
+d_i=\left|\{j\ne i:\{i,j\}\in E_{\rm unique}\}\right|,
+\qquad w_i=(d_i+1)^{\alpha_d}.
+\end{equation}
+$E_{\rm unique}$表示去重后的无向邻居关系，$w_i>0$为采样权重。当前Cora非自环条目已经双向对称且没有重复；仍保留唯一邻居核查，防止边重复造成度数偏大。度数向量只计算一次，全部实验共用，计算和分组都不使用标签。参数$\alpha_d$在代码中命名为\texttt{degree\_alpha}，与SCE的$\gamma=\texttt{alpha\_l}=3$分别控制不同机制。
+
+\subsection{固定预算的加权无放回采样}
+当$\alpha_d>0$时，权重随度数增大；$\alpha_d$越大，相同度数差异对应的相对权重差越明显。实际采样为
+\begin{equation}\label{eq:weighted-mask}
+M\sim\operatorname{WeightedWithoutReplacement}(w,k),\qquad
+k=\lfloor0.5\times2708\rfloor=1354.
+\end{equation}
+正向方案使用\texttt{torch.multinomial}、\texttt{replacement=False}及独立CPU随机生成器；每轮选点无重复。权重是抽样输入，而$\Pr(i\in M)$是固定预算下的最终边际纳入概率，二者不能简单写成$w_i/\sum_jw_j$。实际分布通过逐节点掩码次数核验。
+
+图\ref{fig:degree-flow}给出策略的信息流。除了选点分布，mask token、随机特征替换、Re-mask、模型结构及SCE均保持不变，也没有加重要性校正。因此它会改变各类节点对预训练目标的期望贡献，而非只改变等价目标的实现速度。
+\begin{figure}[tbp]
+\centering
+\input{figures/degree_masking_scheme.tex}
+\caption{本文度数感知掩码策略的流程示意。图中仅显示方法定义，不包含虚构的实验取样结果。均匀控制组仍使用randperm，正向方案使用加权无放回采样。}\label{fig:degree-flow}
+\end{figure}
+
+\subsection{实验分组与随机数流控制}
+四组参数为$\alpha_d=0,0.25,0.5,1.0$，每组使用种子0--4，共20次正式训练。$\alpha_d=0$的控制组仍采用均匀randperm，未将multinomial用作控制组算法。所有组均完整执行表\ref{tab:hyperparameters}的训练预算。正式实验前四个seed0短程Pilot各训练20轮预训练和20轮Probe，不评价测试集，也不计入正式统计。
+
+不同采样函数可能消耗不同数量的随机数，进而改变Dropout等后续操作。为减少该混杂，M2把实际选点放到独立CPU \texttt{torch.Generator(seed)}：控制组使用CPU randperm，正向组使用CPU double权重的multinomial。四组在实际选点前都调用并丢弃一次与官方同设备、同形状的\texttt{randperm(N)}结果，随后沿用原有\texttt{randperm(k)}分配token/替换节点，以及\texttt{randperm(N)}选择特征供体。这样，策略分支的额外随机消耗不进入模型初始化、替换和Dropout的全局随机流。
+
+实际检查确认同seed四组的初始模型权重哈希一致，短程GPU诊断中的替换顺序与6次Dropout调用状态一致，正式1500轮的CPU/CUDA全局RNG和替换轨迹逐行一致。但这并不消除GPU浮点归约非确定性。由于M1实际选点使用全局CUDA randperm，M2独立CPU选点的均匀控制组必须重新训练，不能直接拿M1的83.98\%作为本章对照；M2内部四组才使用同一随机协议。

@@ -1,0 +1,10 @@
+{
+  "stage": "M0",
+  "session_file": "/home/fuqiang/.codex/sessions/2026/11/12/rollout-2026-11-12T03-48-51-01a1cddf-6163-7061-a1f3-bdf5774aa614.jsonl",
+  "response_source": "actual response_item/assistant final message",
+  "exported_utc": "2026-11-13T05:36:36.596948+00:00",
+  "prompt_sha256": "b9cb7c370c64fb6cb1f1e4e0db54fcd2f9287eee39fbf5b56d72289f815eca15",
+  "response_sha256": "fcb89e109bd1db228a7577a58f8f3352996889652f76923450d7504dc8a3a545",
+  "commentary_count": 8,
+  "includes_system_tools_or_analysis": false
+}

@@ -1,0 +1,9 @@
+{
+  "status": "M2_complete_paused",
+  "formal_training_runs": 20,
+  "pilot_runs": 4,
+  "selected_degree_alpha": 0.25,
+  "final_tests": 10,
+  "M3_started": false,
+  "acceptance": "M2_ACCEPTANCE.md"
+}

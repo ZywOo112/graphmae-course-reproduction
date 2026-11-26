@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "paired_rng_checks": [
+    {
+      "seed": 0,
+      "initial_model_sha256": "5956829dd3c851bddc9abead0c3a03f0e5c53bf34365131fea77f1a2335dbaef",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5001805157593123,
+        0.5587765042979943,
+        0.616658070678128,
+        0.7198815663801337
+      ]
+    },
+    {
+      "seed": 1,
+      "initial_model_sha256": "ba03698e6dc4e33fa68ead22157ba8fb4d43ed8a0a765d731ed81befee4b0118",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.49981852913085006,
+        0.5586437440305635,
+        0.6165138490926456,
+        0.719487106017192
+      ]
+    },
+    {
+      "seed": 2,
+      "initial_model_sha256": "cdbad526dd397fec4d33613d90b3e196c3f8bfbcbd128c5cc058ceed9a66f543",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5005434574976122,
+        0.5592397325692454,
+        0.6171404011461318,
+        0.7201308500477555
+      ]
+    },
+    {
+      "seed": 3,
+      "initial_model_sha256": "b53beb2123bcf454f736fd91dc61115800d6e1433e743d9e9ce4884b7a989d45",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5003381088825215,
+        0.5584202483285577,
+        0.6158204393505253,
+        0.7191747851002865
+      ]
+    },
+    {
+      "seed": 4,
+      "initial_model_sha256": "e8f2280b427917647dd8553a4cc93003a84f52b03d17cb68ef03173b3e317e4d",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5006628462273162,
+        0.5598089780324738,
+        0.6175864374403056,
+        0.7202989493791786
+      ]
+    }
+  ],
+  "test_evaluations": 0
+}

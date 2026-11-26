@@ -1,0 +1,13 @@
+{
+  "status": "five_seeds_passed",
+  "seeds_completed": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "quality_check": "passed",
+  "analysis_directory": "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/results/processed/M1",
+  "training_started": true
+}

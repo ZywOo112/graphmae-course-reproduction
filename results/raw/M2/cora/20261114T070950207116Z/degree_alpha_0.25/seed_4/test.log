@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/run_m2.py", line 427, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/run_m2.py", line 417, in main
+    test_worker(batch, args.degree_alpha, args.seed)
+  File "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/run_m2.py", line 348, in test_worker
+    preflight, gpu, _, _ = setup_gpu(batch)
+                           ^^^^^^^^^^^^^^^^
+  File "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/run_m2.py", line 108, in setup_gpu
+    snapshot, current = guard_gpu(gpu['uuid'])
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/run_m1.py", line 101, in guard_gpu
+    raise RuntimeError('GPU has less than 8 GiB free; stopping without disturbing other processes')
+RuntimeError: GPU has less than 8 GiB free; stopping without disturbing other processes

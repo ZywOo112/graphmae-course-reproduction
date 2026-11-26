@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "seed": 0,
+      "complete_1500_and_8x300": true,
+      "prediction_metrics_independently_recomputed": true,
+      "labels_and_split_match_cached_Cora": true,
+      "checkpoint_integrity_and_shapes": true,
+      "no_test_in_periodic_or_final_probe_selection": true,
+      "parameters_config_and_sources": true
+    },
+    {
+      "seed": 1,
+      "complete_1500_and_8x300": true,
+      "prediction_metrics_independently_recomputed": true,
+      "labels_and_split_match_cached_Cora": true,
+      "checkpoint_integrity_and_shapes": true,
+      "no_test_in_periodic_or_final_probe_selection": true,
+      "parameters_config_and_sources": true
+    },
+    {
+      "seed": 2,
+      "complete_1500_and_8x300": true,
+      "prediction_metrics_independently_recomputed": true,
+      "labels_and_split_match_cached_Cora": true,
+      "checkpoint_integrity_and_shapes": true,
+      "no_test_in_periodic_or_final_probe_selection": true,
+      "parameters_config_and_sources": true
+    },
+    {
+      "seed": 3,
+      "complete_1500_and_8x300": true,
+      "prediction_metrics_independently_recomputed": true,
+      "labels_and_split_match_cached_Cora": true,
+      "checkpoint_integrity_and_shapes": true,
+      "no_test_in_periodic_or_final_probe_selection": true,
+      "parameters_config_and_sources": true
+    },
+    {
+      "seed": 4,
+      "complete_1500_and_8x300": true,
+      "prediction_metrics_independently_recomputed": true,
+      "labels_and_split_match_cached_Cora": true,
+      "checkpoint_integrity_and_shapes": true,
+      "no_test_in_periodic_or_final_probe_selection": true,
+      "parameters_config_and_sources": true
+    }
+  ],
+  "M0_data_sha256_unchanged": true,
+  "official_git_worktree_clean": true,
+  "no_hyperparameter_search_or_seed_selection": true
+}

@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": false,
+  "seed": 0,
+  "degree_alpha": 1.0,
+  "initial_model_sha256": "5956829dd3c851bddc9abead0c3a03f0e5c53bf34365131fea77f1a2335dbaef",
+  "best_val_accuracy": 0.748,
+  "best_val_correct": 374,
+  "selected_epoch": 300,
+  "pretrain_epochs": 1500,
+  "probe_epochs": 300,
+  "periodic_probes": 7,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 1.0022578239440918,
+  "last_loss": 0.43981391191482544,
+  "pretrain_seconds": 20.775024616043083,
+  "periodic_probe_seconds": 4.790495523950085,
+  "final_probe_seconds": 0.6919059000210837,
+  "total_seconds": 27.29726620693691,
+  "peak_allocated_mib": 472.875,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2731802",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 547357,
+      "mean_masked_times_per_node": 512.5065543071161,
+      "mask_rate_within_group": 0.3416710362047441,
+      "share_of_masked_selections": 0.2695012309207287
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 729927,
+      "mean_masked_times_per_node": 774.8694267515923,
+      "mask_rate_within_group": 0.5165796178343949,
+      "share_of_masked_selections": 0.35939290989660266
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 753716,
+      "mean_masked_times_per_node": 1079.8223495702007,
+      "mask_rate_within_group": 0.7198815663801337,
+      "share_of_masked_selections": 0.37110585918266864
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "17aa639895cf21ff910bbe5048eb81382ca2f037cac49456928132a58d71bb47",
+    "classifier_best_val.pt": "6843dc1e97fff92069a64ddebf49125ca179f201ad668da359355d1dc71b8659"
+  }
+}

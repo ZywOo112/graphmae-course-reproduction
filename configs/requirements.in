@@ -1,0 +1,14 @@
+# CUDA PyTorch is installed separately from the official cu121 wheel index.
+torch==2.4.1
+torch-geometric==2.3.1
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+PyYAML==6.0.2
+tqdm==4.67.1
+tensorboardX==2.6.2.2
+ogb==1.3.6
+pypdf==5.1.0
+

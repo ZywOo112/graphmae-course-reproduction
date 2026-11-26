@@ -1,0 +1,22 @@
+{
+  "status": "passed_static_only",
+  "latex_compiled": false,
+  "models_rerun": false,
+  "historical_files_checked": 994,
+  "historical_mismatches": [],
+  "body_style_changes": [
+    "reports/sections/07_results.tex"
+  ],
+  "printed_code_config_files": 26,
+  "electronic_report_sources": 12,
+  "whole_file_verbatim_imports": 38,
+  "real_stages": [
+    "M0",
+    "M1",
+    "M2",
+    "M3_1",
+    "M3_2"
+  ],
+  "records_verified_against_original_session": true,
+  "errors": []
+}

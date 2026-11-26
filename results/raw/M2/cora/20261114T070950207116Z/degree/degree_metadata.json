@@ -1,0 +1,51 @@
+{
+  "node_count": 2708,
+  "input_edge_entries": 13264,
+  "self_loop_entries_removed": 2708,
+  "non_self_edge_entries": 10556,
+  "unique_directed_neighbor_pairs": 10556,
+  "duplicate_non_self_entries_removed": 0,
+  "bidirectionally_symmetric": true,
+  "degree_definition": "unique non-self neighbors in symmetric graph",
+  "minimum": 1,
+  "maximum": 168,
+  "mean": 3.8980797636632203,
+  "median": 3.0,
+  "group_rule": "minimize sum of squared deviations from N/3 over two whole-degree boundaries; tie: smaller boundaries",
+  "low_max_inclusive": 2,
+  "medium_max_inclusive": 4,
+  "groups": [
+    {
+      "group": 0,
+      "name": "low",
+      "nodes": 1068,
+      "minimum_degree": 1,
+      "maximum_degree": 2,
+      "mean_degree": 1.5458801498127341
+    },
+    {
+      "group": 1,
+      "name": "medium",
+      "nodes": 942,
+      "minimum_degree": 3,
+      "maximum_degree": 4,
+      "mean_degree": 3.4129511677282376
+    },
+    {
+      "group": 2,
+      "name": "high",
+      "nodes": 698,
+      "minimum_degree": 5,
+      "maximum_degree": 168,
+      "mean_degree": 8.151862464183381
+    }
+  ],
+  "degree_vector_raw_int64_sha256": "620aaf9feeb6d42ce3ce7a6b5323926619f25a26f8a9f2ead7531dce780f00c3",
+  "files_sha256": {
+    "groups.npy": "a788662079d0aee17a4588de3c48d5ada2016ecdce4b6141fa5e762b4e791eb3",
+    "degree_distribution.csv": "5ed66e33f03d1f57915715acd2fa4c592eeb598751816f6296d0e3557807fdfa",
+    "degrees.npy": "26e67be7b5070414744e887427ab1188281468febdef362e57826094887321b3",
+    "nodes.csv": "84213a0ae47df71be9f22c61f679bc9dc39019ec64a5524156ecd9ea1b50c275"
+  },
+  "labels_used": false
+}

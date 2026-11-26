@@ -1,0 +1,57 @@
+{
+  "utc": "2026-11-13T07:11:47.546431+00:00",
+  "status": "passed",
+  "seeds_completed": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "per_seed_pretraining_epochs": 1500,
+  "per_seed_periodic_probe_count": 7,
+  "per_probe_epochs": 300,
+  "final_probe_epochs": 300,
+  "accuracy_mean": 0.8398,
+  "accuracy_sample_std_ddof1": 0.010568822072492288,
+  "all_result_files_and_metrics_checked": true,
+  "all_python_source_syntax": "passed",
+  "official_source_and_M0_data_sha256": "unchanged",
+  "project_skill_validation": "passed",
+  "appendix_complete_source_inclusion": true,
+  "pngs": [
+    {
+      "file": "figures/M1/loss_curves.png",
+      "width": 2958,
+      "height": 1605,
+      "sha256": "ec2c9452f8d7638c0ad55eb0e0a4ed67ba5f317f3119368e25d865d2e0b00901"
+    },
+    {
+      "file": "figures/M1/loss_mean_std.png",
+      "width": 2958,
+      "height": 1605,
+      "sha256": "8deb19d1d16168f2fb5d65663ae2bb93f018de91420bc47dfdeee017c6060c82"
+    },
+    {
+      "file": "figures/M1/accuracy_comparison.png",
+      "width": 2358,
+      "height": 1605,
+      "sha256": "d331ae7b845a91d9d4131d64f04c83c770b65848682fb48b2b6c0422d4bfa375"
+    },
+    {
+      "file": "figures/M1/validation_results.png",
+      "width": 3258,
+      "height": 1534,
+      "sha256": "3179536f1503e4473e68d5348012117c81957356675d47cc596024837c860cd1"
+    },
+    {
+      "file": "figures/M1/runtime_comparison.png",
+      "width": 2658,
+      "height": 1605,
+      "sha256": "f936460d6bce1a56c0386e3fb2d9bfd5f25c9e6111da75093a8eb127e4ec2ae8"
+    }
+  ],
+  "latex_compilation_attempted": false,
+  "agent_listener_started": false,
+  "M2_started": false
+}

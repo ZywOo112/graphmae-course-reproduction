@@ -1,0 +1,2769 @@
+{
+  "batch": "results/raw/M2/cora/20261114T070950207116Z",
+  "artifacts": {
+    "results/raw/M2/cora/20261114T070950207116Z/status.json": {
+      "bytes": 199,
+      "sha256": "30119a8b946fb0a97c443559719d9270ef778410b9154c1c7055cd1c03c61988"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/formal_training_check.json": {
+      "bytes": 1993,
+      "sha256": "4ddd604afe51d5115ec6349b074349fa584d2c19317ebc6289e921b510f796fc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/alpha_selection.json": {
+      "bytes": 9814,
+      "sha256": "b53ab53915629e278faa79c81a2a38d6b935cf3219ab31bd337edadf2bbad0b3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/masking_checks.json": {
+      "bytes": 305778,
+      "sha256": "e38c436ce19950f070893603e268b3869e12958ec9ec77999a0c6e8ea0f4b710"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot_check.json": {
+      "bytes": 462,
+      "sha256": "f2111b7ef8556b60f0cb7bcf39687a85c5f6e384570921f95f9dcfcd5e2d8129"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/preflight.json": {
+      "bytes": 18178,
+      "sha256": "c8543750754557807b81b63fc7eb139cae221f8445b7a1a225acf3a6732a3ef7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/previous_milestones_sha256.json": {
+      "bytes": 27835,
+      "sha256": "1d0157e82bc6935cec534b21a34a4c0d0cca519aa070b4be1dc6aee0f737e5f9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/result.json": {
+      "bytes": 1972,
+      "sha256": "8b9d050c7df4cba596bd0796fbdc2c7dadecaf587bc23d0f60fac897f7e05735"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/probe_history.csv": {
+      "bytes": 1047,
+      "sha256": "152f8e683c0c1f891704cec5c78e361919fbbda0c98e072d72f1ca8c4b7414c9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/mask_group_statistics.json": {
+      "bytes": 791,
+      "sha256": "880e61c95133bd86af6f74c45d61bcb4dec3e3413811b66a9f2bf6e2878f1053"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/run.log": {
+      "bytes": 7136,
+      "sha256": "8adcc244d7f4899ca75b609cdfacf1b0155f86b1ef141aefab3aaf25b1390282"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/classifier_selection.json": {
+      "bytes": 190,
+      "sha256": "47a7a42bc72c14b1c97e9cd2ef6d3ed0df72119546a83c38f0a5645809ce4647"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/rng_trace.csv": {
+      "bytes": 8025,
+      "sha256": "5a4b869b846409e0d6eecc37663dabdd129c685a6ddfc6d7dc19d2e7f09c057d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "52b2ba079813488d3398c1f1714b03cd75ae9c468b09ad6ebd37ae04683db082"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/training.csv": {
+      "bytes": 1301,
+      "sha256": "af857c6d66571685811f1a2566a7fbaf934775ffeb39aeafd1e0e372a54a2128"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/mask_statistics.csv": {
+      "bytes": 45308,
+      "sha256": "310289e3be1ee77e14e3382c21725dccb69cb5939d332c1d30a9ccf31689020e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/gpu_monitor.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/effective_config.json": {
+      "bytes": 8217,
+      "sha256": "6f86a7d30872f18acd51d1e86d7a1c399ce92ca47aa76dbdcdd563f3e70a57fe"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "3ba8e4e5c19bd57f58bf1406556830f946700887579bef40f13c6b75b186ceac"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.25/seed_0/periodic_probes.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/result.json": {
+      "bytes": 1968,
+      "sha256": "241a10d14c0ac333345aa813ef0f851e88b1155c3943dc486d1397d60d93aeec"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/probe_history.csv": {
+      "bytes": 1047,
+      "sha256": "3522947c8bb38f096f69b7c90df9a11f8adc4aae8c0f198679f761bc60a8ffb1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/mask_group_statistics.json": {
+      "bytes": 790,
+      "sha256": "04081fc8bb4a862a8bebbc2ba9ba67ae4a66128713670ca533d050af4abf11c8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/run.log": {
+      "bytes": 7145,
+      "sha256": "0f760f8b31a56db9011fedddfdbcd05ef30841c6f477ee365007c7517ef737e2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/classifier_selection.json": {
+      "bytes": 188,
+      "sha256": "b84f9b7a5eef38e1587068162a9fae25c4efc8e397def8b8dc1219d96010c119"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/rng_trace.csv": {
+      "bytes": 8025,
+      "sha256": "5a4b869b846409e0d6eecc37663dabdd129c685a6ddfc6d7dc19d2e7f09c057d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "9433eaacd14816dce53acc882eacd6300d87ad2e44a0c0c8f5fff406876487a5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/training.csv": {
+      "bytes": 1302,
+      "sha256": "fd2f3eddfdde6e876c1662d73651b6f9f773de54d6cfceb84f65b1caf0111f78"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/mask_statistics.csv": {
+      "bytes": 45322,
+      "sha256": "e57627c3feeb92468ddb90e44707914b9a5ed6fba39dea5bdfbeec0100797e71"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/gpu_monitor.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/effective_config.json": {
+      "bytes": 8216,
+      "sha256": "6d7bfd6fa0f24ac0b992a7ebfb9a1c69adadc13a3230f476f093d03d0239397a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "2a3b86a482e64a02bbc6c7dde371a62ea95c8294cd1d8122bedc6762f5633ee6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/control/seed_0/periodic_probes.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/result.json": {
+      "bytes": 1965,
+      "sha256": "c5668d6a725d773be64fdf7d24391ca1ebd9618e51a01defd2c905b3bec0b740"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/probe_history.csv": {
+      "bytes": 1040,
+      "sha256": "ee5c9127c275d6546cb018e34e17000f0ade38442619e50e2ee8fdb4aa5a6a96"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/mask_group_statistics.json": {
+      "bytes": 794,
+      "sha256": "d724ebcf5885777875f9310c64e4d1c94e374649891380d6af0973f9eba2d353"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/run.log": {
+      "bytes": 7142,
+      "sha256": "a3e3ea0bdf5ce4e97acde92fcf2022bdf52daff4668500de666a313dbe61fbd7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/classifier_selection.json": {
+      "bytes": 188,
+      "sha256": "6aebca45c5604d0609ad08664561fe97b78b84f1eab9d0812947b0268d5a8445"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/rng_trace.csv": {
+      "bytes": 8025,
+      "sha256": "5a4b869b846409e0d6eecc37663dabdd129c685a6ddfc6d7dc19d2e7f09c057d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "e75ba6c9b46c5cd0bc7e614aca1901730c78f3c0d2c635650ec19cfd74450e07"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/training.csv": {
+      "bytes": 1301,
+      "sha256": "4d923007d6b86292f5c030de98e6723e131ee69c2743ee0bc5728f04495c63fc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/mask_statistics.csv": {
+      "bytes": 45166,
+      "sha256": "04a12491e827f2d7a519a71c9d17cd094bd85700305c10b36bf75c862a770fed"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/gpu_monitor.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/effective_config.json": {
+      "bytes": 8216,
+      "sha256": "3e0d82b6d9a3f01b2a1b1ec131fcaa25cddfc22927647fce6029c9a84a7cb28c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "dd5904b22ce2b5a461543ab0c39d31eedb90cfc7925fc5ef032356d94d6b8021"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_1/seed_0/periodic_probes.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/result.json": {
+      "bytes": 1969,
+      "sha256": "c511ae07bd3423163af316b9bcbc8cd48635a327b30e826632800bae2384eabf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/probe_history.csv": {
+      "bytes": 1048,
+      "sha256": "34072213d53805c14a31c74150cb95c052ba314f7c9540d5fabc0d863793e60d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/mask_group_statistics.json": {
+      "bytes": 792,
+      "sha256": "17a75edb10ac5083d34e51cd3136ef9b28ebbe2b9b33e4f1ede45c205aa0f745"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/run.log": {
+      "bytes": 7146,
+      "sha256": "9707943915299b2369508d1650f7383456089c7646cc7ddac8b1e7bf5e4dd725"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/classifier_selection.json": {
+      "bytes": 188,
+      "sha256": "aa61ab10073f079a3783961c0c0cffb6d0b10a9f918472ad9c093437e323ab68"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/rng_trace.csv": {
+      "bytes": 8025,
+      "sha256": "5a4b869b846409e0d6eecc37663dabdd129c685a6ddfc6d7dc19d2e7f09c057d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "004ef9dd7e728c16cd045e97fa704f6a209aff32c18827ea2180d0fdceb86c05"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/training.csv": {
+      "bytes": 1295,
+      "sha256": "4e89a7370e00178a2080241382eeebbe0b86b22a2e86e284cedfd5a98d2d7a56"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/mask_statistics.csv": {
+      "bytes": 45240,
+      "sha256": "74167ce92f95c408dd062b4d42ba80c524e3b5a97a0f7452a8221942a8af73c0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/gpu_monitor.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/effective_config.json": {
+      "bytes": 8216,
+      "sha256": "9828434c6ef2541eff76e3437dd96fe82c3fa51fbc48dc2241600ab9aed95b92"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "c85dc1339bd2ad8abee92fa992f4108bc8c0023eca41785d03a25be3e067a970"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/pilot/degree_alpha_0.5/seed_0/periodic_probes.json": {
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/result.json": {
+      "bytes": 1986,
+      "sha256": "37273204acdf24450c80beb327c430e0e99e6f62d558089ad134604420f4774f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probe_history.csv": {
+      "bytes": 15514,
+      "sha256": "690755f4c1d76ce885dea6b094a44e0644aca3aa2a8da5e32093c43a6bcade54"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/test_started.json": {
+      "bytes": 175,
+      "sha256": "d7334d2e6461109832e0f46a1522ec67eeee4079b3cc4d5d7c8974d733873853"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/mask_group_statistics.json": {
+      "bytes": 800,
+      "sha256": "1d01657bde6fb0ad57e35c698bb1b7d66c7a95e6e6b1e53462eb7cfadfb5ad49"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/run.log": {
+      "bytes": 166774,
+      "sha256": "8c46ffb5dbd764def5e8e4302072befb1f1282bc63dc721e1a79a3f0a8bdfe35"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/classifier_selection.json": {
+      "bytes": 187,
+      "sha256": "11740fac24022a012eafbaad38a17edf678fa4f5d51e7fa0dba0ee66087ddbb1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "edc611b09f7fc029061fef825b6443071e642045240e38b4e4f4fbee33842f7f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "5f29dc2759b912d870fc6de711e34e0c6cf2dc93a834ce96b166aa1f13119372"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/training.csv": {
+      "bytes": 103328,
+      "sha256": "ab7f4222951a0cde28d079b355ea6bc5ea78e295f308e2cfef2c48a73bf10200"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/test_predictions.npz": {
+      "bytes": 3296,
+      "sha256": "9408cb34948e664d961b405d81fc610044c96834f9a8d0960bb1999d84b39147"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/test.log": {
+      "bytes": 3372,
+      "sha256": "02b5056981e5e7c219c55b0b1dceb5322a5c22bcfd915af553cfb3ee3c446e3c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/mask_statistics.csv": {
+      "bytes": 76755,
+      "sha256": "471dc61e870ff1936ef68f12c2533de62699ca5986364b8bace8f4ad83dde309"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/final_test.json": {
+      "bytes": 403,
+      "sha256": "c35e9906d116e162f440b9463188a448d1ad0f31489a75b45f3d6c14c0083820"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/gpu_monitor.json": {
+      "bytes": 29511,
+      "sha256": "3b775e155ce411f88716797664d3385bc81a8e3a80b1ed89bdaa37096d375505"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/effective_config.json": {
+      "bytes": 8220,
+      "sha256": "e840bf2ea64144cefdca15c30fe8479ef5268b32d21f637fd4ccec2526e371e5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "2813a18088804eb7e6c090dd79df3717f27872f5e75d556d7d024f781b1fe2ba"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/periodic_probes.json": {
+      "bytes": 1905,
+      "sha256": "317a998740c7743175295f4ab4128da4abe7fa4072c7e31851a3cea5694fd8e0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_0600_history.csv": {
+      "bytes": 15466,
+      "sha256": "1091b088cea1d9b0a488ae05cf46b5199b99457603d386a66cff1a2ca9e234bc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_0600.json": {
+      "bytes": 251,
+      "sha256": "7d1bf1ed32462edae5180c47ca0bdea561f4cedac2abaf6cb3d38cfea770ceff"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_1400_history.csv": {
+      "bytes": 15497,
+      "sha256": "6854e31a20e732328f3f4b51c8132dc95d9d66b241e27c10c25362878d00868b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_0800_history.csv": {
+      "bytes": 15588,
+      "sha256": "1c49eb782b9617eb8d7cab1f452b500e723a3eeb8b9a730e3293b93fda55b19f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "bd4a9221227a146d350d70125a20aff354f173c3febfc5b1963dcf9735e91680"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_0400_history.csv": {
+      "bytes": 15571,
+      "sha256": "f920812e6e0633dcb093701a0c9b644069768d28dd4a2453542268fc9a451ef7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_1200.json": {
+      "bytes": 250,
+      "sha256": "0170433c16e9c6819fb2d06d4a898e17dede074ede03c540f2f5653121d15626"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "1c7f98ff882d12e1ac0e02b67b1f5cd8040a5b8f5d48f5422909e5121040246e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_1200_history.csv": {
+      "bytes": 15569,
+      "sha256": "78bb415a6934bda5245585a66a9b0bcf18e994fb1303f7ab1a6252f0bac0adcf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_1400.json": {
+      "bytes": 251,
+      "sha256": "eb0afb3e30bbfa837152a2c9c2083199a25ab774dcd6e8dbee8746bf19b7b5cb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_1000_history.csv": {
+      "bytes": 15605,
+      "sha256": "55e4ff6f8758dbf04cc1d6d8f2872332ab2b940e52344d9a54450f5aec9c9502"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_0200_history.csv": {
+      "bytes": 15573,
+      "sha256": "c54b071455d5baadfeb920e0799068ae27068634515e9b6e8da032eddfac5bed"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "a2f8f299db055a3519226c32b304bd0381cc3b6acaa33743dab35a0172d3ed1f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_0/probes/epoch_1000.json": {
+      "bytes": 250,
+      "sha256": "c61c56ca39ef77c671aab8301babca90c74955487601e19b85eb64a2b7160601"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/result.json": {
+      "bytes": 1994,
+      "sha256": "29e56dea4463f3a7bf73ec223fbb9c3d9a0b1e2291d9835656373b472b5a1a34"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probe_history.csv": {
+      "bytes": 15537,
+      "sha256": "3db9d15fbebe10f7f71c427b53d486380e5f282c9de7304beba146cc0f93be75"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/test_started.json": {
+      "bytes": 175,
+      "sha256": "2d52d43fbbd7b601e5acf02c908a1f46b5d8e4020f8bb53c7c937fcbe7be019f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/mask_group_statistics.json": {
+      "bytes": 797,
+      "sha256": "a4b0d3005c5180130374a867fe014f156ed160d43d9f1c727b972a4e6283402a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/run.log": {
+      "bytes": 164025,
+      "sha256": "61c555b2758802fcba0b4c654970aefb3aaf1a6327068bda7bfef3e15db920b6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "ec64b8d71170409609f3bd48cc4cd7fa709e51c1db034b9bb766987baabbe0cb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "50c243fd285b8b38995051f60652234a53d56ec81df9ac682a102a42ddba4b55"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "35d57dd6f656d9967649103cdbf12ba246baa35c9ac5c812bb5cef4219b65cb1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/training.csv": {
+      "bytes": 103316,
+      "sha256": "d250d665e97f2d5f6a9d5f5f6630d08d11d1c0cc2633369f6d736b8bc6b87b6b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/test_predictions.npz": {
+      "bytes": 3317,
+      "sha256": "a2dcadee53d7571b094fa0ceb7f53357fdb6d3d3861f6e18c44d926a645f1405"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/test.log": {
+      "bytes": 3372,
+      "sha256": "1a5a0cbaa71d1dee15aa60bedd46180d3a44632875321ddffba259acd25d3458"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/mask_statistics.csv": {
+      "bytes": 77376,
+      "sha256": "d74e394d36b620c89ddd4f2a7505b582804146c37cbea6981f461d57097b29f3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/final_test.json": {
+      "bytes": 403,
+      "sha256": "9b0113e3f5a6b43379f44e5f1a94ce27f6d47500fa3060e28651d1f8e8d8d0a9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/gpu_monitor.json": {
+      "bytes": 29481,
+      "sha256": "5ff69ef38a6989232d79aa9e83f18aea8b09f31472bbe904995a4b33801475d9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/effective_config.json": {
+      "bytes": 8217,
+      "sha256": "339d0fc074347cbecf897a1c4646cf1060c683e75ddf70d86bbde34aac15b4ed"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "67533d3e43b76dc4761057bfdb5803fab3c18ea71341ccdfd4b5875d67b91c29"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/periodic_probes.json": {
+      "bytes": 1900,
+      "sha256": "c9c3cfa68314305b6bc4c7ccc3e3bab67f121a88b296161aa62362c785cfa224"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_0600_history.csv": {
+      "bytes": 15555,
+      "sha256": "08dca3cda7a4578fdf2f3e04f0710498a56a56f59e841737ac0c8598e5d451de"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_0600.json": {
+      "bytes": 246,
+      "sha256": "ca08a6a5e781366140d4b235df1c267952c3b0dd616c860677700cadbc3c9275"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_1400_history.csv": {
+      "bytes": 15515,
+      "sha256": "7b64c39f8b937222a983a9735709b50f7d57377cfaed4aefb6a8556d3a040746"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_0800_history.csv": {
+      "bytes": 15550,
+      "sha256": "9f75769e185894cf71de6a56b1c5c713f9aebc70cdbafc4084073f1e6f9b6171"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "69fc1feb2babcb6f3ceec79f65fdd4172a8b1ce5ca957455665a22b79696a471"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_0400_history.csv": {
+      "bytes": 15525,
+      "sha256": "8783944459ac27ddc05ac1c8a1261547d1a42e9a6883522034e764288eaac75d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_1200.json": {
+      "bytes": 251,
+      "sha256": "9f0d3166bdf2f7384fc4f6441b76dd3abcac01daf072bebae4dd4914f4fef561"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "60f517ca7c9b17a4595facc7f230636aeac30dc45758a9116972efee028411bf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_1200_history.csv": {
+      "bytes": 15600,
+      "sha256": "1aeeb08172fa05b866473fe5ea8c587f25aea6f07efaef92f7843a50e7d42797"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "b80cc6724e0dc2af5d4135ed9b74ed4a106647c5284e8dcaa506579e76caf6b8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_1000_history.csv": {
+      "bytes": 15580,
+      "sha256": "5c05d75462cc08272ebf485b89a4fd7ee81cb1f07bf55cfbfc16fdc336803519"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_0200_history.csv": {
+      "bytes": 15497,
+      "sha256": "047883dc0d3d5bc55f11b4e97318e1254ace67c70cce680e3d40a7e11525c71d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "8f71a568b51566b3d0ace2dee02c69509802593daf0feb12f4883c43787743fb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_3/probes/epoch_1000.json": {
+      "bytes": 248,
+      "sha256": "84101c209f89fc419f2f97430f349569b915653dce1d9311c9d2d1431364cf1d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/result.json": {
+      "bytes": 1998,
+      "sha256": "59c066289e08e51b8faa24941f66cc48f3452706213c3da5c598e2ff01387b9a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probe_history.csv": {
+      "bytes": 15587,
+      "sha256": "2ac4ab341a4485d93c2c8d94cf8f30726527143c1f4812c07e49da12e84b06e8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/test_device_override.json": {
+      "bytes": 14082,
+      "sha256": "502fcbc46ad59448b2f4aa604fa12470fd4f1db5f5a82123ff5654c544ecfe0e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/test_started.json": {
+      "bytes": 175,
+      "sha256": "5c1db8f89e26eff13500865f717aea0f1f61c265c1de172b51b18f2481c7df46"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/test_resume_verification.json": {
+      "bytes": 431,
+      "sha256": "a8227520c0daf10f8b20f7b7315c911ac1c2d3a262d271d4710e682a71a820be"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/mask_group_statistics.json": {
+      "bytes": 799,
+      "sha256": "4f6e045485deba71262f5344ee9d28f43c42ea9fe3b42c2249ce1b18ba79c1b3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/run.log": {
+      "bytes": 164274,
+      "sha256": "4fa3d37e1a574ea31bc7615d7867ca1242d1fa1627fd050563af323b4ced282f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "2ddaf2afbd808fff91ebcd62717ed102033374f39b6835e8a200e773f12c95bb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/test_resume_attempt_1.log": {
+      "bytes": 552,
+      "sha256": "8d945c34b357ca849a1031eb3595f1df71547b2fb82e16c716e728a180c39d18"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "7a9ec052a62fec85486d98a50e5cb0dfe219130d4e193bd1493fbefdf6792124"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "d60bcaabc77d6264e856133cb3f3b05f5459f4c75a1f2d25cbb2d4afb58f4600"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/training.csv": {
+      "bytes": 103316,
+      "sha256": "25f9dd789597a3816a160cc8cf73c0b8e1840702d2a5b6f1e0319d3014f5b49a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/test_predictions.npz": {
+      "bytes": 3317,
+      "sha256": "ac098a18337656f04289d97124526c75f9f2a0dfdae93c1892c90a20d45fb5ad"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/test.log": {
+      "bytes": 1066,
+      "sha256": "e0d09792b2afd76227a5ed19047491d02cd64d2c45718469303c3d0b49ddc398"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/mask_statistics.csv": {
+      "bytes": 76441,
+      "sha256": "4138268f5f07d239ba2486edf94e13e6597ef8c6251132efdc3c58a2c954298d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/final_test.json": {
+      "bytes": 403,
+      "sha256": "6d808d8329b6b0d23452ddedc50af7aa1f4ce7e6fb5bc2f0562b5292358743e0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/gpu_monitor.json": {
+      "bytes": 29480,
+      "sha256": "d1089c96ee64743e5ebad8e0dda72a0545448610767f47f7eff96929c5f546bc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/effective_config.json": {
+      "bytes": 8216,
+      "sha256": "cc0c6f7f539bb7ed0ce9f4d29e838cb8c9872da72b0c6325134061813cce15bb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "9b32a85333645e5ec736f9af237d787d997e671c0562d74d10072316e5cf020b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/test_device_override_attempt2.json": {
+      "bytes": 14093,
+      "sha256": "4eec2032088c879caee5b4bb281890907777de957d1be051deb64e62a35f2735"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/periodic_probes.json": {
+      "bytes": 1906,
+      "sha256": "38cf29379113cdd9bcb048242f5567dfe27ba7eae4f8cd95e1d1c97c0d6003b4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_0600_history.csv": {
+      "bytes": 15531,
+      "sha256": "c72631d85c90314b07c4d8ef06c501ef5952d0a24b895e7e7d8f385a0d98d7db"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_0600.json": {
+      "bytes": 249,
+      "sha256": "4e4747b22d5b9375c82662c5c45b66cc60d5749e5e7707aee3bc44e042d42774"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_1400_history.csv": {
+      "bytes": 15520,
+      "sha256": "8fad9392a725b831089502b3944fccd52e8f741925540011ae2994670eb6394b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_0800_history.csv": {
+      "bytes": 15539,
+      "sha256": "c643f42b3ce3da0ddbcaa55fa00b1b4fdf11e1a5e50dfe010444f798e8f29b63"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_0400.json": {
+      "bytes": 250,
+      "sha256": "e57fba31469cea5ef6f6c24630e79edfc39a02f477f8ec20ffa052efb629c1d7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_0400_history.csv": {
+      "bytes": 15547,
+      "sha256": "cafba7bfdf5568a9e4928b5c91c90dd534a669bda7dcf70e228fdf5528d7a968"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_1200.json": {
+      "bytes": 252,
+      "sha256": "fd0c1544327f24e64d8329461b2a49f642cee55c945e4d0c6f879aafdb7ffa28"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "1769117ac694bb797e8d94682ee62036431c6a30169e7ff043d46c3a40e5e5bc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_1200_history.csv": {
+      "bytes": 15603,
+      "sha256": "0993afcf7b6d8c66b3899811785dfdbbdd5f4a7dfaa0f82297562fe3932a9421"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "2c15d944661cf31354f0e1f16206c215142b2cee61abceaaf2d9fef368a56cf9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_1000_history.csv": {
+      "bytes": 15465,
+      "sha256": "c2510645190da8c5d3ea461843966f67efe1d67d97cafa090c5ab9468a46605c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_0200_history.csv": {
+      "bytes": 15616,
+      "sha256": "ea136eafcc994d4f0c3ac77cec14656ecdc4e8c8ddb3139ac143cac99aa3bd92"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_0800.json": {
+      "bytes": 250,
+      "sha256": "e0bdbacb0c6a84566d5d4b365ec65a482b37a7f048a947e5bb56e2858a6880f2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_4/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "cbb3ca1b28f1e96e79232cd9b8653c83bf4ced759ea99745416c92fb35f80ee9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/result.json": {
+      "bytes": 1999,
+      "sha256": "7d127c3baa9b7f8d5e2317eabd9bd530544b59f1d4a51ea97a9b4f29c87ea6aa"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probe_history.csv": {
+      "bytes": 15604,
+      "sha256": "4347117d011cf144f782d4fea3a3fce1961f9e99d32b2af3acfb67e8836ea479"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/test_started.json": {
+      "bytes": 175,
+      "sha256": "3401bb9acf51e054c86bfb9183ebb9984d0c57fa87ba384386893d19417602a4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/mask_group_statistics.json": {
+      "bytes": 799,
+      "sha256": "2cb0cc2dac4e168ebfdf297f54cb68674d4413c106217903bb5617c75fb70c24"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/run.log": {
+      "bytes": 163994,
+      "sha256": "ff65da36e6dc49704e59a772dc497cb60a119b966444aecfda8344e9e4597ca0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "53d8e3fcab81f1980005a13ca67eb41a493fb40c90430adcc677ebe3bf3acb89"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "304561b664c9a5f74ef631a8ab97bcf89e9d8b0182b93e48a5508837a65f2e24"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "ea8d4d9d58d5c00bc4fbf6f76ad6a98fde54ebf1f064f1b96572883ee485de61"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/training.csv": {
+      "bytes": 103302,
+      "sha256": "124d6fb4cdb06e69b17a8851ce87bcb449cfecf07b2125e03acc11bc17a2db8b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/test_predictions.npz": {
+      "bytes": 3312,
+      "sha256": "cc8376de828666746b6f3e3c51994dcbcf374572b416d31dd672ed8b51a4f349"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/test.log": {
+      "bytes": 3371,
+      "sha256": "adc503b53a7638e39cffab91129edfefb6c0c822765d6609b31cc439adc5307a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/mask_statistics.csv": {
+      "bytes": 76678,
+      "sha256": "f519c745f265e5ef21002029c8707cc06340ff22b2d235c34accfce1ed9768b9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/final_test.json": {
+      "bytes": 401,
+      "sha256": "33829224989b67082eb642102f2e4f16d4a306a54e4fbc8b358ebe27f16c8842"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/gpu_monitor.json": {
+      "bytes": 29477,
+      "sha256": "66523cb2b10e2293e977bdbd91eb15facb843abef7e08d45d1579d712639c63c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/effective_config.json": {
+      "bytes": 8217,
+      "sha256": "e36c99ecff02b26bd26531ef3f7b8a139b4b089874dbe54c23667aee7fe85b71"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "c70ed30232129da3d8c7fa724ba5ce1248ade75fde7b5ae8327386b09673627b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/periodic_probes.json": {
+      "bytes": 1907,
+      "sha256": "cbaca0443cb6f9102e15f23f429f777efd91566f2ad442008e4200857596e770"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_0600_history.csv": {
+      "bytes": 15642,
+      "sha256": "7274341cc3bf412e432fdf6d1760af590ee8ff4f87c2ad2ad8ce97b4a38c2ac4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_0600.json": {
+      "bytes": 252,
+      "sha256": "1252ec153d538ef479101e80cbdcfd87d69f234f4bb13eaca876d0b95530e5e2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_1400_history.csv": {
+      "bytes": 15587,
+      "sha256": "63d0dad66cd39b900caf93b9c78ec7713ba46fa6c91973a97568695abe4e148c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_0800_history.csv": {
+      "bytes": 15574,
+      "sha256": "6b8d7447a0c567d89bba2e70714946dd60ca732f6f4d83fb45b0b000b755fe58"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "eb38e996eecc79d86c0884560ece2c13f971f6362f834cef453f6d66ff96dd98"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_0400_history.csv": {
+      "bytes": 15548,
+      "sha256": "568c6fbeb012c546fa2b7de3ba2d6c1cfeefac156cc222ff111c50c468976d90"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_1200.json": {
+      "bytes": 252,
+      "sha256": "ca6bf3ede439085a385f26a9d64516d5c166744702895703a41d13b40c796b77"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "afc28ece5096167e7f720434f6e7a9891dd07b5e4089c285eefc520ffd59bcbf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_1200_history.csv": {
+      "bytes": 15611,
+      "sha256": "0712f186a4587adf3129d661e9d97922e188b63ff050567e51411ed9ef9419ce"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "f0181264e32bb9f4ea014199d4633d5de5818eb8d49d638cc470642cf472817f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_1000_history.csv": {
+      "bytes": 15460,
+      "sha256": "232398f9fa75b0152d51d0495e74b5f0cc29e34a0bdc8c2ec240a4091cedf1ad"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_0200_history.csv": {
+      "bytes": 15608,
+      "sha256": "c136e82806f5d276ccb8f1a6333584a153fcee99d5fd5ce9f4969a5c78026faa"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_0800.json": {
+      "bytes": 249,
+      "sha256": "dc733af844e96dbf3011510dcd91036b2d8aa6152450d20693c3ac57ec2f1025"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_2/probes/epoch_1000.json": {
+      "bytes": 250,
+      "sha256": "ec660e693328742f4e1546b6eab8b4abd72e7a428b783a7cf111784ca4f8fa6a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/result.json": {
+      "bytes": 1995,
+      "sha256": "ccf448d6dbf3200c2cc33566486e4532f45fc98675e48b5db0ee82faf4d59703"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probe_history.csv": {
+      "bytes": 15506,
+      "sha256": "6ce5299dc07b0d795f267f907ebaf9cd43abef1864b981865a066ac70b1f32bf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/test_started.json": {
+      "bytes": 175,
+      "sha256": "e41c999f9850393af8cf20c377577746d4ba1d71cef40c134a55b5bdf35dfcec"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/mask_group_statistics.json": {
+      "bytes": 797,
+      "sha256": "07a6b710f2b6907db2cc05c5f053a7806c6f9dec2e582c96173ea0e242e04787"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/run.log": {
+      "bytes": 164126,
+      "sha256": "6d4638879bbc6d85bda223d2dcf2cffe8feb08d65e804b2d0f2e0ecfd309d0ef"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "893c60e0e2cbc7240863733ea3c65876c6b98c883b5ecbdb6b2130de6cf6b1c7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "824b25414b96506be21d4151170c872547011326f0f655e521d768164a943425"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "ceda7e227c8ab5de8ccdec6cc2826e7213dcfdd33d68c0f0be92293eb4615bb0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/training.csv": {
+      "bytes": 103339,
+      "sha256": "b39df0bde4d59493d1a764eb7ee10eceeeaf6bdc4c3513f06f6d7ee9e95446ed"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/test_predictions.npz": {
+      "bytes": 3316,
+      "sha256": "57d282c3d45cf49ce5a8a0c4207ca08eeb3ddba37d66d0a5128f0f1ca4d125cc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/test.log": {
+      "bytes": 3372,
+      "sha256": "605db32b12402eedad1855213a270f762148ea402d7bc6efe1c64f9d3f3465fe"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/mask_statistics.csv": {
+      "bytes": 77452,
+      "sha256": "0914c29d00829d4b863cd2e9db2486865dcbb22166d1cf5187d8ff32255080da"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/final_test.json": {
+      "bytes": 403,
+      "sha256": "88a3441792753c5cb9c77dfc89de9426102d1b1df3fc9e09903657065942d5bd"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/gpu_monitor.json": {
+      "bytes": 29291,
+      "sha256": "3387ee664d2a7814f6bf9ec67031378778e4d9641f5aaaa0351d7a5082334f90"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/effective_config.json": {
+      "bytes": 8123,
+      "sha256": "07957e300eee116a7d3436b533a852478db346acd0bf14317189568e0e75ef73"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "a984bddc22f2e50a00064d20d3b1fcea5d52c6fa956b750b310f8f65ba07ce2b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/periodic_probes.json": {
+      "bytes": 1912,
+      "sha256": "4eb0c645a6a6be4ec387661093d25154952fa91e90f5362c86e64e4017c8f74e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_0600_history.csv": {
+      "bytes": 15600,
+      "sha256": "80ee10663392f3f5f74ce11b704aa49f62429023d1adf3c15bbb7ae2c215b1ef"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_0600.json": {
+      "bytes": 252,
+      "sha256": "be3137a3ea749bbaa25d47e8e9baa0e9b9ad4134687e25b765a7cee6ef698d9b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_1400_history.csv": {
+      "bytes": 15567,
+      "sha256": "ba4e3296430a36693675100b4ba9219b1ae5dec5417220d588016f96115c549b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_0800_history.csv": {
+      "bytes": 15494,
+      "sha256": "4afd629f3eb4fbf65bc6f7e0223a625a58550b6c98e0fc74016930111a4b701f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "e7a5f79b22c8bfa514efcf8902f71ab48e59b2223468b09642dd53aaf340dc61"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_0400_history.csv": {
+      "bytes": 15558,
+      "sha256": "2b1e97da729258f602338c57eaded31fabd39c53d8890448863dbabac1509f8a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_1200.json": {
+      "bytes": 253,
+      "sha256": "4f1650c9eaae2e329bf1f561bdef7c97f3da06e2a89c5b95777defe14682ce99"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "500fb26bacbc940d4133dfa572325abd9f034166c532bf94cf9cce58f72d6924"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_1200_history.csv": {
+      "bytes": 15539,
+      "sha256": "84009e0b5aea4512cbeb79aa99fd0584d5aa6f7a8ad0b454ad06af2480b9b38b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "cd256287e669318f23150672f3a4f74cccfd209aa5601d444dc55e0386fb5c51"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_1000_history.csv": {
+      "bytes": 15573,
+      "sha256": "7fa97b66595a1c04085f5734af6b87b644d7be4ec8ae63c2f056d81c3987cd96"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_0200_history.csv": {
+      "bytes": 15565,
+      "sha256": "97986a9210f021dbbe10da6e29b0c07d1fb0b2f59c34d50c63c3f40d886b18eb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "9fe134fdc2286251b96d7b7df60b2004e361c8c0a0140b5bffacc7bd4c63d2a1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.25/seed_1/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "b0d77078f60f145e594628acba95c288ac6e684e59a64bd2ec681f3f34ad2ff8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/result.json": {
+      "bytes": 1999,
+      "sha256": "430f7016a5dd545b120d7bce2a68c24f0b43dcdde21049f78321ae7694f3b8ae"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probe_history.csv": {
+      "bytes": 15603,
+      "sha256": "38ce375ebd42a34ed776e3e2265391113dd4f4ffe3329c9ba0e9bb4c52bbce5d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/test_started.json": {
+      "bytes": 174,
+      "sha256": "0634a510310e732b9755e1bc200519121ce4f73d37c1db671c9fcd2b8b747885"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/mask_group_statistics.json": {
+      "bytes": 800,
+      "sha256": "5c862e9150024e7e6b79b63647b6a3805ea7d3fbd6b02914dec097514d8b1590"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/run.log": {
+      "bytes": 163455,
+      "sha256": "42b282c83aa0192d2b99c37df0b36afd355340c8f925c41469828cf97fe08b0a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "3dc798d5ee4bc19a5ac1cb23b44d56fbc313d63990c5b9eee0b9d14bbcf16eea"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "edc611b09f7fc029061fef825b6443071e642045240e38b4e4f4fbee33842f7f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "a829a24e0df27a8468753e7e5c5b5895bce53d4cebbac8a9981955f205055a02"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/training.csv": {
+      "bytes": 103362,
+      "sha256": "04599f0af820a45f45c727b058346ea4c816c852ee6749652c0c717aea8d6411"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/test_predictions.npz": {
+      "bytes": 3315,
+      "sha256": "0ac137fba0f636cb3a4b76dcf774b708b38b6685ad9fd2d6ceeb5b4bd4e4db5c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/test.log": {
+      "bytes": 3371,
+      "sha256": "35062404c9377fab42991640d8f84a6989925cc667eef1d85cb76b8701050a34"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/mask_statistics.csv": {
+      "bytes": 77214,
+      "sha256": "a79694e8fbfd01cf1d584f5e8134d5a219576e8b97857df8d48a5dcd94a5e731"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/final_test.json": {
+      "bytes": 402,
+      "sha256": "00e1848354e8b7dac963762681cd8f498ce50dabbc82e70fc87a13521f065a18"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/gpu_monitor.json": {
+      "bytes": 29506,
+      "sha256": "3fc073182e15a2131be1f5252fa08593b423ac17393108164d60b751a3c66906"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/effective_config.json": {
+      "bytes": 8220,
+      "sha256": "c374847b7470a29dcbb6ccecd3c47a2319c2b8f6abfa913f760c43d8af46e9b4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "03cc0b075cb2a2800003e1e7c4a444fabe6b6a0ac2c3d58b5bbabafd9290ad2a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/periodic_probes.json": {
+      "bytes": 1902,
+      "sha256": "d39df4ee941019f9fbbda9f0d769b87bd6140a1354a93f6f88b17a240d4598b2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_0600_history.csv": {
+      "bytes": 15606,
+      "sha256": "570c92ddb4dbaf0b477d60fd567982d65f297196fcb27031b6ee35e250f62cce"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_0600.json": {
+      "bytes": 251,
+      "sha256": "8144a8d03413ab21fb5f34e54cdb2a69f7097e1050c8adbaebd77a26b79d1f64"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_1400_history.csv": {
+      "bytes": 15601,
+      "sha256": "6b32fc747fb7e6375464c23e2d31a8a04f53e1dcfe69f58032100d8efe058880"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_0800_history.csv": {
+      "bytes": 15536,
+      "sha256": "065020013453e6ab7ef9b24e51fa78cf1aae2097ba9e7cebaba65bc1df759a68"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "f23ff0f25fc07fc97b15ce0888e3daafabf28a12caffc0f9f79bd09bad96fc55"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_0400_history.csv": {
+      "bytes": 15582,
+      "sha256": "d6f06aaebe30709e71af5d88d3c84773a88c2a64844a5708fda801ab1a6d1d60"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_1200.json": {
+      "bytes": 248,
+      "sha256": "22c93db871cc953ca5c3901fae9e9eaf33f555073a9512b7714f9e9dc200936c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_0200.json": {
+      "bytes": 249,
+      "sha256": "8304cbe93c8b586a2fefb86feb3f96270a35668a45bdd5992a064b3f021f6c92"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_1200_history.csv": {
+      "bytes": 15503,
+      "sha256": "6b94b445fa0cc7a305c7db4ca30e4ea4151af94281ee88bae2ca660267f43844"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "5336d5cb0694c62b8e2e47c91f6f9f383d9fe02ce64f44168cda07aa904fd59e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_1000_history.csv": {
+      "bytes": 15605,
+      "sha256": "2dada04f0f3e06ffbd9c8fb6cc1792764e459329391805b5b00eb36ab1c57ca3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_0200_history.csv": {
+      "bytes": 15555,
+      "sha256": "3160c86920e8efefbeba84049a5af77bb0a79844da037f5d0797080d4480c68b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "6b93d976ca1b7ab0a49d5504dbef1eb371867e1e6a009f609362dda23f5157d0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_0/probes/epoch_1000.json": {
+      "bytes": 250,
+      "sha256": "bfd8d08ca3ce24d51a40c3745644cc9bf8bf05bcfaa214dedc4c1001c9796180"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/result.json": {
+      "bytes": 1990,
+      "sha256": "9c43154bff960401883f97b2208d1c5428f20821f61731e45284607145b1418d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probe_history.csv": {
+      "bytes": 15547,
+      "sha256": "8a8b86fdb9b4f6f32dbf29da50882a1b8dfd794050b86c163be613a328b5317a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/test_started.json": {
+      "bytes": 174,
+      "sha256": "c4087f006b563ce9aeb9698beb9f5ce51144ee4fd56ca9a18d02d8ce0cd569cf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/mask_group_statistics.json": {
+      "bytes": 796,
+      "sha256": "2c130e476a7b83fc72ce6078d1c881f43f1ef40b4b14615533f341fca8334326"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/run.log": {
+      "bytes": 163974,
+      "sha256": "3dd484b4fbac1adebb91a53873b5284b8a95a3423a37b621db96200525d3e246"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/classifier_selection.json": {
+      "bytes": 191,
+      "sha256": "990cf322a5be6d5df951569ae198eeb984ff78c8e1eb95b236bd3daf01c88f75"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "50c243fd285b8b38995051f60652234a53d56ec81df9ac682a102a42ddba4b55"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "d0b2270fb8e7e64986f1e99e9186b86f9002a1bf498b2ebaed7d90b65a883b4f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/training.csv": {
+      "bytes": 103339,
+      "sha256": "694f6ff71499454f3939e73ec91358f04078347ea2838f73ac6d381a542c69ea"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/test_predictions.npz": {
+      "bytes": 3315,
+      "sha256": "4260da8685b50675c3dd65d7b64e9c1a019be5764e1877ade7a376d3c18ad7be"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/test.log": {
+      "bytes": 3371,
+      "sha256": "a9801d5e0f659784587804931d3cf0502297d77365615d91bc95069dcd26adf9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/mask_statistics.csv": {
+      "bytes": 76391,
+      "sha256": "f72f3b4687c413e055e64582962dc4609ce637ee5c6221d1af3458e568af5499"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/final_test.json": {
+      "bytes": 402,
+      "sha256": "27f7a5de65f5bc5da707cf3f56dda3071b6ce691c808155f116fa22c8dcdab8e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/gpu_monitor.json": {
+      "bytes": 29478,
+      "sha256": "4d3f2ab81b774fe8ad82775cffd280e8d06a72e230374a42ec2be4748bccd444"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/effective_config.json": {
+      "bytes": 8216,
+      "sha256": "2c1cd64016fe01abdc2c7c279a76ae8fb11e46343b717fae2120e23903d5c2ca"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "10925184f39dd185191c9466759954c7b8d347c2d058b30020e4ecd68b24df45"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/periodic_probes.json": {
+      "bytes": 1906,
+      "sha256": "42d06d51379fc9126ded790efa7d8129efba147d7a7cf229c714847b36581e1c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_0600_history.csv": {
+      "bytes": 15525,
+      "sha256": "dfdfe7f25744fb042f166358a47b05f625062f7b507692300875b21586bf6a6e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_0600.json": {
+      "bytes": 251,
+      "sha256": "03ac33d61a7c5100b59d1e536731842c1541be6f0086bcc4be8b80d52137b87f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_1400_history.csv": {
+      "bytes": 15536,
+      "sha256": "849f1ef77f4b5be5877dfbd5d8f32572cf5ba2c33e3d2d0c9372379ef4df9f22"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_0800_history.csv": {
+      "bytes": 15608,
+      "sha256": "32728d4703aa09279f5b943eb5e0bae7b8507d3bc67aaf4bf12d66e1d4316671"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "3a1275d957cb8f316e68e4e62f4a976bdbbb8da051202d82637f88956df69a7f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_0400_history.csv": {
+      "bytes": 15603,
+      "sha256": "2e9435f3917557ef22d0bfcc1f0f658476b2b6390f048751808eaaa193de26bd"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_1200.json": {
+      "bytes": 250,
+      "sha256": "c0758a8de7910d53c8335cacf78e1fe7ccd31b77fa616eb1286892a211745d93"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "4d176387630fbd8457c881023f3bd693e3352cc75c8771650563e98c7d2fde08"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_1200_history.csv": {
+      "bytes": 15592,
+      "sha256": "9166faa7b45693cb762f20139317d899f2f7a8f7351dab4a5770152c72c95ef5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_1400.json": {
+      "bytes": 250,
+      "sha256": "5d15a9315bda38717f313748b61e2c4e53f41eb9ea61f12337bc381cd1332a64"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_1000_history.csv": {
+      "bytes": 15584,
+      "sha256": "a547d55082e2e4262343d802a30fb68eef97be0ffa63ef5f75c751326654b0b5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_0200_history.csv": {
+      "bytes": 15602,
+      "sha256": "85e9a569bc540d7f0228d7bf2944f0c2d1d051a6c0cac5d4fae0cbc7ab2f4c06"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "0116059b3b453bf42e9398fb59fa0188c54d2c2732e8ae91c4a2b8c9893841fb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_3/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "01f3c17e213bc548178123220c32d6d64b6ddd11fed1b31ac3f0c71d96eceadc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/result.json": {
+      "bytes": 1993,
+      "sha256": "ac1c2459308e894be88d423aa3e25552b20c87629ad9ef464ef5abf09ec722dd"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probe_history.csv": {
+      "bytes": 15505,
+      "sha256": "38d4d2bfefd4aab6ea569f984b368920f22cef72bbc5fc6995c8f797aa38bd99"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/test_started.json": {
+      "bytes": 174,
+      "sha256": "a4dfa8d0e1076a8a11e7845f6681ac5beaa70c643c9389c85bea8e20e971efd8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/mask_group_statistics.json": {
+      "bytes": 799,
+      "sha256": "83cee8663a0523f5117bc13cc1f40d249dea548df1496c026ecd1bf6cd508f72"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/run.log": {
+      "bytes": 163644,
+      "sha256": "aaa385d8cf9ebbefb10899cf02eb28d947e37e230c7a17cfff85c56522d02bf9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/classifier_selection.json": {
+      "bytes": 191,
+      "sha256": "990cf322a5be6d5df951569ae198eeb984ff78c8e1eb95b236bd3daf01c88f75"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "7a9ec052a62fec85486d98a50e5cb0dfe219130d4e193bd1493fbefdf6792124"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "e38ef22f2a4eca1e3b26c8562b9780419cd65b18430774209d048ff82d41b52f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/training.csv": {
+      "bytes": 103338,
+      "sha256": "554d518bdf472a6e5e0682677d62323f4f909609abab0783e36ab05eddb0fc3f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/test_predictions.npz": {
+      "bytes": 3316,
+      "sha256": "3058f3ab8d9f55a766b886ac6755691d528459a30c9b29ef3f6034df2c16f7a6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/test.log": {
+      "bytes": 3371,
+      "sha256": "0c3da119a53c51d5eb8a55b0de300ab5ee37978a142aa1d7e298935ca10bb942"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/mask_statistics.csv": {
+      "bytes": 77272,
+      "sha256": "9a80c5811fe1f5a061f521da6d991f26c3e3b2d4bc58e937376f8e19df65d6ea"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/final_test.json": {
+      "bytes": 402,
+      "sha256": "a2935a954a764fa4493617a3fa148ef3c0839f820e905667fd89c3c2f34435eb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/gpu_monitor.json": {
+      "bytes": 29478,
+      "sha256": "b14d1afd48607a42eb78fdc95d99dd6f3c88f6902d45c424072521edb005efb0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/effective_config.json": {
+      "bytes": 8215,
+      "sha256": "a5fda42251687095c5b2c4de118c05a3cd5aca6c1fdc43bc9d625444f313f04a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "c668d78f659bd81f4bb9d3d60007676d5ed288e0bd9276d9c4be063554b95a86"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/periodic_probes.json": {
+      "bytes": 1898,
+      "sha256": "c228a33830b747a95a6a4a722b535322de55b08e30473f5ff3ee549aad732f2e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_0600_history.csv": {
+      "bytes": 15552,
+      "sha256": "631b99f96d94e6e5627e87b860afa09f70baaac870aa1c272879b9de6cb8d211"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_0600.json": {
+      "bytes": 245,
+      "sha256": "1bcd9cc7b95507e0b6d402a4f17e357dd6d638549a2f5303d6ce727dce44bae5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_1400_history.csv": {
+      "bytes": 15525,
+      "sha256": "4c61dc05a18adaf1588fa1dcf6baf68efa2bde6c51820217fb37a190d14577c1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_0800_history.csv": {
+      "bytes": 15561,
+      "sha256": "31f700c12a80a872328e058123a49159973f59bebbfea1d90b3f98b94b0117c4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_0400.json": {
+      "bytes": 250,
+      "sha256": "9b4712c12f5fcb9df56f857293923e2a4b7e22269ba10edeb29b43dba69ecb0f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_0400_history.csv": {
+      "bytes": 15555,
+      "sha256": "c9996185008288e851ffa4ced52bf007cb18507231f893eb41fb62108e520fdc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_1200.json": {
+      "bytes": 252,
+      "sha256": "cb8bcba7e8a5a267e05524818ebad98af8eab1e316f804afdfe2c5b621727627"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_0200.json": {
+      "bytes": 250,
+      "sha256": "ff84705f111529a0327151b23290fde28734a89489bba755fdeca7e35fab05e8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_1200_history.csv": {
+      "bytes": 15470,
+      "sha256": "ff9f90039fb1c82cdb97b52a80ad778c72ceb33c94583bbc9701b06d168d4940"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_1400.json": {
+      "bytes": 250,
+      "sha256": "cef50326e63201b3b88d8f23284ad0e0a06159ed0360652fd583a18aa409bde2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_1000_history.csv": {
+      "bytes": 15489,
+      "sha256": "5a57967aa81cb7102aa94a92f8d4a9c4ef9ba491dcbcd0bfd80387c17560559f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_0200_history.csv": {
+      "bytes": 15509,
+      "sha256": "6d2de6cfee50258af033e43b291a92a8d5f2d1767dc54444157e528ceb42f853"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "5844c49e3fc5127f3da9b2faf435db46161453e607412c90116d75ec17e1d2f4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_4/probes/epoch_1000.json": {
+      "bytes": 250,
+      "sha256": "80e6de051a618523e9570cd076271e5f23c1f8d398c0c4e58a791fdedbc7ab15"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/result.json": {
+      "bytes": 1988,
+      "sha256": "cf1bb9d8a08dbc6d1a73c887b8aa641d08af7808f857324ed4ec8364f5cf8682"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probe_history.csv": {
+      "bytes": 15455,
+      "sha256": "b59e09b369ff16661495565582331f51eb479c39311d4597cda272d5ea6c6836"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/test_started.json": {
+      "bytes": 174,
+      "sha256": "59f84bc897f81dec475a2792a0b24d1be80c0d5d6617861033360a3497213bc4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/mask_group_statistics.json": {
+      "bytes": 796,
+      "sha256": "1eda88e2f9fd580668322d480ec2a69e64b11ef0cb82b65d3d82f7e9c7c2f25c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/run.log": {
+      "bytes": 163990,
+      "sha256": "3e18cacd89d5a42c2bbf8525d5224d1e896092ca000af86e961b8589acdd12cd"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "3942dbcbd52da3b3bc9e8c59469ab0354e107be3b6697105e4b0c143a2cd4040"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "304561b664c9a5f74ef631a8ab97bcf89e9d8b0182b93e48a5508837a65f2e24"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "484fb97d3312fcfc01b836d226574e4b9519fabd1910ca6638005b3f977fdf1d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/training.csv": {
+      "bytes": 103311,
+      "sha256": "49e3a9d91b06f9f47f9194835a8b05c550011d6f5fe4860ab66ee8749719990b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/test_predictions.npz": {
+      "bytes": 3315,
+      "sha256": "aa20557a41881b8a216519e056d10124343a2d06a092a7ed03e246d1d2208daa"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/test.log": {
+      "bytes": 3371,
+      "sha256": "548fdfcc855c7cc5797c973f3aa1ee17e5e987d7896d74f02a994483dfde4b8c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/mask_statistics.csv": {
+      "bytes": 77104,
+      "sha256": "9ed3b3bc244fbb9a21035540d4025afa9cce8a9557ea943211ae4c18e7508381"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/final_test.json": {
+      "bytes": 402,
+      "sha256": "4668e9264ca0f50c249a0ee84d2dadbcd5b09d748e6cb25fe2fcbbcda48dfc08"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/gpu_monitor.json": {
+      "bytes": 29474,
+      "sha256": "398ed84fc54167443ed7777e84930d9252006fd7dcae9c6d560bf3b0c80638d5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/effective_config.json": {
+      "bytes": 8215,
+      "sha256": "9e7cfb562b8275e7c2a4862b08b697925158f66d650a4b30188acfd835049849"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "872cabb19eb2c3e18d54d72ff1d75c9762e94a42de894e874621befa3b7f0a53"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/periodic_probes.json": {
+      "bytes": 1904,
+      "sha256": "d3bacf42c67bc38641b0105dc05e2418ca965b621c6d4132b0db600cd6d6f642"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_0600_history.csv": {
+      "bytes": 15594,
+      "sha256": "1807425123d4f76992b9f26877803e34cc73d11de47392cf71a3d14e24c841cb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_0600.json": {
+      "bytes": 251,
+      "sha256": "ee6ee7869d8f486001b142fe59e7f3723c9a8330760a82d4f092a5655ef6cca1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_1400_history.csv": {
+      "bytes": 15448,
+      "sha256": "b1b7e8d792579175b3572b2b3c14a63a8aa29fced018fc2ff82bc66a7bd85876"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_0800_history.csv": {
+      "bytes": 15592,
+      "sha256": "a1e1fa07d81915df318d6142e96ef916b9c59e3c82d10d40ff3302ae0296a1ad"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "2738f289a1edbacabc64ffa5350e4a452f88c472b0e9f575f38bc464aa7e7917"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_0400_history.csv": {
+      "bytes": 15616,
+      "sha256": "faf722e5af8aa468dfc971c5ba3f7fdb637719d9bb8372316a3a1ebbafae7c6c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_1200.json": {
+      "bytes": 250,
+      "sha256": "8a5719efc8e983bd0e5684daf86f735921cf9798f2e160becabc688e002f4b9b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_0200.json": {
+      "bytes": 249,
+      "sha256": "02ee1e728ae3f894e2b16b539899cb399c1dd341ebdd4122c54c957f47f69df3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_1200_history.csv": {
+      "bytes": 15326,
+      "sha256": "1f3b78ab3324428b09bbc9b8857ff01f4f7d330945840cbe568a805ec7b936ed"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "c4888e3aa62216a0d787be6a2d542fb7186e49c606cebf90099181d9a060d963"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_1000_history.csv": {
+      "bytes": 15598,
+      "sha256": "59a3107943c53595aefbbb345257dd81995f935963f49efc0b36b3dac2027350"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_0200_history.csv": {
+      "bytes": 15533,
+      "sha256": "41af40d1dc97fdf5cb96d65bc7e08262e05ed23e904e0fef3e96c3bb8bd8907a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_0800.json": {
+      "bytes": 249,
+      "sha256": "fa768f7de912ca47ea654764897262d260885c466c4163c72e97e0c42564fa03"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_2/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "ea642459d0b58163f6f20f444c51a19f2f566d4ea63ecac1a09b7b8a6e999b35"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/result.json": {
+      "bytes": 1993,
+      "sha256": "ff8fe33917234483ddd794cb11831bb7477887ba024f0557545d13b7f16ac790"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probe_history.csv": {
+      "bytes": 15437,
+      "sha256": "6ed7eaff5097155cdb18041e12c8d8cdb34ab44259c8785cff377ad2c3a024e9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/test_started.json": {
+      "bytes": 174,
+      "sha256": "d38fb98febe916a0ca0286d103bf46fe233a6485880fd37630f32bff32064194"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/mask_group_statistics.json": {
+      "bytes": 801,
+      "sha256": "9e8b6b205d1dd8953f2edc804a5d99bc6afbeeee828eb36efa25e7998b24e56c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/run.log": {
+      "bytes": 163813,
+      "sha256": "b1ca80239c2f2a14ac445ea5f5ed7b76d5ade059208379228fcf6c18c7882784"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/classifier_selection.json": {
+      "bytes": 191,
+      "sha256": "a872931f139aa992a17185e703cd0980dd409f0eb6693a30cdf2bb448a817dd5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "824b25414b96506be21d4151170c872547011326f0f655e521d768164a943425"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "c43aa6d7f510954320a2814a91dd58093e642eb4fe91f99f0ab25c5ede2fb13a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/training.csv": {
+      "bytes": 103352,
+      "sha256": "591743d9150279064d3e46ac7ef2008f66644c1e62dd76295d2d25fdcc6df3fe"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/test_predictions.npz": {
+      "bytes": 3314,
+      "sha256": "88f31d6c202fb226750ab00b9f966bdcdbb68a327efa8f434a09962931f29a0c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/test.log": {
+      "bytes": 3371,
+      "sha256": "5b7e13e0dca4f20956a02d363322bdaf0b6975d6b84cfccd348f715f59b90fe5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/mask_statistics.csv": {
+      "bytes": 77734,
+      "sha256": "40a99474ca945fca0462b536a4403024f605f1acacd5ede5f6484c50b734c562"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/final_test.json": {
+      "bytes": 402,
+      "sha256": "f3330f347f7aec1cbc74cfddf330ec3b561cd4d4a38bfe7c8689ea12781bd482"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/gpu_monitor.json": {
+      "bytes": 29314,
+      "sha256": "926cd212176b56694cc1c11895e42d37adad366dfbe7e5648c26447513b4661e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/effective_config.json": {
+      "bytes": 8220,
+      "sha256": "bdd7a0d78fa50700ab09a27dbd5c71858b23b74e92a74cb0f497970a33f12520"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "161aa92fce472e1a2817c777b18036725ccff8b0decd287784eca6aad9844c0e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/periodic_probes.json": {
+      "bytes": 1905,
+      "sha256": "d20213309b96409b1b0190d6f26a7eca4e678a84d63ebb751ceaebd1a8f56398"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_0600_history.csv": {
+      "bytes": 15620,
+      "sha256": "df07b960646f87edc96df05b156df0ffc6dafc63dfd4d4e5ccf37bd5472719b3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_0600.json": {
+      "bytes": 252,
+      "sha256": "1fb005af96f4334a6c960c4354c2e9ccb01304fd4bc4c4e04379b4ae2ce30365"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_1400_history.csv": {
+      "bytes": 15481,
+      "sha256": "95afb2adc779061de61c9258d803a640fdefa1a5bef6598422c2605ae61855d8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_0800_history.csv": {
+      "bytes": 15566,
+      "sha256": "ca85ecb487435df262b44e8b3fe9fa2c07ff5d97ae66e8e99ec1b5dc2f7089f1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "62ff678457e4e1ead598862f409f9af34c31200161cf3c5b123f277e602a5bfc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_0400_history.csv": {
+      "bytes": 15524,
+      "sha256": "aa4ee37a74813dfd6abebf9d21c919905a47e8fcc160e92288884d0ce9e8fe7c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_1200.json": {
+      "bytes": 250,
+      "sha256": "9c5b7e86112c2fb962694655da4b94f8fc8cf5dc4911b4e0cf0dd87bb331141e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_0200.json": {
+      "bytes": 249,
+      "sha256": "f8583a2001d00eca5e56e7cece4efbc00dbe5455a9fd502995da76510424f312"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_1200_history.csv": {
+      "bytes": 15538,
+      "sha256": "4c78b4081f0c0802b2688673b64997114a098c145188731cad3d3118078be0e1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_1400.json": {
+      "bytes": 250,
+      "sha256": "8e19a61debc8e06d4f0bcf557afdf4222eef1560bc323908d239669ee7cf33d6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_1000_history.csv": {
+      "bytes": 15574,
+      "sha256": "a16a9b469229eba32a58c055b8b55b2428a1044c79399caea69802f32c8f7a3d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_0200_history.csv": {
+      "bytes": 15571,
+      "sha256": "7e2b60dd8a841f813af569afea7e81f6d1a025d087df1c626532b946dca9a988"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "fcd9a0fe9d95dfc7fbe7706f5974557d7599c05f9a2ceb1a002d1cb95ff759df"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/control/seed_1/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "4b58f1ab5cf35a77925943669aa76ee63c1d395f1648c03ee9a1f70c6610d433"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/result.json": {
+      "bytes": 1992,
+      "sha256": "a6641e7c0d509462d48f7d58a63489b709d65edc42b1b61de471d4ff5ac1e328"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probe_history.csv": {
+      "bytes": 15577,
+      "sha256": "57f4ce94838d989a65aff96e04143af05d7e0db478dfb931e7adf3656febdb5a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/mask_group_statistics.json": {
+      "bytes": 800,
+      "sha256": "a3d274c45e5c0c4386ab0532d42ac11162b6f7b5cc266f545907cb17a9fd89ca"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/run.log": {
+      "bytes": 164290,
+      "sha256": "4346ca03d66aa0fc54b07e35753f05f1988217a778f437efc6eed6179aaa7cfd"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "e27a3c2e4d3ba0b2bb495e1cb1b4c6f53e80ce7336f15b25e043bbb789ec989f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "edc611b09f7fc029061fef825b6443071e642045240e38b4e4f4fbee33842f7f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "17aa639895cf21ff910bbe5048eb81382ca2f037cac49456928132a58d71bb47"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/training.csv": {
+      "bytes": 103298,
+      "sha256": "8df1dba6a581ba667fec4bee9eb3ff1576df1430d2bb7bd02b24d1caf32948c5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/mask_statistics.csv": {
+      "bytes": 77387,
+      "sha256": "e2db79bfe6a005343f458dbc3c718b8f83f5324b6d99d9251c17a19c39123592"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/gpu_monitor.json": {
+      "bytes": 29511,
+      "sha256": "80d3fdf699a3a285299ac0127effc749fae1fb64c2f6c112364117b3e79a2a45"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/effective_config.json": {
+      "bytes": 8220,
+      "sha256": "3f33df0ac6b1b408dd564bc204c175289832e5ab2bdf480a9ba30ccf166dd506"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "6843dc1e97fff92069a64ddebf49125ca179f201ad668da359355d1dc71b8659"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/periodic_probes.json": {
+      "bytes": 1903,
+      "sha256": "4077de15259584a107e780cc39a57c7251ce4587fcc8102dbec705d1f2808d51"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_0600_history.csv": {
+      "bytes": 15597,
+      "sha256": "8ba6e9d4be875458bd7c09532de470ac2e6b06aab32e97e2f308f2d77331d4fa"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_0600.json": {
+      "bytes": 249,
+      "sha256": "d4360cb54b495715850ba9f35ffac8e337823c2a10d66f2566ffdd8d52877b3f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_1400_history.csv": {
+      "bytes": 15598,
+      "sha256": "bb521adfade41b00d359004f66b60bc25b204810182fc01f17a94128df3033e4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_0800_history.csv": {
+      "bytes": 15464,
+      "sha256": "115268b66b737a6706fab942564f9571c4364aa65fa8b4900b940269b93a0443"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "fe4a14c5e5f9fd632231fda58c1374673a17bf17b36109f17177ea06fc1fa753"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_0400_history.csv": {
+      "bytes": 15591,
+      "sha256": "bb8442a9b31cd0fd34524936b202a708f63e893ee5e6bb6d903d8b3bef1853ad"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_1200.json": {
+      "bytes": 248,
+      "sha256": "276951554a548b530170b1c0a21f9c8186c6607143041727b6bba27afa0b6040"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "6c4d376e556b5b0162d4abe49c7479a1fa46d8d0c494d966a5d060b328349891"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_1200_history.csv": {
+      "bytes": 15610,
+      "sha256": "fc37e5e5e1f096c7864db995eb8af2d1bdbab924bb6057ad0149628e8b89a8ec"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "619e75c8a09f10f5e4bca0b9350422b32c4f9a4b66da6e5a3824ea7c8fe094a0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_1000_history.csv": {
+      "bytes": 15572,
+      "sha256": "78a39ed3ed18f1861ced47d4527bb4b2f7a541decc00e0a5fe601fdac3e98c91"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_0200_history.csv": {
+      "bytes": 15589,
+      "sha256": "da90c7b7d8a16f85ca4475568ba93110d682b08acdec11dd6e0afdcbff7564cb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_0800.json": {
+      "bytes": 250,
+      "sha256": "81d74466d6b6a77b71de93f9ac3354a00d6b2b2bfc8a7c0538868054e8c2e1e6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_0/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "9ff10a95fdfb37ceaf1563ab140210ffb2e9df045b6ad05e5fe9c7a33eacca73"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/result.json": {
+      "bytes": 1993,
+      "sha256": "290bdb1aacda2f29c4abd35c19c8e5ca440e9ce46b1759acf45a1228a02dc9ed"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probe_history.csv": {
+      "bytes": 15589,
+      "sha256": "0bc24dffbaf7ac4d143741e927f5c5a3d74e5b55267f693a1ddc03dc4bd6dcf1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/mask_group_statistics.json": {
+      "bytes": 797,
+      "sha256": "7485bbedeb019bb689cde207cac1ecf731131d07ba9d4231ab258b9d0f1f5dba"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/run.log": {
+      "bytes": 163949,
+      "sha256": "1682a4e147b7799ab30b30d836c1edcb30dda329eddeacbf5a0ec4a068535ce8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "b6681867022687d164eb7fc7f1def46712ff2c4a95f7459d69e76849a093c616"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "50c243fd285b8b38995051f60652234a53d56ec81df9ac682a102a42ddba4b55"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "548539d4edc3e39f39110138ce21fbb36259a98bad76e751e9ad8eaa1b6a561a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/training.csv": {
+      "bytes": 103348,
+      "sha256": "548bd866f1755ec2d9f6060390cb0fe3398bb7e792e8f0354a8b237f855bf0e2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/mask_statistics.csv": {
+      "bytes": 77301,
+      "sha256": "a7a10db42e09a929e77260c933bab8291ecf5f828fb9bb44f73da952161b8ce0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/gpu_monitor.json": {
+      "bytes": 29479,
+      "sha256": "0afb8428dcb70c0288325ec7de547a00d1f054ebdcf8eef46bf261f429aa4692"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/effective_config.json": {
+      "bytes": 8216,
+      "sha256": "086185f17f96a3060852fbec79ac5aa91a37f43859c2df317ed5fbd863469c9b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "dbf25c628b221b518e8e54fc5088b09e5442e9455ff98c01be0debc95cf87019"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/periodic_probes.json": {
+      "bytes": 1906,
+      "sha256": "fccfb80f1c8e3478a7bc5c5dae791a5c2ad98b104ed1ea7d879b2d98c1a0c14e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_0600_history.csv": {
+      "bytes": 15586,
+      "sha256": "5baf97199e30bcd30d9b04102bb8ab38f4d281a87da44a393c01f3f596d92183"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_0600.json": {
+      "bytes": 250,
+      "sha256": "32fc4d65d82ca42992f4d5fc3297fc7957dc1a302f94dcfdfdac7f7cbb58da85"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_1400_history.csv": {
+      "bytes": 15596,
+      "sha256": "71cb5cba11c7296971f0c37dbe0ece531cd96bf08f5c0c4418abe4fd275b86c5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_0800_history.csv": {
+      "bytes": 15608,
+      "sha256": "224dfa517b164cd72a35fbf5717bacbd891d540b0aaf7c6a81ae45b618be59a9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_0400.json": {
+      "bytes": 252,
+      "sha256": "9656dbc5c8a607ec19a2b6e3c1fe878a2825713f618fdde8bb6c430228d6df22"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_0400_history.csv": {
+      "bytes": 15572,
+      "sha256": "05dd6fd37e5046a17fbc34a49bbedcafd0d1e159e52cbfde066d59f6fd086683"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_1200.json": {
+      "bytes": 251,
+      "sha256": "6662099c80ce2fb7691a9e49087cc8927f962bb06cc0d9703e7129accdfdbd02"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "0dd41a884c1dff48bfa7a0dacc8cbf455ec2f0c24b0285b099d7bb3061621a1f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_1200_history.csv": {
+      "bytes": 15571,
+      "sha256": "e0a9a85b39f34692c8b8823eb781b4c8210650ecc110aea5fd3dca02347aebd0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_1400.json": {
+      "bytes": 250,
+      "sha256": "77ed62152bc5dd8f4a4ab1942c31658b75003168612954a5289adb6b0540946d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_1000_history.csv": {
+      "bytes": 15602,
+      "sha256": "047e5e04a7f5ccb5651b6f6fc805bf73c5c36a450931b3a63f849e20b325f350"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_0200_history.csv": {
+      "bytes": 15633,
+      "sha256": "6e0ee3837d8d14df95f1350d6c7e6ea0afbeb23313ffc1b99e23914a3ed221f2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_0800.json": {
+      "bytes": 250,
+      "sha256": "251998cb5577d703ecf1e7de137ea1ff7bcca876f28b7f88c795f72b5d57b4d1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_3/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "1ece6819830a3d21712eae56b4eecba9515972b8359bd3300d580afa671de90d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/result.json": {
+      "bytes": 1998,
+      "sha256": "f655c0bee913261b5f26c7adc3fce5366e5aa3fd65786eb54475a62ee8d0fe23"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probe_history.csv": {
+      "bytes": 15538,
+      "sha256": "eeed14bdfcef2f40de201ed31cb5a6e05d5f0e67ebfe49c96ff40ff560c5b8ee"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/mask_group_statistics.json": {
+      "bytes": 800,
+      "sha256": "70c9f9b5fb03176878747df81f305ab70d6a8120b372de2413b39766acf06782"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/run.log": {
+      "bytes": 164788,
+      "sha256": "d020113ab57134f70263e699d7793823b62545fcc439abb5ffd6c0557c3068a4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "ca658bf941494470b2ce0b7fbbb751a5a2d4a22767ef58acb43493e19909077e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "7a9ec052a62fec85486d98a50e5cb0dfe219130d4e193bd1493fbefdf6792124"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "753d0d815bf99a6733687149c116a03a0f8cd22f1b49a4ef3b3f5d6d6e1f9e30"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/training.csv": {
+      "bytes": 103297,
+      "sha256": "0b12d9122519ea682116c9cea0dcccfb731c419e0d55256a22e332d706ce47c6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/mask_statistics.csv": {
+      "bytes": 77251,
+      "sha256": "d92162120a65c71d472ae1bc331a21b95263940a92ae8fa8d43ca129d44d61fd"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/gpu_monitor.json": {
+      "bytes": 29565,
+      "sha256": "8fb099aa5e49a06e1cc76ce18979e98b3a2934d9b073992178df437de3e0f231"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/effective_config.json": {
+      "bytes": 8216,
+      "sha256": "6c6a397f07ebc4f39c41ff972f7101ef4a3f5487b0b3d6a90e2f2b86284697a4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "db441224476bfc337a74c5a2f5615248b08ee24b4f9377039822bfe00d6f051c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/periodic_probes.json": {
+      "bytes": 1907,
+      "sha256": "04f0ffcd810a94681e1d77e5c37c7b845f74a98360cc9ac7c24184740001e8ba"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_0600_history.csv": {
+      "bytes": 15569,
+      "sha256": "ea6faf8622a4bb9d3368f8e301f30d340d329cadac4f22dc91de292b236c169f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_0600.json": {
+      "bytes": 250,
+      "sha256": "9ed3165192b2dcbecc60aa33eaa8589c0b55fb14acbc5cb8624920fa2023c5bf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_1400_history.csv": {
+      "bytes": 15550,
+      "sha256": "8558c804d546895055c0eb2d7ccc52e9825a504348b6ddf148a2526f21ccc488"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_0800_history.csv": {
+      "bytes": 15582,
+      "sha256": "741143eeb2f518f93859976e63a70de075dbbdc6c685b55ed67f11816e0c60a9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "bed0cd083dee0c211b88d56f6c64c1cbd1479063cceb0d8440b63558a2573e5d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_0400_history.csv": {
+      "bytes": 15530,
+      "sha256": "a2465fd6630dd7153d062dc60e5080fcf277a3120bfc811f5b069958a04b3b31"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_1200.json": {
+      "bytes": 252,
+      "sha256": "9244a93e921f3ddd21106abaee051fabc5c7831c3645938d28c9a8c6eea7bed6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "c24639522aee4c0b7edf3818210d9e3efbfe9ae64ef8451b9e17573889f91c99"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_1200_history.csv": {
+      "bytes": 15509,
+      "sha256": "17f5f833aebb4ed1d7529a322206d70c18ecffb7b3d40ba0572a9875ba15df03"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_1400.json": {
+      "bytes": 251,
+      "sha256": "d8f5fb45e30194086b6e5a30e80c61454b29ddab71bde4cd51294c6ec9dee2d8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_1000_history.csv": {
+      "bytes": 15561,
+      "sha256": "2b3c16b7d426ed3a11b6a4638301873bc7a20aa358f289549c4f37cb6dcbf22e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_0200_history.csv": {
+      "bytes": 15620,
+      "sha256": "a0babc225d2a3a12bc665cd684062ab0aa1fd32ba55255c6c2b6199c58d9caa1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "017b774ca128e7feddd35a7240515b6840e9ff1a38c30c315d21d40d99dc25db"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_4/probes/epoch_1000.json": {
+      "bytes": 251,
+      "sha256": "4cb9bde6ea8aa2f103f99a4d280a3da16d762896a17c2f52870ee4462b844d2f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/result.json": {
+      "bytes": 1994,
+      "sha256": "3205e771755a7398015eed1f7a0045e86afaff158f31b0cdbf65bb488c1fcfe3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probe_history.csv": {
+      "bytes": 15511,
+      "sha256": "afcacc67d7c6a8742971925a3761d988f9db8a981ef622ca74dfa98fb942e916"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/mask_group_statistics.json": {
+      "bytes": 797,
+      "sha256": "47e661e1c1749858ec5d46001ed4e4391c4a233256245e573444fe33421a587f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/run.log": {
+      "bytes": 165864,
+      "sha256": "be7ab6e5d87957adeec4ca1b7b54269ab4f25a711cdaf30c75befc47b36cb452"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "3990fdd7565e1127f1114059796268436a44da69c2f8bb36c84a24200cfafe57"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "304561b664c9a5f74ef631a8ab97bcf89e9d8b0182b93e48a5508837a65f2e24"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "4c2508bd432d25dc621891b05ee5103c96b0cf45e6975c86c9a3849c312bdd16"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/training.csv": {
+      "bytes": 103302,
+      "sha256": "009ec23c8081a1364c450676228701e641173d4cc38b35f66de3adae0789fd80"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/mask_statistics.csv": {
+      "bytes": 77953,
+      "sha256": "78bc4e0b9c39943fc14d75344c6b6a9f2623f7f0e1d97a90ed5e12b0ae5db993"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/gpu_monitor.json": {
+      "bytes": 29474,
+      "sha256": "32b3bee8f662f1c5d1c60d8c17b7c6058628fee3c3f3d3a650515c3487a26f8e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/effective_config.json": {
+      "bytes": 8214,
+      "sha256": "3cd3a334be564378911f973f363ccbe5ebb20797361289b9d50fba9446713840"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "bada64defedb01da9b6065f37dea1ae3a50925f75c7fe3f5b33279467912d43d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/periodic_probes.json": {
+      "bytes": 1906,
+      "sha256": "ebbca0d2ae017ac15a4ee4e9368d3e40824cb611ae11feee285043444c1d7650"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_0600_history.csv": {
+      "bytes": 15580,
+      "sha256": "8c755a2d2930831eb4c26105e19ac36e7fd2b45c475c542e4d489d4a3184c256"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_0600.json": {
+      "bytes": 251,
+      "sha256": "4f1880fcfc41c8041a573d9bdd5cb83d6f54e198928222c8ff6d1fd532ad5455"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_1400_history.csv": {
+      "bytes": 15502,
+      "sha256": "3d4faf16837610912681914b5732f98613293b5093fb9b98a04be128705645a5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_0800_history.csv": {
+      "bytes": 15554,
+      "sha256": "d249b8a76a231c4f7c8e17cb36e9b6a3a16157bb32779767b7dae0b9b0f3d4b7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "ed9a9b5ddb1db602da2df1afad67b8873a39ccad22a7e1abce49a3ca72175652"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_0400_history.csv": {
+      "bytes": 15612,
+      "sha256": "8d4ac53e4b5391eea7423f522cbdbc5b48ccb032012067741c2d8074e8eaebc2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_1200.json": {
+      "bytes": 252,
+      "sha256": "8a402a6a2133086e0405cd0c66c0fbeb0a1be41aec81d35e66bab4aa849e2722"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "668e3004f2c84b9ac8868b9025af6fbdb7d7f8b25480939bb57c85d42b48449d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_1200_history.csv": {
+      "bytes": 15502,
+      "sha256": "d045532133e394e0e7cc50250f5bb57028b001916859c5c245930da8bdcd9fd8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "43fde84541e5b4c8a6628d524fb887a57fabfb30e390401bf3d1ea44d29d6a6c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_1000_history.csv": {
+      "bytes": 15580,
+      "sha256": "71ea5a04cad08f92625c1f2c199df2bc4e008ad1db96806233ca37cb51a5ba56"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_0200_history.csv": {
+      "bytes": 15582,
+      "sha256": "a217f852ba0b2195e582343c51130fb94885d8391d4f16a345b4d94e404ec10a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_0800.json": {
+      "bytes": 249,
+      "sha256": "3dba2139d8082cb0d0943cb28a76d68275cf976b317bf11a2cbefd3f92590b70"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_2/probes/epoch_1000.json": {
+      "bytes": 250,
+      "sha256": "45f97540c7671cc5f7588b3435fd23f2c7debd29b1ffb78f0689a4dbb52e4e16"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/result.json": {
+      "bytes": 1996,
+      "sha256": "014d7bc4b0149be1c51ab68f051da1de2403d4d10fe75c66591d7fd20c289293"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probe_history.csv": {
+      "bytes": 15536,
+      "sha256": "faa1cbc929e47bce61e2185b336dd455da171e3799366910ba6a00f8e07bdfae"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/mask_group_statistics.json": {
+      "bytes": 799,
+      "sha256": "cfdb613ad55372fd00b14e2a02e93d8229a6197f8d5028e47304f7e2fe09e417"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/run.log": {
+      "bytes": 166953,
+      "sha256": "3358ea9758a778acbdafcb604dcfa945fae79be0add0a2a109b42efa2320df19"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/classifier_selection.json": {
+      "bytes": 192,
+      "sha256": "6a36e102a783e851c1465f31d12c285313f1c473d55d90766719b4f6ede4da88"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "824b25414b96506be21d4151170c872547011326f0f655e521d768164a943425"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "f109c09288cf96199bd603a4c77a6993428a3c86ab29ecb87320790ca194b83b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/training.csv": {
+      "bytes": 103272,
+      "sha256": "2a0b0af3d7b8bfa97b68d4ca29cb9169f847dc8afc155644ca07ceab268386a7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/mask_statistics.csv": {
+      "bytes": 77353,
+      "sha256": "f04b41c3636729c8814c1594e468fdb76fb7caff254219dfe36f9dfdb2f97e86"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/gpu_monitor.json": {
+      "bytes": 29476,
+      "sha256": "1007d702cd4030cb00928fa8c69eb86773b6dfd988caa3cda1da321c7255595a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/effective_config.json": {
+      "bytes": 8214,
+      "sha256": "8c73237851e0f83ee7700a28ad09e5033899aa9de8aa467b7d4356e765d82648"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "2dcb1b4c3bb4209850d85e3ff4d566996270c47e658aa34dfb93e8b96d7e1862"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/periodic_probes.json": {
+      "bytes": 1908,
+      "sha256": "721ac12dd379737249b156dfb758409bdb802a627f87f669859e576caf756064"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_0600_history.csv": {
+      "bytes": 15610,
+      "sha256": "e106d081748858443fca64afe4a5050940875a2ce4ba1d694e087c83a92eae53"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_0600.json": {
+      "bytes": 251,
+      "sha256": "10d9306d2138fdf9dbdc7f9fe4592a804ccc0ea80f651acfeb172bb03a28b9b7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_1400_history.csv": {
+      "bytes": 15507,
+      "sha256": "189feab04f38152d95a0b8068f0b18d63fa05aad13f6afa4c05dfd2f128b7887"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_0800_history.csv": {
+      "bytes": 15502,
+      "sha256": "3f89f2568e406f02963ebe9a32889ea47ecc7997adbbf9788b8a4142d29ac67d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "f2ce68565d1339645851c9b4478cb296807139bef16be2dd93c54e8c1311aaf7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_0400_history.csv": {
+      "bytes": 15585,
+      "sha256": "9a4e15d7b2c8364025eef3b37e03f71fe599c5b2ca091b2786385c975d8237e4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_1200.json": {
+      "bytes": 251,
+      "sha256": "fced9ac2bd480ea12c33f1b255518c7ea6182dddb7f6061527b2b4d8d5e3ef84"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "db5af6faa76db88defa22cfd154a3b2f8090799e248d791fdaf6f774111b546a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_1200_history.csv": {
+      "bytes": 15587,
+      "sha256": "4db6e88a7bfcf75b703a8655a62f795a4d6a9994da2b7ea2b82ad6f901c7791f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_1400.json": {
+      "bytes": 251,
+      "sha256": "5abe8316e1cc1bd32286fb9bcd0b50f51e0a6e4230fbe75136fa2ec6b8c72ca0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_1000_history.csv": {
+      "bytes": 15567,
+      "sha256": "6465dff223f617677e15a59c52561ec20cbb8961a5082da3226f7dc5701b1c09"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_0200_history.csv": {
+      "bytes": 15552,
+      "sha256": "dd47c322aff36ceca2b3e3759bf748518fec05e6ae0a670d2ff4218c0e9a2816"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "a5aa85db252ddf0aae482e450b9a961d97769bf9bd74730ec87970e5ffb833b6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_1/seed_1/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "6fcc6f6a3410f2c1668ae03ee8af75896e6f5d4f72dc1e2d4a5cd111d7766fd2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree/groups.npy": {
+      "bytes": 21792,
+      "sha256": "a788662079d0aee17a4588de3c48d5ada2016ecdce4b6141fa5e762b4e791eb3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree/degree_distribution.csv": {
+      "bytes": 251,
+      "sha256": "5ed66e33f03d1f57915715acd2fa4c592eeb598751816f6296d0e3557807fdfa"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree/degree_metadata.json": {
+      "bytes": 1609,
+      "sha256": "d29ae87950741cd9acbe7ed412e973aba0c5e60026cfa925a8dc5ad11d13900c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree/degrees.npy": {
+      "bytes": 21792,
+      "sha256": "26e67be7b5070414744e887427ab1188281468febdef362e57826094887321b3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree/nodes.csv": {
+      "bytes": 26122,
+      "sha256": "84213a0ae47df71be9f22c61f679bc9dc39019ec64a5524156ecd9ea1b50c275"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/result.json": {
+      "bytes": 1991,
+      "sha256": "9b1f91c0aa3e5a14bfed7ecc069d3b2cf0cf1b34756e96865f480da1e2858118"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probe_history.csv": {
+      "bytes": 15549,
+      "sha256": "da585d5ac96dfdc9c6b09e076b54d7583a8d2c9aacae4c7c92e92bc5a303898a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/mask_group_statistics.json": {
+      "bytes": 796,
+      "sha256": "1e1d3ccdc173b39ff40b1465c03fbfbe756f1e9a5b7cae111bce449d206641ae"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/run.log": {
+      "bytes": 164742,
+      "sha256": "2679ef64f99e9b9f67bc8f7ca205305b85db4d56bcb7d6e02c442eaf9137252f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/classifier_selection.json": {
+      "bytes": 189,
+      "sha256": "7d3087518188fe9afd121e1b63a147bd7bc347322654bfc5477a171a9b8126fc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "edc611b09f7fc029061fef825b6443071e642045240e38b4e4f4fbee33842f7f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "3ef9d7d3851b21ae812f24f4d027ee8222b4ecae41f131ffdd7e2417b5647d66"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/training.csv": {
+      "bytes": 103301,
+      "sha256": "5af1ccfd88d01f6ab3ec88cc31c83aa195815f4d26bd2114fdfc365d21ae9ae4"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/mask_statistics.csv": {
+      "bytes": 77146,
+      "sha256": "7b432f6f57b5a88d6fe2be892963c82222be2d0d46062dc7e497143518b998da"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/gpu_monitor.json": {
+      "bytes": 29510,
+      "sha256": "d37fc9d8e17a8a97e2c6fa3d7a82e8c4c244fe3e111ff9fafff3ab12b8201fc2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/effective_config.json": {
+      "bytes": 8220,
+      "sha256": "09f72adc6d0460749e421c6c6281fdc88468811a7626406141391aa2af88e840"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "45b121eeb02e833537a7b84c5b912e6395131f39a3d398b0c64585ec1b37426a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/periodic_probes.json": {
+      "bytes": 1899,
+      "sha256": "16eefad5682d1e7b61a07eef389e3c7d350038fc8122b900f45154632d2a6cd5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_0600_history.csv": {
+      "bytes": 15589,
+      "sha256": "9bea001ee69bba5b88c802580ac174790e12995b7abd97b28762030b2db4a82e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_0600.json": {
+      "bytes": 250,
+      "sha256": "a111751b8d6b81cefb993ba375c3e5e8005ed71249994f1722a45f56ecae98f8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_1400_history.csv": {
+      "bytes": 15549,
+      "sha256": "8f4fc3439ebcc9f6e49500a4c5d37532c3cd0af52484095ad2454bf711bee0c6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_0800_history.csv": {
+      "bytes": 15573,
+      "sha256": "c3d31720d25b845eda68562f50830e9840b93fac990f05b19d5af74ec3e8734e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "41b628c4526da1c987b7852d38724ea30fa67c62e1959588ff1a3d50374b7dd9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_0400_history.csv": {
+      "bytes": 15637,
+      "sha256": "97e86c5c48542d580a35d751fa8db29041433baa2c3fec22f6d238d83f462ac0"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_1200.json": {
+      "bytes": 248,
+      "sha256": "235026a0bad565ab84c3a3edaa904c0d3ef642895f4c830dd2fbccfd481a9e9d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_0200.json": {
+      "bytes": 250,
+      "sha256": "a4fb0d3eaa86c44b16cc974a2d515302cb0162a1f521adaa10528a122c9e4bbf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_1200_history.csv": {
+      "bytes": 15473,
+      "sha256": "940140a69e1fee40a4bec6f7891916a9812c0fd37fd0fa1a0943953c10bf28db"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "7448478442abe73c75cbcb4d7dc9ac465fe32a618fb39e801fcb5d68cbcdbff1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_1000_history.csv": {
+      "bytes": 15603,
+      "sha256": "0dc176a8d16ae79206e18b4101264098fcd2cc37a1d7ca02872532bf76a52092"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_0200_history.csv": {
+      "bytes": 15603,
+      "sha256": "0fd6ad2a8f51419c7597b774e848be98e25f1d7d9177a0aec1c4a64b09f5f526"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_0800.json": {
+      "bytes": 250,
+      "sha256": "f1ae113e63f762d557a7116ef2f5f7e64730b0f2675535774dc4652250589a04"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_0/probes/epoch_1000.json": {
+      "bytes": 248,
+      "sha256": "b75ec5f96853089aff2e80e590675252d031f9752d112f69280e54facce98ae9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/result.json": {
+      "bytes": 1997,
+      "sha256": "b892f400156f1ca7e4bb3c0a3b3fe18dbc3f2690d253f9a040cd24fd741ce301"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probe_history.csv": {
+      "bytes": 15439,
+      "sha256": "3a35519d1746088084885991ead53c49be3c30f0056d99b8339768a597704cd2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/mask_group_statistics.json": {
+      "bytes": 799,
+      "sha256": "bffe5ec6a70c807b1445dd9a723faa4adad7171c960534f2b8ea7cb81ca92eac"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/run.log": {
+      "bytes": 164093,
+      "sha256": "73161cca5be63ecb7d07aa79100a0b99d3ca532503e5ca75e7bfce1f3084cc72"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/classifier_selection.json": {
+      "bytes": 192,
+      "sha256": "19fe84791b48deca79cce145da521177a8dceea344a0437949f819182a895cfb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "50c243fd285b8b38995051f60652234a53d56ec81df9ac682a102a42ddba4b55"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "66f305063e28f7369ea3c970aae7793f73e3ec8eb960c3ef3423048691e08c48"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/training.csv": {
+      "bytes": 103312,
+      "sha256": "2affc4010e05b1ae3e5f92ef8dffc8b6b45f3d42a9e92bee352ecd70052ddf03"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/mask_statistics.csv": {
+      "bytes": 76940,
+      "sha256": "9f531d26f53b76619fb6800ba38354cbb6c029af578fcb1bac7f1958e600a32d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/gpu_monitor.json": {
+      "bytes": 29479,
+      "sha256": "15144ae8f57cdae718bef4a143484e60b02593dec35cecb19bcc0998a17393f2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/effective_config.json": {
+      "bytes": 8215,
+      "sha256": "8b46bb4afb3332a7550c7e8d9c9b731217d2bc4279092950fdf92cbccf86c3f2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "6425f291495cdaf7c6c2bfcb3f8827e9ded78df0f50dea3459f5fb1f9edff0e9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/periodic_probes.json": {
+      "bytes": 1901,
+      "sha256": "49a732df0109f07551570fef093d7ecb60bdadbb0fee6e85879d28188c297fe1"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_0600_history.csv": {
+      "bytes": 15538,
+      "sha256": "2bacd46d036d685073b19357127953002faab814e3ed770453c9daf33bcfa7e3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_0600.json": {
+      "bytes": 247,
+      "sha256": "d9acca3902583e394541a84f8ed971ac5deec09be040125adee9e8ce1f64ba84"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_1400_history.csv": {
+      "bytes": 15440,
+      "sha256": "e9ae84aa5d921c4b026a4571f6f53805eaf1443758ba4da61821d9ba90d873ef"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_0800_history.csv": {
+      "bytes": 15583,
+      "sha256": "776f952b113a3229ee2962cb54f4944d67e8f70d8139550dbd2bcf6c04f960cf"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_0400.json": {
+      "bytes": 250,
+      "sha256": "4bc8bc90ef9e302975740eeabd9ed35b157bf061c627fdd4660fa67117c1c297"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_0400_history.csv": {
+      "bytes": 15564,
+      "sha256": "d8e624902d4f87bfeaaffcf3933b54fad530350fcc0b55d75e05624200c7cc71"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_1200.json": {
+      "bytes": 252,
+      "sha256": "78451158871a41ebac80d8474e82bcb14939f03bd36c3e0d8d4368d830ec7e46"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_0200.json": {
+      "bytes": 250,
+      "sha256": "a556c80bd1c346cedeb2a6f37b7cd0a955dbe33c8208de36fbd4fead303ab69d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_1200_history.csv": {
+      "bytes": 15468,
+      "sha256": "fec7920083fad11d57ab09534966fe5d4043891776e1ac298dd609cd55f231c2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_1400.json": {
+      "bytes": 251,
+      "sha256": "783ab15480b92ce27ee85eb7fe6a2ee835155e1e66c9027c7c6f8ce77eac3980"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_1000_history.csv": {
+      "bytes": 15549,
+      "sha256": "0d89fc7a87339bbb8886eaf0570a934bc480eba3d92918ec3f193ca12e21ab6c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_0200_history.csv": {
+      "bytes": 15540,
+      "sha256": "f86149fce8395f6788de6f94c05ca648003880e667b3328538f4ca712bf54bef"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_0800.json": {
+      "bytes": 249,
+      "sha256": "4cf00f8dd26b591d49c768cfc62e21f20c5017ddb07dbf6feb062ee7da101f0f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_3/probes/epoch_1000.json": {
+      "bytes": 252,
+      "sha256": "8bf9d58470dd1a6386c8799a8bc1b7a4a9649b3c64d8f3834240cdbc7c1fc753"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/result.json": {
+      "bytes": 1992,
+      "sha256": "eec7a0b27ba03494d8928ba161c909f799a37f2a2065d79381fe34185586c945"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probe_history.csv": {
+      "bytes": 15549,
+      "sha256": "3b2089c3ee3970bbeea1d7955134933e67bb27f7c318fc4bd0d79ab87e1dd4f5"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/mask_group_statistics.json": {
+      "bytes": 797,
+      "sha256": "568770b5215b79ff9d0f200c0d85f146c359be91c97898688a72d45f6cf2080d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/run.log": {
+      "bytes": 164575,
+      "sha256": "203f11e16b0e7789f4412dd200652c725801f2b36984a1aa5c66c84eeaba25ac"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/classifier_selection.json": {
+      "bytes": 190,
+      "sha256": "b675fe9a41ff119388cecf5254f04c41c89b2d6abf1b25d258ba793bf8700c08"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "7a9ec052a62fec85486d98a50e5cb0dfe219130d4e193bd1493fbefdf6792124"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "3eaf7ca40277b6cf36d8d5a6219e6da041dc0dcb5e0c8a42991e81ecc4c6e091"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/training.csv": {
+      "bytes": 103301,
+      "sha256": "3fe464d154c36aba07acd72cf21490518d0e371bad14aa3cd0742b63e3a81f20"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/mask_statistics.csv": {
+      "bytes": 77882,
+      "sha256": "41dc0d59f7aee8b6db2089ef326020eb760958e01cb93ab6977a5671014ebf24"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/gpu_monitor.json": {
+      "bytes": 29477,
+      "sha256": "a3f32cc716774b066bc803d9bc8c49835f08f3b9bedef92c70d3cec831c4ffc3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/effective_config.json": {
+      "bytes": 8215,
+      "sha256": "740a6ae17809e0c98a583ec0b8de1c5b6395e5f2b1521a608911c8780c0d9935"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "314c4aaf03e902ebcefcba62e4f690dc453af229364e64bf3b6ed60103764a8d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/periodic_probes.json": {
+      "bytes": 1901,
+      "sha256": "95838f17ff52741fd9a0272c448cae1cbaaced641c7ac1019241932007601ead"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_0600_history.csv": {
+      "bytes": 15530,
+      "sha256": "8cb4034d2c2ce1bf19fd7a143de16c30cf21eb5bef7e4c1300cfa0c0016591db"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_0600.json": {
+      "bytes": 251,
+      "sha256": "581841ddec462c45c41ef1a9876864f92d37cc772e13e147350e8a032a6bbe09"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_1400_history.csv": {
+      "bytes": 15537,
+      "sha256": "250a95a708c1e5706b0197d9e4072428ec3f7e0033cdd70e00563914bb87d782"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_0800_history.csv": {
+      "bytes": 15568,
+      "sha256": "85b058f69c4fd94a2e61204edf290e79866aeccbec218994b6fe36a70ddecee3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "037070ff5cb408ae1441f271f11f862c2aba7f30c92ef1399ed58bc76b57c02e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_0400_history.csv": {
+      "bytes": 15601,
+      "sha256": "87c06283dca7c3492f75e5a1d69dccb4a4adda42ce8525a396998df7828d3d8e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_1200.json": {
+      "bytes": 250,
+      "sha256": "04eb725de99fcc4a6160e72686f2274da25f9ce99839627d33428daef9686bc2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_0200.json": {
+      "bytes": 250,
+      "sha256": "2638ceec2da982a4b69ea3fbe1359ed9064b3c2f4b1c181a38950c71baa45272"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_1200_history.csv": {
+      "bytes": 15574,
+      "sha256": "432e66720a8ee799166fc7b03dd3c54e1035313e92356d752d4c33e43ca63dc7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_1400.json": {
+      "bytes": 248,
+      "sha256": "4b7e2d3a9adfcb742787cca0156ae28f32c6b89125e12ca03323a136e8ff9c38"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_1000_history.csv": {
+      "bytes": 15578,
+      "sha256": "5a1c3bd0fa826ac3bc282a1640b5686607f243d5a192df4acdc649b4c54d9912"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_0200_history.csv": {
+      "bytes": 15600,
+      "sha256": "2d46f3cd42e5a5bb831d9ad32eb092d8228ae8e310db7a22e9bc38ec9f9891d8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "9c0db3dad4e3a1977d6fb4136ec19d8876d9604f99d5ed133807824974704453"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_4/probes/epoch_1000.json": {
+      "bytes": 250,
+      "sha256": "f320b98233830d654cf93597c57188bd165ceabf78012d29a008d6eeee8c1e94"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/result.json": {
+      "bytes": 1993,
+      "sha256": "3e1f17d24225557261ead472e7cca1bec7508906570f6d6e227c0dff2a365c87"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probe_history.csv": {
+      "bytes": 15567,
+      "sha256": "cad23507fad6d9ddaf58dee5288463621eb0e81c08e65c88603b28a7edbcdb30"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/mask_group_statistics.json": {
+      "bytes": 799,
+      "sha256": "3a068cde2403536316a040f5e2ebef68eb958863215f511a4652bcdc6cd0f90e"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/run.log": {
+      "bytes": 163995,
+      "sha256": "29bcabaee3d8e9a8904edc2386e9e38411272574557181db0ff2c145eda1298d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/classifier_selection.json": {
+      "bytes": 193,
+      "sha256": "1df2cb1dac06495087711eef58eeeefdd33468f27d85e65b225da2c3d788c70d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "304561b664c9a5f74ef631a8ab97bcf89e9d8b0182b93e48a5508837a65f2e24"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "b68a9181f2a8bf5abab22188ee71ea84316e24a606b7fa1f6a61f65b99d8a70f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/training.csv": {
+      "bytes": 103309,
+      "sha256": "0a8ded3b80fb847a324c10c02c6217b29792a56cc6e80feb8baa98ca34d8738d"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/mask_statistics.csv": {
+      "bytes": 77306,
+      "sha256": "6fd501e53115df99b94157aa1888cfefabfce7df691490467c1b0e3bd736d97c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/gpu_monitor.json": {
+      "bytes": 29475,
+      "sha256": "adc9950ded79c47fe6fc096ee5753299bacab31bc6a6375d8184d5a813969d5f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/effective_config.json": {
+      "bytes": 8215,
+      "sha256": "3e451e476a7d30d8a23c67e34509fd73a0798939cdc635d5688b752cf520533c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "671fa67a2abaab7db56c8628ee2b846e37b23e67c317d007418f9788721577b7"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/periodic_probes.json": {
+      "bytes": 1903,
+      "sha256": "84718b931367ff97c6bd803b9b6be780477f1daa6d6daf8d899792a1cf6af69f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_0600_history.csv": {
+      "bytes": 15632,
+      "sha256": "7ea7b0c434a5fda1e46a25b366c44909f6bfb84de14acefcfc972c5f21726866"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_0600.json": {
+      "bytes": 248,
+      "sha256": "eab7e1f43f25a7d9cbd6bf0a36d628d2ccd4a411ee2817901229b7b103b01d56"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_1400_history.csv": {
+      "bytes": 15567,
+      "sha256": "dc8c3e689a07a82f8e2923a833e6f388c4f08d4fe9a6b3271657e2970f14a053"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_0800_history.csv": {
+      "bytes": 15565,
+      "sha256": "9123fa307f8de60ecc7716383fba1416263a91486fa2889cef484147e467e8c2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "dec5dd960b4ec4c8b1d90a044c6af8e0e0c208190a253b6b917e32b3e7371070"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_0400_history.csv": {
+      "bytes": 15582,
+      "sha256": "deba7dc5fe41cbdb73b26aaadec7d6483aac1d32c7da721523899a506e5cdb0f"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_1200.json": {
+      "bytes": 251,
+      "sha256": "8f7b135591fb13fa7677bed169394cd72bd00b8bb7005eae3f6aa4a0b6648740"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_0200.json": {
+      "bytes": 251,
+      "sha256": "a67284f1ab5212c7216ec5eb428d2a8d8cf84c85830c1bee577d2b22e63cadc9"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_1200_history.csv": {
+      "bytes": 15595,
+      "sha256": "6f6f6ebcf7fe4ae69cc4e434a368fc1aa38b3e167f1220a7f54161b7447edb04"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "7ad59151d59da2755d18d6058c5f5cf895e855cbbfd7112a5f2e168f64cde218"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_1000_history.csv": {
+      "bytes": 15591,
+      "sha256": "d8b49c2c01f1294d8414a757c73277e5bc16b27af052c34a12be4b023dcd4346"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_0200_history.csv": {
+      "bytes": 15550,
+      "sha256": "7867717cbc81319ea10f33fa41276a21f643e5a34dfe43bc8ff44ea0c8544c40"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "cdd21439ec4405643211ea5fb9b4c03cd962d7a7384190c6f3ef791d26bc8a4c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_2/probes/epoch_1000.json": {
+      "bytes": 249,
+      "sha256": "a242a75ae0a32d7786718f6e8698868585ebf30c548abbfe85eddc262ba6b4ff"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/result.json": {
+      "bytes": 1993,
+      "sha256": "5b6ea21be35cbd51404035ec8958c1654af0eb8adf86ceb2f75d27b1dc299b51"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probe_history.csv": {
+      "bytes": 15499,
+      "sha256": "361d947568dde4774b97c5bd65bd22d9faefef7743b29d3423fe077a19fc9d0b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/status.json": {
+      "bytes": 63,
+      "sha256": "316ec85c623e406f061706de74019c8757108612ebd8c4eef8757d56df42302a"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/mask_group_statistics.json": {
+      "bytes": 797,
+      "sha256": "e872f770f4ccdc3f0c4ab3746d3a756a61e0482f36125da7e625530e5b7dec23"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/run.log": {
+      "bytes": 163883,
+      "sha256": "ddd19f5350a750054b8e828b45dfecde5b625f00dae91e758304cccf22ddbbf2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/classifier_selection.json": {
+      "bytes": 192,
+      "sha256": "19fe84791b48deca79cce145da521177a8dceea344a0437949f819182a895cfb"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/rng_trace.csv": {
+      "bytes": 593047,
+      "sha256": "824b25414b96506be21d4151170c872547011326f0f655e521d768164a943425"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/pretrained_final.pt": {
+      "bytes": 8009696,
+      "sha256": "c5b6f3018a29d5bfbc09ac9dd7a594a9752e1d5da70361559cc798da30c40336"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/training.csv": {
+      "bytes": 103326,
+      "sha256": "7e28569e668d7f6f0f48e778888ea0ce4c7dc1540083de9e62f6d91394689f86"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/mask_statistics.csv": {
+      "bytes": 76847,
+      "sha256": "dbffcc8614fc92092ab5d0e323718e962c88ad2466cb8f2a2dc7889bd3f06a9c"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/gpu_monitor.json": {
+      "bytes": 29470,
+      "sha256": "343e91a1574ac39a86441933d2a0096a936fa896050293fcc61012f732bfc18b"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/effective_config.json": {
+      "bytes": 8215,
+      "sha256": "c6e6b5e8ccdd60f074395856734f5d159e47e18662089e642315f51dae8d0c74"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/classifier_best_val.pt": {
+      "bytes": 16024,
+      "sha256": "64fa9577efd34079e3851bfc96074000d4a2ce3f3377f7fd1efcb34807afff19"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/periodic_probes.json": {
+      "bytes": 1906,
+      "sha256": "7d375e54f8102d3fb89d6f202f68562f120a043e461f807a209bd76524bd2e85"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_0600_history.csv": {
+      "bytes": 15608,
+      "sha256": "d69cae8d0d6dc88d28f81c4dc1ac088ec8ea5c08a3d3a6dab3f2394218a5e796"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_0600.json": {
+      "bytes": 251,
+      "sha256": "e62d91715bf09cb24946e2e1d7e42252c35c15f752a8a9389048dde132175584"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_1400_history.csv": {
+      "bytes": 15518,
+      "sha256": "dcd60646f0c64fe71588ca65a4249fd14b14867cde9739bdb5df71400e2742ec"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_0800_history.csv": {
+      "bytes": 15554,
+      "sha256": "3adcbb91af663260cc8e6b48be399b67b3efcdd12c7abd8b83b5125dd2cf33dc"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_0400.json": {
+      "bytes": 251,
+      "sha256": "7478492284967bdd511ce36bc6fe61d72d303e7fdcf5b95b0efe01363596b8af"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_0400_history.csv": {
+      "bytes": 15597,
+      "sha256": "01f24b19d7e692cc461efba827d82a1cbb0c3321c3544d344cedcaac2a0e15f3"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_1200.json": {
+      "bytes": 251,
+      "sha256": "21229070162bda72674ab9adccd09d86ffbaa38481a24f9cea057d58c88f13b6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_0200.json": {
+      "bytes": 250,
+      "sha256": "ecb2b72b2fc2b1efd99e8083fcfe23ac016d3810ea660d28709bd1cb3900e048"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_1200_history.csv": {
+      "bytes": 15558,
+      "sha256": "b0e7945c75cebb2023dc9310536d08b9bfb2904a953535c9f99f0e29823c1cec"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_1400.json": {
+      "bytes": 252,
+      "sha256": "83a23a3247ccd10ab72fe4a00e662f0e65df8cde173f34f4aad57ff01900dfe2"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_1000_history.csv": {
+      "bytes": 15586,
+      "sha256": "34b4e0d0d6d9f2ebe1602ba7d78bbcb11390ff2a2781747924ba7137fbdb8e55"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_0200_history.csv": {
+      "bytes": 15636,
+      "sha256": "6eba247b49dc18a0a9b84009ce34b80fab7b63baeba8e8f4e17b8d9b3046ece8"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_0800.json": {
+      "bytes": 251,
+      "sha256": "3e2ee21534d897a8b90bd69c1b2c69fdf5a393cac19ae925509e7f9f815ef8f6"
+    },
+    "results/raw/M2/cora/20261114T070950207116Z/degree_alpha_0.5/seed_1/probes/epoch_1000.json": {
+      "bytes": 250,
+      "sha256": "eb9e88330a631626fab4c976574b713901a161a8f7bc76cf5e6d6d3b933d91a6"
+    },
+    "results/processed/M2/final_verification.json": {
+      "bytes": 3588,
+      "sha256": "99bf9028b0c8c3e8014023d5fd87773009c827df557ca5e48611df21c19ac150"
+    },
+    "results/processed/M2/degree_group_analysis.csv": {
+      "bytes": 4745,
+      "sha256": "836d7d2210678385ac2d5015998e3c9db2333e9e7013232b9c3ea32bd71dbf81"
+    },
+    "results/processed/M2/degree_group_paired_effects.csv": {
+      "bytes": 227,
+      "sha256": "7c9f76d2e6c5be556b2bdc8d352fe17d290e8097fbf0b047c63e0c0520e86515"
+    },
+    "results/processed/M2/summary.json": {
+      "bytes": 12563,
+      "sha256": "0afb56e37844e339f465223822eb438ab08e9d3538ec5f72237aabb342e1b1de"
+    },
+    "results/processed/M2/paired_comparison.csv": {
+      "bytes": 290,
+      "sha256": "e49d771b3fd075860cdcb4fccb1e31c6125922dd9d0098fe7916638bf3a542a8"
+    },
+    "results/processed/M2/loss_statistics.csv": {
+      "bytes": 299933,
+      "sha256": "438e6098db312bd04f07dba27e41f40221cb8f1253663be28a9171691a2945dd"
+    },
+    "results/processed/M2/degree_group_mask_summary.csv": {
+      "bytes": 949,
+      "sha256": "c40461586f3807e3b434b47a234090ab10e6ccdd7ae9a749053a4dc97cd2ccf3"
+    },
+    "results/processed/M2/M2_COMPARISON.md": {
+      "bytes": 6082,
+      "sha256": "d68bfa3c2eae8608e74c647d1133eddbfdb896db1cdc375d604f20c0ab3a0e99"
+    },
+    "results/processed/M2/final_test_summary.csv": {
+      "bytes": 1073,
+      "sha256": "04c3c02507706e60bfb8462609ca70f4a11c26ef5afedc621038f6bb0b870b1f"
+    },
+    "results/processed/M2/degree_group_classification_summary.csv": {
+      "bytes": 470,
+      "sha256": "23641ac60b94fc91a187bef6dbffd54bd26c89b6859b31784d21cba0cd3d84b0"
+    },
+    "results/processed/M2/validation_per_seed.csv": {
+      "bytes": 4990,
+      "sha256": "97bc50af23d68bcf2ecd6f7332426727fec67be4b714795f9264c39c5eedc5b7"
+    },
+    "results/processed/M2/degree_group_classification.csv": {
+      "bytes": 1024,
+      "sha256": "c5501122a2d1f2c7218416f74fa7e0b0469ffc7e3773811cb3db243fdbb5f2dc"
+    },
+    "results/processed/M2/validation_summary.csv": {
+      "bytes": 534,
+      "sha256": "2c52623201e9c830eb85b53d0d746def4f48d8b5b9f8f1ebf2a144f77011f8e8"
+    },
+    "figures/M2/degree_mask_rates.png": {
+      "bytes": 175668,
+      "sha256": "7c61b8d0a3cf1c99dc86653feca68ae9d7ec920d145441d5ac0da6558e43f2ef"
+    },
+    "figures/M2/loss_curves.png": {
+      "bytes": 466538,
+      "sha256": "a1b552b31bb9c2149f75cd557267e88fce347b44b62a4d0c7c1eba1bcc5018f3"
+    },
+    "figures/M2/validation_comparison.png": {
+      "bytes": 164199,
+      "sha256": "fcc02c1321e2f829b91aad96a2ce4ba193f56ad37f096c9f4ef0b85dfa2c8fc5"
+    },
+    "figures/M2/degree_classification.png": {
+      "bytes": 198263,
+      "sha256": "3eac640791f535202d4c7c54ef5a7692efec3ed6308899321d5bdb21044cc89b"
+    },
+    "figures/M2/paired_test_accuracy.png": {
+      "bytes": 208567,
+      "sha256": "7b2e860e05675ae2bd38e34256eb218a6c4e241024a816f75094c3cc83b8af2e"
+    },
+    "figures/M2/plot_metadata.json": {
+      "bytes": 1376,
+      "sha256": "8a0216912b7ec11767c334b7c4c4d25e5a0f334082850b3c62610250dc523815"
+    }
+  }
+}

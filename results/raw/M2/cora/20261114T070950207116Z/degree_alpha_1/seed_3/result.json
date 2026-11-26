@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": false,
+  "seed": 3,
+  "degree_alpha": 1.0,
+  "initial_model_sha256": "b53beb2123bcf454f736fd91dc61115800d6e1433e743d9e9ce4884b7a989d45",
+  "best_val_accuracy": 0.794,
+  "best_val_correct": 397,
+  "selected_epoch": 239,
+  "pretrain_epochs": 1500,
+  "probe_epochs": 300,
+  "periodic_probes": 7,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 0.9868964552879333,
+  "last_loss": 0.4396786391735077,
+  "pretrain_seconds": 21.263184745097533,
+  "periodic_probe_seconds": 4.067006797995418,
+  "final_probe_seconds": 0.647805757005699,
+  "total_seconds": 27.01244453107938,
+  "peak_allocated_mib": 472.689453125,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2742177",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 547179,
+      "mean_masked_times_per_node": 512.3398876404494,
+      "mask_rate_within_group": 0.341559925093633,
+      "share_of_masked_selections": 0.2694135893648449
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 730845,
+      "mean_masked_times_per_node": 775.843949044586,
+      "mask_rate_within_group": 0.5172292993630573,
+      "share_of_masked_selections": 0.35984490398818314
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 752976,
+      "mean_masked_times_per_node": 1078.7621776504297,
+      "mask_rate_within_group": 0.7191747851002865,
+      "share_of_masked_selections": 0.3707415066469719
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "548539d4edc3e39f39110138ce21fbb36259a98bad76e751e9ad8eaa1b6a561a",
+    "classifier_best_val.pt": "dbf25c628b221b518e8e54fc5088b09e5442e9455ff98c01be0debc95cf87019"
+  }
+}

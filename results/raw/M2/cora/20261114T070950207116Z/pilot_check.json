@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "paired_rng_checks": [
+    {
+      "seed": 0,
+      "initial_model_sha256": "5956829dd3c851bddc9abead0c3a03f0e5c53bf34365131fea77f1a2335dbaef",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5000716332378223,
+        0.5598137535816619,
+        0.6199140401146132,
+        0.7240687679083094
+      ]
+    }
+  ],
+  "test_evaluations": 0
+}

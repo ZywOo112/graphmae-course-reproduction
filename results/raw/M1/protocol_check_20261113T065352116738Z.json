@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "fixture": "18 synthetic nodes, 5 embedding dimensions, 30 probe epochs; not Cora experiment data",
+  "official_and_adapter_selected_weights_identical": true,
+  "official_and_adapter_best_val_and_tie_epoch_identical": true,
+  "cpu_torch_rng_after_probe_identical": true,
+  "adapter_graph_has_no_labels_or_test_mask": true,
+  "adapter_does_not_accept_test_targets": true,
+  "best_val_accuracy_on_toy_fixture": 0.5,
+  "selected_toy_probe_epoch": 30,
+  "source_sha256": {
+    "run_m1.py": "403681dbb6bd39dcd458f2044e46d18e3bbd6b9e98eb83edc1bd5831d8aa20ea"
+  },
+  "limitation": "CPU fixture proves probe algorithm/RNG equivalence; GPU scatter can remain nondeterministic."
+}

@@ -1,0 +1,13 @@
+$ git -C /home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party/GraphMAE bundle verify /home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party/GraphMAE.bundle
+/home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party/GraphMAE.bundle is okay
+The bundle contains these 6 refs:
+9127f25e01aa5ba1cca68b746284aeb7ab2b4850 refs/heads/pyg
+b14f080c919257b495e3cb6474286d5252d6a635 refs/remotes/origin/HEAD
+b14f080c919257b495e3cb6474286d5252d6a635 refs/remotes/origin/main
+9127f25e01aa5ba1cca68b746284aeb7ab2b4850 refs/remotes/origin/pyg
+9127f25e01aa5ba1cca68b746284aeb7ab2b4850 HEAD
+b14f080c919257b495e3cb6474286d5252d6a635 worktrees/GraphMAE-main-audit/HEAD
+The bundle records a complete history.
+The bundle uses this hash algorithm: sha1
+
+exit_code=0

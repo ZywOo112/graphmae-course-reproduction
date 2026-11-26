@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": false,
+  "seed": 4,
+  "degree_alpha": 0.25,
+  "initial_model_sha256": "e8f2280b427917647dd8553a4cc93003a84f52b03d17cb68ef03173b3e317e4d",
+  "best_val_accuracy": 0.786,
+  "best_val_correct": 393,
+  "selected_epoch": 237,
+  "pretrain_epochs": 1500,
+  "probe_epochs": 300,
+  "periodic_probes": 7,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 0.9914036989212036,
+  "last_loss": 0.4139685034751892,
+  "pretrain_seconds": 22.251885957899503,
+  "periodic_probe_seconds": 5.248547436087392,
+  "final_probe_seconds": 0.6486159780761227,
+  "total_seconds": 29.161403112928383,
+  "peak_allocated_mib": 472.689453125,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2743730",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 731701,
+      "mean_masked_times_per_node": 685.1132958801498,
+      "mask_rate_within_group": 0.45674219725343324,
+      "share_of_masked_selections": 0.3602663712456918
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 713179,
+      "mean_masked_times_per_node": 757.0902335456476,
+      "mask_rate_within_group": 0.5047268223637651,
+      "share_of_masked_selections": 0.35114672575086164
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 586120,
+      "mean_masked_times_per_node": 839.7134670487106,
+      "mask_rate_within_group": 0.5598089780324738,
+      "share_of_masked_selections": 0.2885869030034466
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "d60bcaabc77d6264e856133cb3f3b05f5459f4c75a1f2d25cbb2d4afb58f4600",
+    "classifier_best_val.pt": "9b32a85333645e5ec736f9af237d787d997e671c0562d74d10072316e5cf020b"
+  }
+}

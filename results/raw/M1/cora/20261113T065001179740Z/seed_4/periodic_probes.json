@@ -1,0 +1,79 @@
+[
+  {
+    "best_val_accuracy": 0.794,
+    "selected_epoch": 300,
+    "selected_epoch_zero_based": 299,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 200,
+    "seconds": 0.43608467804733664,
+    "encoder_unchanged": true
+  },
+  {
+    "best_val_accuracy": 0.79,
+    "selected_epoch": 241,
+    "selected_epoch_zero_based": 240,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 400,
+    "seconds": 0.4004844509763643,
+    "encoder_unchanged": true
+  },
+  {
+    "best_val_accuracy": 0.796,
+    "selected_epoch": 8,
+    "selected_epoch_zero_based": 7,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 600,
+    "seconds": 0.4062927240738645,
+    "encoder_unchanged": true
+  },
+  {
+    "best_val_accuracy": 0.794,
+    "selected_epoch": 300,
+    "selected_epoch_zero_based": 299,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 800,
+    "seconds": 0.5099510999862105,
+    "encoder_unchanged": true
+  },
+  {
+    "best_val_accuracy": 0.796,
+    "selected_epoch": 300,
+    "selected_epoch_zero_based": 299,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 1000,
+    "seconds": 0.44722014002036303,
+    "encoder_unchanged": true
+  },
+  {
+    "best_val_accuracy": 0.794,
+    "selected_epoch": 27,
+    "selected_epoch_zero_based": 26,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 1200,
+    "seconds": 0.5015538539737463,
+    "encoder_unchanged": true
+  },
+  {
+    "best_val_accuracy": 0.798,
+    "selected_epoch": 18,
+    "selected_epoch_zero_based": 17,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 1400,
+    "seconds": 0.3908492380287498,
+    "encoder_unchanged": true
+  }
+]

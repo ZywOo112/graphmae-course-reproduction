@@ -1,0 +1,4 @@
+$ /home/fuqiang/homework/机器学习课程大作业/GraphMAE/.venv/bin/python /home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/smoke_test.py --gpu 1
+Chosen GPU is occupied (>1 GiB); select an idle GPU.
+
+exit_code=1

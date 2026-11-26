@@ -1,0 +1,7 @@
+$ git -C /home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party/GraphMAE show-ref
+9127f25e01aa5ba1cca68b746284aeb7ab2b4850 refs/heads/pyg
+b14f080c919257b495e3cb6474286d5252d6a635 refs/remotes/origin/HEAD
+b14f080c919257b495e3cb6474286d5252d6a635 refs/remotes/origin/main
+9127f25e01aa5ba1cca68b746284aeb7ab2b4850 refs/remotes/origin/pyg
+
+exit_code=0

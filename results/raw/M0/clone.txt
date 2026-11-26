@@ -1,0 +1,4 @@
+$ git clone --branch pyg https://github.com/THUDM/GraphMAE.git /home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party/GraphMAE
+Cloning into '/home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party/GraphMAE'...
+
+exit_code=0

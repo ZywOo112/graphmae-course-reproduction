@@ -1,0 +1,10 @@
+Using Python 3.11.7 environment at: homework/机器学习课程大作业/GraphMAE/.venv
+Resolved 2 packages in 1.37s
+Downloading torch-scatter (10.4MiB)
+Downloading torch-sparse (4.9MiB)
+ Downloaded torch-sparse
+ Downloaded torch-scatter
+Prepared 2 packages in 3.58s
+Installed 2 packages in 15ms
+ + torch-scatter==2.1.2+pt24cu121
+ + torch-sparse==0.6.18+pt24cu121

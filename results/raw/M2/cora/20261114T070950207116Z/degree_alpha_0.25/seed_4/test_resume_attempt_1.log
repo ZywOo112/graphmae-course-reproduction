@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/resume_m2_test.py", line 67, in <module>
+    main()
+  File "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/resume_m2_test.py", line 56, in main
+    run_m2.test_worker(batch, cli.degree_alpha, cli.seed)
+  File "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/run_m2.py", line 352, in test_worker
+    from graphmae.datasets.data_util import load_dataset
+ModuleNotFoundError: No module named 'graphmae'

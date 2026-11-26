@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": false,
+  "seed": 3,
+  "degree_alpha": 0.0,
+  "initial_model_sha256": "b53beb2123bcf454f736fd91dc61115800d6e1433e743d9e9ce4884b7a989d45",
+  "best_val_accuracy": 0.8,
+  "best_val_correct": 400,
+  "selected_epoch": 300,
+  "pretrain_epochs": 1500,
+  "probe_epochs": 300,
+  "periodic_probes": 7,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 0.9853264093399048,
+  "last_loss": 0.39722940325737,
+  "pretrain_seconds": 21.173430928960443,
+  "periodic_probe_seconds": 4.996637070085853,
+  "final_probe_seconds": 0.7191250859759748,
+  "total_seconds": 27.970644808956422,
+  "peak_allocated_mib": 472.689453125,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2739776",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 800186,
+      "mean_masked_times_per_node": 749.2378277153558,
+      "mask_rate_within_group": 0.4994918851435705,
+      "share_of_masked_selections": 0.3939862136878385
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 706960,
+      "mean_masked_times_per_node": 750.488322717622,
+      "mask_rate_within_group": 0.5003255484784147,
+      "share_of_masked_selections": 0.3480846873461349
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 523854,
+      "mean_masked_times_per_node": 750.5071633237823,
+      "mask_rate_within_group": 0.5003381088825215,
+      "share_of_masked_selections": 0.2579290989660266
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "d0b2270fb8e7e64986f1e99e9186b86f9002a1bf498b2ebaed7d90b65a883b4f",
+    "classifier_best_val.pt": "10925184f39dd185191c9466759954c7b8d347c2d058b30020e4ecd68b24df45"
+  }
+}

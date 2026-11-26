@@ -1,0 +1,30 @@
+{
+  "epochs": 1500,
+  "masked_nodes_per_epoch": 1354,
+  "groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 801721,
+      "mean_masked_times_per_node": 750.6750936329588,
+      "mask_rate_within_group": 0.5004500624219725,
+      "share_of_masked_selections": 0.3947419990152634
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 705969,
+      "mean_masked_times_per_node": 749.4363057324841,
+      "mask_rate_within_group": 0.49962420382165607,
+      "share_of_masked_selections": 0.34759675036927623
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 523310,
+      "mean_masked_times_per_node": 749.7277936962751,
+      "mask_rate_within_group": 0.49981852913085006,
+      "share_of_masked_selections": 0.25766125061546036
+    }
+  ]
+}

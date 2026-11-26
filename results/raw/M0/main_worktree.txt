@@ -1,0 +1,5 @@
+$ git -C /home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party/GraphMAE worktree add --detach /home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party/GraphMAE-main-audit origin/main
+Preparing worktree (detached HEAD b14f080)
+HEAD is now at b14f080 Update README
+
+exit_code=0

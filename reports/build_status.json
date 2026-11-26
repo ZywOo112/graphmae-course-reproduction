@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-13T05:35:53.412692+00:00",
+  "tools": {
+    "xelatex": null,
+    "latexmk": null,
+    "bibtex": null
+  },
+  "installed_system_packages": false,
+  "status": "blocked_missing_tex",
+  "compiled": false,
+  "pdf_created": false,
+  "missing": [
+    "xelatex",
+    "latexmk",
+    "bibtex"
+  ],
+  "next_action": "Use a machine with TeX Live (XeLaTeX, ctex/Fandol, fvextra, natbib and BibTeX); compile the full project directory. No system installation performed."
+}

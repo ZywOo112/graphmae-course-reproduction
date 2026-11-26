@@ -1,0 +1,10 @@
+{
+  "stage": "M0_smoke_only",
+  "dataset": "cora",
+  "seed": 0,
+  "pretrain_epochs": 20,
+  "probe_epochs": 20,
+  "official_config": "third_party/GraphMAE/configs.yml",
+  "overrides_after_official_config": ["max_epoch", "max_epoch_f", "seeds", "device"],
+  "purpose": "Validate official model, GPU, data, gradients, pretraining and linear evaluation; not a reproduced accuracy result"
+}

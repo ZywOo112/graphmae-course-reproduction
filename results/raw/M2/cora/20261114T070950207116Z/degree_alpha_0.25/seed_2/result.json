@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": false,
+  "seed": 2,
+  "degree_alpha": 0.25,
+  "initial_model_sha256": "cdbad526dd397fec4d33613d90b3e196c3f8bfbcbd128c5cc058ceed9a66f543",
+  "best_val_accuracy": 0.806,
+  "best_val_correct": 403,
+  "selected_epoch": 176,
+  "pretrain_epochs": 1500,
+  "probe_epochs": 300,
+  "periodic_probes": 7,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 1.0195046663284302,
+  "last_loss": 0.4194328784942627,
+  "pretrain_seconds": 21.655360974022187,
+  "periodic_probe_seconds": 3.8459040549350902,
+  "final_probe_seconds": 0.5453165179351345,
+  "total_seconds": 27.120001020026393,
+  "peak_allocated_mib": 472.689453125,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2737062",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 731737,
+      "mean_masked_times_per_node": 685.1470037453183,
+      "mask_rate_within_group": 0.4567646691635456,
+      "share_of_masked_selections": 0.36028409650418514
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 713739,
+      "mean_masked_times_per_node": 757.6847133757962,
+      "mask_rate_within_group": 0.5051231422505308,
+      "share_of_masked_selections": 0.35142245199409156
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 585524,
+      "mean_masked_times_per_node": 838.8595988538682,
+      "mask_rate_within_group": 0.5592397325692454,
+      "share_of_masked_selections": 0.2882934515017233
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "ea8d4d9d58d5c00bc4fbf6f76ad6a98fde54ebf1f064f1b96572883ee485de61",
+    "classifier_best_val.pt": "c70ed30232129da3d8c7fa724ba5ce1248ade75fde7b5ae8327386b09673627b"
+  }
+}

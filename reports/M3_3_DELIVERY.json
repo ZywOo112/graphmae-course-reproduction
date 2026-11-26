@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "archive": "deliverables/GraphMAE_M3_3_20261116T154053Z.zip",
+  "archive_bytes": 254471394,
+  "archive_mib": 242.6828327178955,
+  "sha256": "e6661d73bb48b2f6b2f6d6b7b74f0581f5669bff34c08c179d59386906558839",
+  "payload_files": 1067,
+  "zip_entries": 1069,
+  "uncompressed_payload_bytes": 305403215,
+  "all_zip_hashes_and_relative_inputs_verified": true,
+  "all_upstream_tracked_files_included": true,
+  "fonts_and_caches_excluded": true,
+  "latex_compiled": false,
+  "printed_code_config_files": 26
+}

@@ -1,0 +1,209 @@
+{
+  "utc": "2026-11-16T15:40:52.527069+00:00",
+  "status": "passed_static_only",
+  "latex_compilation_attempted": false,
+  "model_execution_attempted": false,
+  "scope": "Nine body sections and TikZ checked; appendix whole-file paths/completeness checked separately by package_delivery.py.",
+  "limitations": "Regex/stack checks do not validate TeX expansion, fonts, table widths, float pagination, PDF output, or bibliography rendering.",
+  "body_sections": 9,
+  "figures": 9,
+  "tables": 8,
+  "numbered_math_environments": 15,
+  "labels": 42,
+  "references": 25,
+  "bibliography_keys": [
+    "hou2022graphmae",
+    "kipf2017gcn",
+    "velickovic2018gat",
+    "velickovic2019dgi",
+    "kipf2016vgae",
+    "devlin2019bert",
+    "he2022mae"
+  ],
+  "citation_order": [
+    "hou2022graphmae",
+    "kipf2017gcn",
+    "velickovic2018gat",
+    "velickovic2019dgi",
+    "kipf2016vgae",
+    "devlin2019bert",
+    "he2022mae"
+  ],
+  "inputs": [
+    {
+      "source": "reports/main.tex",
+      "file": "sections/01_introduction.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "sections/02_related.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "sections/03_method.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "sections/04_protocol.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "sections/05_reproduction.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "sections/06_degree_masking.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/sections/06_degree_masking.tex",
+      "file": "figures/degree_masking_scheme.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "sections/07_results.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "sections/08_discussion.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "sections/09_conclusion.tex",
+      "exists": true
+    },
+    {
+      "source": "reports/main.tex",
+      "file": "appendices/generated.tex",
+      "exists": true
+    }
+  ],
+  "graphics": [
+    {
+      "file": "figures/graphmae_official.jpg",
+      "exists": true,
+      "sha256": "14f26275ceaffbaadb5f5d2781a57fbee7d4979959c4a08bb2c47da80d6dd69b",
+      "bytes": 363077,
+      "format": "JPEG",
+      "pixels": [
+        3658,
+        728
+      ]
+    },
+    {
+      "file": "../figures/M1/loss_mean_std.png",
+      "exists": true,
+      "sha256": "8deb19d1d16168f2fb5d65663ae2bb93f018de91420bc47dfdeee017c6060c82",
+      "bytes": 286889,
+      "format": "PNG",
+      "pixels": [
+        2958,
+        1605
+      ]
+    },
+    {
+      "file": "../figures/M1/accuracy_comparison.png",
+      "exists": true,
+      "sha256": "d331ae7b845a91d9d4131d64f04c83c770b65848682fb48b2b6c0422d4bfa375",
+      "bytes": 141583,
+      "format": "PNG",
+      "pixels": [
+        2358,
+        1605
+      ]
+    },
+    {
+      "file": "../figures/M2/validation_comparison.png",
+      "exists": true,
+      "sha256": "fcc02c1321e2f829b91aad96a2ce4ba193f56ad37f096c9f4ef0b85dfa2c8fc5",
+      "bytes": 164199,
+      "format": "PNG",
+      "pixels": [
+        2958,
+        1602
+      ]
+    },
+    {
+      "file": "../figures/M2/paired_test_accuracy.png",
+      "exists": true,
+      "sha256": "7b2e860e05675ae2bd38e34256eb218a6c4e241024a816f75094c3cc83b8af2e",
+      "bytes": 208567,
+      "format": "PNG",
+      "pixels": [
+        2351,
+        1755
+      ]
+    },
+    {
+      "file": "../figures/M2/degree_mask_rates.png",
+      "exists": true,
+      "sha256": "7c61b8d0a3cf1c99dc86653feca68ae9d7ec920d145441d5ac0da6558e43f2ef",
+      "bytes": 175668,
+      "format": "PNG",
+      "pixels": [
+        3258,
+        1755
+      ]
+    },
+    {
+      "file": "../figures/M2/degree_classification.png",
+      "exists": true,
+      "sha256": "3eac640791f535202d4c7c54ef5a7692efec3ed6308899321d5bdb21044cc89b",
+      "bytes": 198263,
+      "format": "PNG",
+      "pixels": [
+        2958,
+        1752
+      ]
+    },
+    {
+      "file": "../figures/M2/loss_curves.png",
+      "exists": true,
+      "sha256": "a1b552b31bb9c2149f75cd557267e88fce347b44b62a4d0c7c1eba1bcc5018f3",
+      "bytes": 466538,
+      "format": "PNG",
+      "pixels": [
+        3258,
+        1752
+      ]
+    }
+  ],
+  "han_characters_in_sources": 8390,
+  "source_sha256": {
+    "reports/main.tex": "54cb8a7ae3588b65801990194f3d3ead3059d1bd244766f0f9dfb9ebe18cb0a9",
+    "reports/sections/01_introduction.tex": "0f9e4753269f142240e5c44b55ca0887388e118f588d29ecd6e57327660ca06d",
+    "reports/sections/02_related.tex": "24e35ff49f1be040abf8d7bb2a61819ed07d43b0ff9a33747a5c5f2bc4112ea7",
+    "reports/sections/03_method.tex": "67c13dfcc36ca469447e4c4d93e7102e2b2476bba334714f370b77d0502d2d78",
+    "reports/sections/04_protocol.tex": "26bedcd517a15524a617c2f81945097d8530de63bb4e3bdb0ca69db17e5a626c",
+    "reports/sections/05_reproduction.tex": "f7c03b6d167f392239e50766f997cf86570fd88a91774c08ef984cca71f0e84c",
+    "reports/sections/06_degree_masking.tex": "734f35271082747cc24154e293b0b96dd56a810edfdd15a4e2b11fa254831079",
+    "reports/figures/degree_masking_scheme.tex": "08f11d596fdab292a53bd02f5e97e4d1bcc4dd68cf840ba59bbc8b5ec2f4dc53",
+    "reports/sections/07_results.tex": "4c31b70f3cf67b8254a7bc68d47a1454228f9bc0423081161b54afecc2885530",
+    "reports/sections/08_discussion.tex": "41965dafdd703c5434f545525efd6bffdef781bb08534e7a78aadce0fc3afa05",
+    "reports/sections/09_conclusion.tex": "d9a1b268ccce0f414f679c0937faa69f129c1299806b0ed0451721ff6a33e8fb",
+    "reports/references.bib": "d28e95dd12fb0113286b3b303fccddd2159a4ad945a53c744bbbbe87c8f1584c"
+  },
+  "protected_artifacts_checked": 856,
+  "protected_mismatches": [],
+  "official_repositories": [
+    {
+      "directory": "third_party/GraphMAE",
+      "commit": "9127f25e01aa5ba1cca68b746284aeb7ab2b4850",
+      "clean": true
+    },
+    {
+      "directory": "third_party/GraphMAE-main-audit",
+      "commit": "b14f080c919257b495e3cb6474286d5252d6a635",
+      "clean": true
+    }
+  ],
+  "errors": []
+}

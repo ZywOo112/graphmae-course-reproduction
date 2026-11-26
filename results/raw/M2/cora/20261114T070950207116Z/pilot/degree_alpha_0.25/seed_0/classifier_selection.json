@@ -1,0 +1,8 @@
+{
+  "best_val_accuracy": 0.758,
+  "selected_epoch": 11,
+  "selected_epoch_zero_based": 10,
+  "epochs_completed": 20,
+  "tie_rule": ">= selects later tied epoch",
+  "test_evaluated": false
+}

@@ -1,0 +1,55 @@
+\section{实验环境与复现方案}\label{sec:protocol}
+\subsection{实现来源与运行环境}
+正式实现来自官方仓库\url{https://github.com/THUDM/GraphMAE}的PyG分支，固定Commit为\texttt{9127f25e01aa5ba1cca68b746284aeb7ab2b4850}。本文没有修改第三方源码，而是在独立包装器中处理配置、日志、掩码适配与标签隔离。官方DGL主分支仅作静态审计，没有作为第二套数值复现。表\ref{tab:environment}列出主要环境，完整依赖锁随项目保留。
+\begin{table}[tbp]
+\centering\small
+\caption{实验环境与原论文环境的区别。}\label{tab:environment}
+\begin{tabularx}{\linewidth}{lXX}\toprule
+项目 & 本项目 & 原论文节点分类环境\\\midrule
+系统/CPU & Ubuntu 24.04.4；双路Xeon Gold 5320 & Linux；Xeon E5-2680 v4等\\
+GPU & M1：A40；M2训练：L40 & Cora等主要实验：RTX 2080Ti\\
+Python / PyTorch & 3.11.7 / 2.4.1+cu121 & 3.7 / 1.9.0\\
+图学习框架 & PyG 2.3.1 & DGL 0.7.2\\
+CUDA & PyTorch运行库12.1 & 10.2\\
+数值/评估库 & NumPy 1.26.4；sklearn 1.5.2 & sklearn 0.24.1\\\bottomrule
+\end{tabularx}
+\end{table}
+系统驱动为595.91.07，系统CUDA Toolkit为13.2.51；它们与PyTorch实际使用的12.1运行库不是同一概念。M1五次训练均使用物理GPU2 A40，M2二十次训练使用物理GPU0 L40；按UUID设置可见设备后，进程内部均为\texttt{cuda:0}。M2最后一个模型的测试推断迁至A40，具体限制见第\ref{sec:limitations}节。实验在项目独立Python环境中运行，未混用其他项目的模型依赖。
+
+\subsection{Cora数据与传导学习协议}
+Cora包含2708个节点、1433维节点特征和7个类别。采用官方PyG的Planetoid加载路径和public split，训练、验证、测试节点数分别为140、500、1000，三者互不交叠；其余1068个节点不参与有监督标签训练。非负特征使用NormalizeFeatures逐行归一化，删除原有自环后给每个节点添加一个自环。
+
+本项目处理后的图有10556个非自环有向边条目，双向对称且无非自环重复，对应5278个唯一无向邻居对；添加2708个自环后共13264个边条目。原论文数据表列出5429条边，不能将其与上述处理后条目直接混用。本文以实际缓存、预处理和SHA256校验记录定义复现数据，不推断这一计数差异的未核实原因。M0、M1、M2共用的8个raw及3个processed文件校验一致。
+
+实验采用传导学习（transductive）设置：预训练可以访问整张图的结构与特征，包括测试节点特征，但不使用类别标签。线性Probe只用140个训练标签更新参数，以500个验证标签选择分类器；测试标签不参与训练、配置调整或选择。M0的20轮短测仅证明流程可运行，不加入正式统计。
+
+\subsection{固定配置与评估流程}
+表\ref{tab:hyperparameters}采用官方\texttt{configs.yml}的Cora有效配置。加载后保存实际参数，核对同值重复键的解析结果；解码层数由模型构造固定为1。M1与M2除掩码选择随机协议外共用该表配置，没有为接近论文结果额外调参。
+\begin{table}[tbp]
+\centering\small
+\caption{M1与M2共用的训练配置。}\label{tab:hyperparameters}
+\begin{tabularx}{\linewidth}{lXlX}\toprule
+参数 & 设置 & 参数 & 设置\\\midrule
+Encoder & 2层GAT，4头，512维 & Decoder & 1层GAT，1输出头\\
+Mask / Replace & 0.5 / 0.05 & SCE指数$\gamma$ & 3（\texttt{alpha\_l}）\\
+特征/注意力Dropout & 0.2 / 0.1 & Drop edge & 0\\
+优化器 & Adam & 学习率调度 & Cosine\\
+预训练学习率 & 0.001 & 预训练权重衰减 & 0.0002\\
+预训练轮数 & 1500 & 每次Probe轮数 & 300\\
+Probe学习率 & 0.01 & Probe权重衰减 & 0.0001\\
+Encoder激活 & PReLU & 残差/归一化 & 均不使用\\\bottomrule
+\end{tabularx}
+\end{table}
+
+每次预训练保留官方在第200、400、600、800、1000、1200和1400轮进行的七次线性Probe，每次完整300轮。这些Probe只评价验证集，不用于选择encoder；其初始化与更新消耗的随机数不被隔离。encoder固定取第1500轮，随后重新训练最终300轮分类器，按式\eqref{eq:probe-selection}选定权重后测试一次。包装器移除了官方周期评估中的测试指标计算，但保留分类器、Adam、训练更新与验证平分规则。测试集没有参与选模。
+
+\subsection{随机性与统计方法}
+五个随机种子固定为0、1、2、3、4，各次独立进程顺序执行。入口设置Python、NumPy、PyTorch CPU/CUDA种子，令cuDNN deterministic为真、benchmark为假；未强制启用可能不兼容的完全确定性算法。GPU scatter等归约仍可能产生非位级确定性。
+
+设测试节点集为$V_{\rm te}$，预测类别为$\widehat y_i$，则
+\begin{equation}\label{eq:accuracy}
+a_s=\operatorname{Acc}_s=\frac1{|V_{\rm te}|}\sum_{i\in V_{\rm te}}\mathbf1\{\widehat y_i=y_i\},\quad
+\bar a=\frac15\sum_{s=0}^{4}a_s,\quad
+s_a=\sqrt{\frac1{4}\sum_{s=0}^{4}(a_s-\bar a)^2}.
+\end{equation}
+其中$\mathbf1$为指示函数，下标$s$表示种子。本文报告均值及样本标准差（ddof=1），把比例乘100后，均值以百分比表示，标准差和差值以百分点表示。Cora为单标签多分类，所有类别计入时Micro-F1与Accuracy相同，故不把两者作为独立效果证据。图中误差条和波动带均为跨五种子的样本标准差，不是置信区间。

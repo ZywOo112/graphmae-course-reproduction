@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "physical_gpu": {
+    "physical_index": 2,
+    "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+    "name": "NVIDIA A40",
+    "shared": true
+  },
+  "own_process_mapping": [
+    [
+      "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+      "2764187",
+      "430"
+    ]
+  ],
+  "context_file": "test_device_override_attempt2.json",
+  "test_evaluations": 1,
+  "original_failed_launch_did_not_evaluate": true
+}

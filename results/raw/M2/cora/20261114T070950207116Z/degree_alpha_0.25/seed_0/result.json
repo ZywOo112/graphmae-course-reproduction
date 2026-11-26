@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": false,
+  "seed": 0,
+  "degree_alpha": 0.25,
+  "initial_model_sha256": "5956829dd3c851bddc9abead0c3a03f0e5c53bf34365131fea77f1a2335dbaef",
+  "best_val_accuracy": 0.8,
+  "best_val_correct": 400,
+  "selected_epoch": 5,
+  "pretrain_epochs": 1500,
+  "probe_epochs": 300,
+  "periodic_probes": 7,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 1.0024797916412354,
+  "last_loss": 0.4097214639186859,
+  "pretrain_seconds": 23.70924616395496,
+  "periodic_probe_seconds": 4.879772371030413,
+  "final_probe_seconds": 0.598424886004068,
+  "total_seconds": 30.30082763696555,
+  "peak_allocated_mib": 472.875,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2730101",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 732242,
+      "mean_masked_times_per_node": 685.6198501872659,
+      "mask_rate_within_group": 0.45707990012484395,
+      "share_of_masked_selections": 0.36053274249138356
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 713719,
+      "mean_masked_times_per_node": 757.6634819532909,
+      "mask_rate_within_group": 0.5051089879688606,
+      "share_of_masked_selections": 0.35141260462826196
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 585039,
+      "mean_masked_times_per_node": 838.1647564469914,
+      "mask_rate_within_group": 0.5587765042979943,
+      "share_of_masked_selections": 0.2880546528803545
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "5f29dc2759b912d870fc6de711e34e0c6cf2dc93a834ce96b166aa1f13119372",
+    "classifier_best_val.pt": "2813a18088804eb7e6c090dd79df3717f27872f5e75d556d7d024f781b1fe2ba"
+  }
+}

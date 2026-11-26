@@ -1,0 +1,8 @@
+$ nvidia-smi --query-gpu=index,name,uuid,memory.total,memory.used,driver_version --format=csv
+index, name, uuid, memory.total [MiB], memory.used [MiB], driver_version
+0, NVIDIA L40, GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f, 46068 MiB, 2421 MiB, 595.91.07
+1, NVIDIA A40, GPU-69ffb98f-78ce-e791-35be-2837c515f072, 46068 MiB, 40375 MiB, 595.91.07
+2, NVIDIA A40, GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18, 46068 MiB, 40375 MiB, 595.91.07
+3, NVIDIA L40, GPU-05ec8018-202f-839f-70c6-2125132e4832, 46068 MiB, 37959 MiB, 595.91.07
+
+exit_code=0

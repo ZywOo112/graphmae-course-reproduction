@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "seed": 0,
+  "official_commit": "9127f25e01aa5ba1cca68b746284aeb7ab2b4850",
+  "pretrain_epochs_completed": 1500,
+  "periodic_probes_completed": 7,
+  "periodic_probe_epochs_each": 300,
+  "final_probe_epochs_completed": 300,
+  "best_val_accuracy": 0.798,
+  "selected_epoch": 300,
+  "selected_epoch_zero_based": 299,
+  "selected_encoder_pretrain_epoch": 1500,
+  "test_accuracy": 0.844,
+  "test_micro_f1": 0.844,
+  "test_evaluations": 1,
+  "test_used_for_selection": false,
+  "first_pretrain_loss": 0.9982354640960693,
+  "last_pretrain_loss": 0.40351539850234985,
+  "pretrain_seconds_excluding_periodic_probes": 20.199858557083644,
+  "periodic_probe_seconds": 2.964295423938893,
+  "final_probe_seconds": 0.4539281449979171,
+  "training_and_probe_seconds": 23.618082126020454,
+  "total_seconds": 27.081749211996794,
+  "peak_allocated_mib": 472.70263671875,
+  "peak_reserved_mib": 592.0,
+  "gpu_mapping": {
+    "physical_nvidia_smi_index": 2,
+    "physical_uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+    "CUDA_VISIBLE_DEVICES": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+    "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+    "logical_device": "cuda:0",
+    "logical_device_count": 1,
+    "gpu_name": "NVIDIA A40",
+    "own_process_mapping": [
+      [
+        "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "2065984",
+        "302"
+      ]
+    ],
+    "shared_at_start": false
+  },
+  "encoder_unchanged_by_probe": true,
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "f78ecd077645ec8d895842a266073a40a1578be229bfabed0ee7ea002e1398a3",
+    "classifier_best_val.pt": "7bc3b18ed50d62535cf239d46880bda9afedc0abec15f69c03dc3ca90611ab63"
+  }
+}

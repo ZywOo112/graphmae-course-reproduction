@@ -1,0 +1,43 @@
+{
+  "summary": "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/results/processed/M1/summary.json",
+  "batch": "results/raw/M1/cora/20261113T065001179740Z",
+  "dpi": 300,
+  "font": "Noto Sans CJK SC",
+  "font_provenance": {
+    "source_urls": {
+      "NotoSansCJKsc-Regular.otf": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/OTF/SimplifiedChinese/NotoSansCJKsc-Regular.otf",
+      "LICENSE": "https://raw.githubusercontent.com/notofonts/noto-cjk/main/Sans/LICENSE"
+    },
+    "sha256": {
+      "NotoSansCJKsc-Regular.otf": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+      "LICENSE": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    "font_file_mtime_utc": "2026-11-13T06:59:19.037896+00:00",
+    "installation": "project-local asset only; no system or Python environment changed"
+  },
+  "matplotlib": "3.8.0",
+  "numpy": "1.26.4",
+  "loss_band": "pointwise sample SD across five seeds, ddof=1, not confidence interval",
+  "figures": [
+    {
+      "file": "figures/M1/loss_curves.png",
+      "sha256": "ec2c9452f8d7638c0ad55eb0e0a4ed67ba5f317f3119368e25d865d2e0b00901"
+    },
+    {
+      "file": "figures/M1/loss_mean_std.png",
+      "sha256": "8deb19d1d16168f2fb5d65663ae2bb93f018de91420bc47dfdeee017c6060c82"
+    },
+    {
+      "file": "figures/M1/accuracy_comparison.png",
+      "sha256": "d331ae7b845a91d9d4131d64f04c83c770b65848682fb48b2b6c0422d4bfa375"
+    },
+    {
+      "file": "figures/M1/validation_results.png",
+      "sha256": "3179536f1503e4473e68d5348012117c81957356675d47cc596024837c860cd1"
+    },
+    {
+      "file": "figures/M1/runtime_comparison.png",
+      "sha256": "f936460d6bce1a56c0386e3fb2d9bfd5f25c9e6111da75093a8eb127e4ec2ae8"
+    }
+  ]
+}

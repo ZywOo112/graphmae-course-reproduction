@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "seed": 3,
+  "pretrain_epochs_completed": 1500,
+  "final_probe_epochs_completed": 300,
+  "quality_check": "passed"
+}

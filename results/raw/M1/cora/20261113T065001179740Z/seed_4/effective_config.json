@@ -1,0 +1,180 @@
+{
+  "seed": 4,
+  "official_args": {
+    "seeds": [
+      4
+    ],
+    "dataset": "cora",
+    "device": 0,
+    "max_epoch": 1500,
+    "warmup_steps": -1,
+    "num_heads": 4,
+    "num_out_heads": 1,
+    "num_layers": 2,
+    "num_hidden": 512,
+    "residual": false,
+    "in_drop": 0.2,
+    "attn_drop": 0.1,
+    "norm": null,
+    "lr": 0.001,
+    "weight_decay": 0.0002,
+    "negative_slope": 0.2,
+    "activation": "prelu",
+    "mask_rate": 0.5,
+    "drop_edge_rate": 0.0,
+    "replace_rate": 0.05,
+    "encoder": "gat",
+    "decoder": "gat",
+    "loss_fn": "sce",
+    "alpha_l": 3,
+    "optimizer": "adam",
+    "max_epoch_f": 300,
+    "lr_f": 0.01,
+    "weight_decay_f": 0.0001,
+    "linear_prob": true,
+    "load_model": false,
+    "save_model": false,
+    "use_cfg": true,
+    "logging": false,
+    "scheduler": true,
+    "concat_hidden": false,
+    "pooling": "mean",
+    "deg4feat": false,
+    "batch_size": 32,
+    "num_features": 1433
+  },
+  "official_commit": "9127f25e01aa5ba1cca68b746284aeb7ab2b4850",
+  "preflight_batch": "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/results/raw/M1/cora/20261113T065001179740Z",
+  "data": {
+    "nodes": 2708,
+    "features": 1433,
+    "classes": 7,
+    "directed_edge_entries_including_self_loops": 13264,
+    "split": [
+      140,
+      500,
+      1000
+    ],
+    "normalize_features_verified": true,
+    "one_self_loop_per_node": true,
+    "sha256_matches_M0_before_and_after_load": true,
+    "sha256": {
+      "cora/processed/data.pt": "2eeaa78850545ecb388d1113ca6543452b46d5ddd3c3356a6f9cb0aedf3e4a19",
+      "cora/processed/pre_filter.pt": "42a86817b56c49da2bf50ecd039532de990d3ecbf7e9d65396e5fca25346ca59",
+      "cora/processed/pre_transform.pt": "d1f3eb6d1179ad1ceab1d0fabf921d7e445593d2623299b7dbb9f93bc193c199",
+      "cora/raw/ind.cora.allx": "9419ba2f26f5c35243db64aba110e0f35a04851609e0dc5433450676ca6b8543",
+      "cora/raw/ind.cora.ally": "2b998f5cc7fedc86e7f97ca2498f47a1ffc1462c29e2d578b23bf3f62b6e7d71",
+      "cora/raw/ind.cora.graph": "58f13302f39dde8852dad6fe6d15b89b077b6d7f837626bce671ef80344b383d",
+      "cora/raw/ind.cora.test.index": "297ce89af2b51a6a194181c7dbe1796c6a1cf9cd9349a88383b1b1e227867875",
+      "cora/raw/ind.cora.tx": "b9afbaa4a400df991f6f02ef677e1e44da55ffc04801fd02f9e673987829226a",
+      "cora/raw/ind.cora.ty": "41f5ac76596a1699cc33f53084a2419e92961c42bb75f36fc38e616d348532ad",
+      "cora/raw/ind.cora.x": "23cfa55d91c6f624233f5eb7b6e3f141f1bd2b2ae39608a63cf5d084bb27baab",
+      "cora/raw/ind.cora.y": "94465c14eb53e04ca262198dcbb2521ee8af60fb3f3d546cd6ca24a511b0e7d1"
+    }
+  },
+  "decoder_layers_verified": 1,
+  "gpu_before_start": {
+    "utc": "2026-11-13T06:56:39.585563+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 500,
+        "memory.used": 44961,
+        "utilization.gpu": 100
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 31593,
+        "memory.used": 13898,
+        "utilization.gpu": 92
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 45488,
+        "memory.used": 3,
+        "utilization.gpu": 0
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 4686,
+        "memory.used": 40775,
+        "utilization.gpu": 100
+      }
+    ],
+    "full_nvidia_smi": "Fri Nov 13 06:56:39 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   68C    P0            234W /  300W |   44961MiB /  46068MiB |    100%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   59C    P0            234W /  300W |   13898MiB /  46068MiB |     92%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   49C    P0             84W /  300W |       3MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   65C    P0            212W /  300W |   40775MiB /  46068MiB |    100%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    0   N/A  N/A         1651880      C   python                                 2130MiB |\n|    0   N/A  N/A         2048953      C   VLLM::Worker_TP0                      40762MiB |\n|    0   N/A  N/A         2067271      C   python                                  916MiB |\n|    0   N/A  N/A         2069147      C   python                                 1124MiB |\n|    1   N/A  N/A         2068309      C   ...iments/.venv_llaga/bin/python      13890MiB |\n|    3   N/A  N/A         2048954      C   VLLM::Worker_TP1                      40762MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  "gpu_mapping": {
+    "physical_nvidia_smi_index": 2,
+    "physical_uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+    "CUDA_VISIBLE_DEVICES": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+    "CUDA_DEVICE_ORDER": "PCI_BUS_ID",
+    "logical_device": "cuda:0",
+    "logical_device_count": 1,
+    "gpu_name": "NVIDIA A40",
+    "own_process_mapping": [
+      [
+        "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "2070225",
+        "302"
+      ]
+    ],
+    "shared_at_start": false
+  },
+  "rng": {
+    "python_numpy_torch_cpu_cuda_seed": 4,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "deterministic_algorithms": false,
+    "caveat": "PyG scatter GPU atomics may remain nondeterministic"
+  },
+  "protocol": {
+    "periodic_probe_epochs": [
+      200,
+      400,
+      600,
+      800,
+      1000,
+      1200,
+      1400
+    ],
+    "probe_epochs_each": 300,
+    "periodic_probe_RNG_isolation": false,
+    "final_encoder_epoch": 1500,
+    "classifier_selection": "final probe validation >=, later ties",
+    "test_evaluations_planned": 1,
+    "test_labels_passed_to_training_or_probe": false
+  },
+  "environment": {
+    "python": "3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]",
+    "executable": "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/.venv/bin/python",
+    "torch_cuda_runtime": "12.1",
+    "packages": {
+      "torch": "2.4.1+cu121",
+      "torch-geometric": "2.3.1",
+      "torch-scatter": "2.1.2+pt24cu121",
+      "torch-sparse": "0.6.18+pt24cu121",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit-learn": "1.5.2",
+      "PyYAML": "6.0.2",
+      "ogb": "1.3.6",
+      "tensorboardX": "2.6.2.2"
+    }
+  },
+  "runner_sources_sha256": {
+    "run_m1.py": "403681dbb6bd39dcd458f2044e46d18e3bbd6b9e98eb83edc1bd5831d8aa20ea",
+    "preflight_m1.py": "f12646f9106568a1001bac33c5b416aa5fed015cb9efcde09c0aeb0dea1071d3"
+  }
+}

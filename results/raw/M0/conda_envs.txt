@@ -1,0 +1,13 @@
+$ conda env list --json
+{
+  "envs": [
+    "/home/fuqiang/anaconda3",
+    "/home/fuqiang/anaconda3/envs/domain_eval",
+    "/home/fuqiang/anaconda3/envs/fastapi",
+    "/home/fuqiang/anaconda3/envs/llama_factory",
+    "/home/fuqiang/anaconda3/envs/qwen_grpo",
+    "/home/fuqiang/anaconda3/envs/trl_ppo"
+  ]
+}
+
+exit_code=0

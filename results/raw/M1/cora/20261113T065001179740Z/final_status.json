@@ -1,0 +1,14 @@
+{
+  "status": "M1_complete_paused",
+  "seeds_completed": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "all_quality_checks_passed": true,
+  "training_started": true,
+  "M2_started": false,
+  "acceptance": "M1_ACCEPTANCE.md"
+}

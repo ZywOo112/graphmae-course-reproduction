@@ -1,0 +1,72 @@
+[
+  {
+    "best_val_accuracy": 0.778,
+    "selected_epoch": 207,
+    "selected_epoch_zero_based": 206,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 200,
+    "seconds": 0.614851001999341
+  },
+  {
+    "best_val_accuracy": 0.79,
+    "selected_epoch": 297,
+    "selected_epoch_zero_based": 296,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 400,
+    "seconds": 0.46533264103345573
+  },
+  {
+    "best_val_accuracy": 0.786,
+    "selected_epoch": 300,
+    "selected_epoch_zero_based": 299,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 600,
+    "seconds": 0.4983350400580093
+  },
+  {
+    "best_val_accuracy": 0.782,
+    "selected_epoch": 112,
+    "selected_epoch_zero_based": 111,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 800,
+    "seconds": 0.4624688639305532
+  },
+  {
+    "best_val_accuracy": 0.784,
+    "selected_epoch": 10,
+    "selected_epoch_zero_based": 9,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 1000,
+    "seconds": 0.45741251995787024
+  },
+  {
+    "best_val_accuracy": 0.78,
+    "selected_epoch": 300,
+    "selected_epoch_zero_based": 299,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 1200,
+    "seconds": 0.4804867639904842
+  },
+  {
+    "best_val_accuracy": 0.782,
+    "selected_epoch": 300,
+    "selected_epoch_zero_based": 299,
+    "epochs_completed": 300,
+    "tie_rule": ">= selects later tied epoch",
+    "test_evaluated": false,
+    "pretrain_epoch": 1400,
+    "seconds": 0.5037963549839333
+  }
+]

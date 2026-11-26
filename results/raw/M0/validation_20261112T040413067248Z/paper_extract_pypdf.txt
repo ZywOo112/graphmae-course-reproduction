@@ -1,0 +1,4 @@
+$ /home/fuqiang/homework/机器学习课程大作业/GraphMAE/.venv/bin/python -c from pypdf import PdfReader; from pathlib import Path; p=Path('/home/fuqiang/homework/机器学习课程大作业/GraphMAE/docs/paper/GraphMAE.pdf'); r=PdfReader(p); p.with_suffix('.txt').write_text('\n\n'.join(page.extract_text() for page in r.pages)); print('pages',len(r.pages))
+pages 11
+
+exit_code=0

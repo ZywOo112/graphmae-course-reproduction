@@ -1,0 +1,17 @@
+% Editable TikZ source; included by main.tex, not a standalone document.
+\begin{tikzpicture}[
+  node distance=5mm and 5mm,
+  box/.style={draw,rounded corners=2pt,align=center,minimum height=12mm,
+    text width=25mm,inner sep=3pt,font=\small},
+  flow/.style={-{Latex[length=2mm]},thick}]
+\node[box] (graph) {图结构\\去自环、去重};
+\node[box,right=of graph] (degree) {唯一邻居度数\\$d_i=|\mathcal N(i)|$};
+\node[box,right=of degree] (weight) {掩码权重\\$(d_i+1)^{\alpha_d}$};
+\node[box,right=of weight] (sample) {无放回采样\\$|M|=1354$};
+\node[box,below=7mm of sample] (train) {原GraphMAE\\重建训练};
+\draw[flow] (graph)--(degree);
+\draw[flow] (degree)--(weight);
+\draw[flow] (weight)--(sample);
+\draw[flow] (sample)--(train);
+\node[align=left,font=\small,anchor=east,left=5mm of train] {只调整节点选择分布\\模型、掩码预算与损失保持不变};
+\end{tikzpicture}

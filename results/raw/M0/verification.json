@@ -1,0 +1,13 @@
+{
+  "GraphMAE": {
+    "commit": "9127f25e01aa5ba1cca68b746284aeb7ab2b4850",
+    "status_porcelain": "",
+    "remote": "https://github.com/THUDM/GraphMAE.git"
+  },
+  "GraphMAE-main-audit": {
+    "commit": "b14f080c919257b495e3cb6474286d5252d6a635",
+    "status_porcelain": "",
+    "remote": "https://github.com/THUDM/GraphMAE.git"
+  },
+  "bundle_sha256": "9a4e154ac1066731e49532f51e5ffe41d0f26eb8f2d83bbf21b473ee63a74645"
+}

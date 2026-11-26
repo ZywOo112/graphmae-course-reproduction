@@ -1,0 +1,123 @@
+{
+  "stage": "M1",
+  "status": "passed",
+  "batch": "results/raw/M1/cora/20261113T065001179740Z",
+  "official_commit": "9127f25e01aa5ba1cca68b746284aeb7ab2b4850",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "n_seeds": 5,
+  "accuracy_mean": 0.8398,
+  "accuracy_sample_std": 0.010568822072492288,
+  "micro_f1_mean": 0.8398,
+  "micro_f1_sample_std": 0.010568822072492288,
+  "std_ddof": 1,
+  "average_runtime_seconds": 26.091966850403697,
+  "total_seed_runtime_seconds": 130.45983425201848,
+  "paper_reference": {
+    "accuracy_mean": 0.842,
+    "reported_std": 0.004,
+    "n_initializations": 20,
+    "source": "GraphMAE arXiv v3 Table 1; reported reference, not a local run"
+  },
+  "difference_from_paper_percentage_points": -0.21999999999999797,
+  "selected_epoch_numbering": "one-based; zero-based field separately provided",
+  "accuracy_micro_f1_identity": "same single-label multiclass predictions, not independent evidence",
+  "protocol": {
+    "pretrain_epochs_per_seed": 1500,
+    "periodic_probe_epochs": [
+      200,
+      400,
+      600,
+      800,
+      1000,
+      1200,
+      1400
+    ],
+    "classifier_epochs_per_probe": 300,
+    "final_encoder_selection": "fixed final epoch; periodic probes never choose encoder",
+    "classifier_selection": "final probe validation accuracy, later tie",
+    "test_evaluations_per_seed": 1
+  },
+  "records": [
+    {
+      "seed": 0,
+      "best_val_accuracy": 0.798,
+      "selected_epoch": 300,
+      "selected_epoch_zero_based": 299,
+      "test_accuracy": 0.844,
+      "micro_f1": 0.844,
+      "runtime_seconds": 27.081749211996794,
+      "pretrain_seconds": 20.199858557083644,
+      "periodic_probe_seconds": 2.964295423938893,
+      "final_probe_seconds": 0.4539281449979171,
+      "peak_allocated_mib": 472.70263671875,
+      "peak_reserved_mib": 592.0,
+      "result_directory": "results/raw/M1/cora/20261113T065001179740Z/seed_0"
+    },
+    {
+      "seed": 1,
+      "best_val_accuracy": 0.796,
+      "selected_epoch": 300,
+      "selected_epoch_zero_based": 299,
+      "test_accuracy": 0.845,
+      "micro_f1": 0.845,
+      "runtime_seconds": 26.496829616022296,
+      "pretrain_seconds": 19.73211740795523,
+      "periodic_probe_seconds": 3.1847348880255595,
+      "final_probe_seconds": 0.39159114204812795,
+      "peak_allocated_mib": 472.70263671875,
+      "peak_reserved_mib": 592.0,
+      "result_directory": "results/raw/M1/cora/20261113T065001179740Z/seed_1"
+    },
+    {
+      "seed": 2,
+      "best_val_accuracy": 0.804,
+      "selected_epoch": 193,
+      "selected_epoch_zero_based": 192,
+      "test_accuracy": 0.839,
+      "micro_f1": 0.839,
+      "runtime_seconds": 25.737749160034582,
+      "pretrain_seconds": 18.930585677037016,
+      "periodic_probe_seconds": 3.210533699952066,
+      "final_probe_seconds": 0.38088059704750776,
+      "peak_allocated_mib": 472.70263671875,
+      "peak_reserved_mib": 592.0,
+      "result_directory": "results/raw/M1/cora/20261113T065001179740Z/seed_2"
+    },
+    {
+      "seed": 3,
+      "best_val_accuracy": 0.806,
+      "selected_epoch": 153,
+      "selected_epoch_zero_based": 152,
+      "test_accuracy": 0.849,
+      "micro_f1": 0.849,
+      "runtime_seconds": 25.31190405099187,
+      "pretrain_seconds": 18.74919762997888,
+      "periodic_probe_seconds": 2.756438339012675,
+      "final_probe_seconds": 0.46629299700725824,
+      "peak_allocated_mib": 472.70263671875,
+      "peak_reserved_mib": 592.0,
+      "result_directory": "results/raw/M1/cora/20261113T065001179740Z/seed_3"
+    },
+    {
+      "seed": 4,
+      "best_val_accuracy": 0.8,
+      "selected_epoch": 25,
+      "selected_epoch_zero_based": 24,
+      "test_accuracy": 0.822,
+      "micro_f1": 0.822,
+      "runtime_seconds": 25.83160221297294,
+      "pretrain_seconds": 18.945002766908146,
+      "periodic_probe_seconds": 3.092436185106635,
+      "final_probe_seconds": 0.5317622140282765,
+      "peak_allocated_mib": 472.70263671875,
+      "peak_reserved_mib": 592.0,
+      "result_directory": "results/raw/M1/cora/20261113T065001179740Z/seed_4"
+    }
+  ]
+}

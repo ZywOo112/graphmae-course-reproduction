@@ -1,0 +1,61 @@
+{
+  "session_file": "/home/fuqiang/.codex/sessions/2026/11/12/rollout-2026-11-12T03-48-51-01a1cddf-6163-7061-a1f3-bdf5774aa614.jsonl",
+  "policy": "Exact primary user tasks and assistant finals only. No M3.3 before its final, no commentary or unrelated projects.",
+  "stages": {
+    "M0": {
+      "status": "complete",
+      "prompt": "agent_logs/M0/prompt.md",
+      "response": "agent_logs/M0/response.md",
+      "prompt_sha256": "b9cb7c370c64fb6cb1f1e4e0db54fcd2f9287eee39fbf5b56d72289f815eca15",
+      "response_sha256": "fcb89e109bd1db228a7577a58f8f3352996889652f76923450d7504dc8a3a545",
+      "prompt_line": 12,
+      "prompt_utc": "2026-11-12T03:49:27.889Z",
+      "response_line": 291,
+      "response_utc": "2026-11-13T05:36:35.642Z"
+    },
+    "M1": {
+      "status": "complete",
+      "prompt": "agent_logs/M1/prompt.md",
+      "response": "agent_logs/M1/response.md",
+      "prompt_sha256": "7aabe7111e8047c32978cd546e9bc38ce1eadbdf42956264879e42335d5b3b19",
+      "response_sha256": "e34b865aaeeb1413b8c6a80d52aa4b74c028bb1245eb2711dc5e4bd45573bcd4",
+      "prompt_line": 301,
+      "prompt_utc": "2026-11-13T06:44:18.487Z",
+      "response_line": 571,
+      "response_utc": "2026-11-13T07:13:08.334Z"
+    },
+    "M2": {
+      "status": "complete",
+      "prompt": "agent_logs/M2/prompt.md",
+      "response": "agent_logs/M2/response.md",
+      "prompt_sha256": "1cd310a37d00de07373faa4e4659d5a24b7646fbfea892ef1a1878c74830081b",
+      "response_sha256": "7a963f79eb14314abea803e2db5a71bec1e1e67178ca3fd10a35d927044d3296",
+      "prompt_line": 578,
+      "prompt_utc": "2026-11-13T07:26:31.941Z",
+      "response_line": 1031,
+      "response_utc": "2026-11-14T08:37:49.381Z"
+    },
+    "M3_1": {
+      "status": "complete",
+      "prompt": "agent_logs/M3_1/prompt.md",
+      "response": "agent_logs/M3_1/response.md",
+      "prompt_sha256": "47d64d8c64d2c5522f3c78357f5be4db15022cc6a25f005df2c37d9056287c32",
+      "response_sha256": "5788dbf0a8ebbbddc9218cff9c49a1cd0e2109b51b9afeb52bf7f2ad4cb4f998",
+      "prompt_line": 1042,
+      "prompt_utc": "2026-11-14T11:40:32.780Z",
+      "response_line": 1325,
+      "response_utc": "2026-11-14T13:30:13.269Z"
+    },
+    "M3_2": {
+      "status": "complete",
+      "prompt": "agent_logs/M3_2/prompt.md",
+      "response": "agent_logs/M3_2/response.md",
+      "prompt_sha256": "c114a81ab5ecfd55e94e3445c3ebcecdb7dba48ac3d78c57d4ac35f23253ae03",
+      "response_sha256": "39166dbadc0fb91b146d68d721d7852edd4878b3ea5ce495f57ebff1f63a1a57",
+      "prompt_line": 1356,
+      "prompt_utc": "2026-11-16T14:55:01.964Z",
+      "response_line": 1515,
+      "response_utc": "2026-11-16T15:11:44.687Z"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "summary": "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/results/processed/M2/summary.json",
+  "summary_sha256": "0afb56e37844e339f465223822eb438ab08e9d3538ec5f72237aabb342e1b1de",
+  "batch": "results/raw/M2/cora/20261114T070950207116Z",
+  "dpi": 300,
+  "font": "Noto Sans CJK SC",
+  "font_file": "figures/M1/assets/NotoSansCJKsc-Regular.otf",
+  "font_sha256": "2c76254f6fc379fddfce0a7e84fb5385bb135d3e399294f6eeb6680d0365b74b",
+  "font_license": "figures/M1/assets/LICENSE",
+  "matplotlib": "3.8.0",
+  "numpy": "1.26.4",
+  "error_bars": "sample SD across five seeds, ddof=1, not confidence interval",
+  "figures": [
+    {
+      "file": "figures/M2/validation_comparison.png",
+      "sha256": "fcc02c1321e2f829b91aad96a2ce4ba193f56ad37f096c9f4ef0b85dfa2c8fc5"
+    },
+    {
+      "file": "figures/M2/paired_test_accuracy.png",
+      "sha256": "7b2e860e05675ae2bd38e34256eb218a6c4e241024a816f75094c3cc83b8af2e"
+    },
+    {
+      "file": "figures/M2/degree_mask_rates.png",
+      "sha256": "7c61b8d0a3cf1c99dc86653feca68ae9d7ec920d145441d5ac0da6558e43f2ef"
+    },
+    {
+      "file": "figures/M2/degree_classification.png",
+      "sha256": "3eac640791f535202d4c7c54ef5a7692efec3ed6308899321d5bdb21044cc89b"
+    },
+    {
+      "file": "figures/M2/loss_curves.png",
+      "sha256": "a1b552b31bb9c2149f75cd557267e88fce347b44b62a4d0c7c1eba1bcc5018f3"
+    }
+  ]
+}

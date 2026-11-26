@@ -1,0 +1,48 @@
+{
+  "utc": "2026-11-13T05:35:53.502148+00:00",
+  "required_files_exist": true,
+  "python_source_syntax": "passed",
+  "requirements_lock_validation": "Valid pinned requirements: 53\n",
+  "dependency_check": "Using Python 3.11.7 environment at: homework/机器学习课程大作业/GraphMAE/.venv\nChecked 53 packages in 2ms\nAll installed packages are compatible\n",
+  "lock_offline_dry_run": "Using Python 3.11.7 environment at: homework/机器学习课程大作业/GraphMAE/.venv\nChecked 53 packages in 11ms\nWould make no changes\n",
+  "skill_validation": "Skill is valid!\n",
+  "data_and_paper_sha256": "passed",
+  "repositories": {
+    "GraphMAE": {
+      "commit": "9127f25e01aa5ba1cca68b746284aeb7ab2b4850",
+      "status": ""
+    },
+    "GraphMAE-main-audit": {
+      "commit": "b14f080c919257b495e3cb6474286d5252d6a635",
+      "status": ""
+    }
+  },
+  "smoke_summary": "results/raw/M0/smoke_20261112T040413960326Z/summary.json",
+  "smoke_was_not_rerun": true,
+  "appendix_import_count": 24,
+  "self_written_source_and_configs_count": 13,
+  "all_annex_paths_and_hashes_checked": true,
+  "latex": {
+    "utc": "2026-11-13T05:35:53.412692+00:00",
+    "tools": {
+      "xelatex": null,
+      "latexmk": null,
+      "bibtex": null
+    },
+    "installed_system_packages": false,
+    "status": "blocked_missing_tex",
+    "compiled": false,
+    "pdf_created": false,
+    "missing": [
+      "xelatex",
+      "latexmk",
+      "bibtex"
+    ],
+    "next_action": "Use a machine with TeX Live (XeLaTeX, ctex/Fandol, fvextra, natbib and BibTeX); compile the full project directory. No system installation performed."
+  },
+  "agent_final_export": "exported_from_actual_final_message",
+  "disk_usage_bytes": "5620486144\t/home/fuqiang/homework/机器学习课程大作业/GraphMAE/.venv\n16334848\t/home/fuqiang/homework/机器学习课程大作业/GraphMAE/data\n33161216\t/home/fuqiang/homework/机器学习课程大作业/GraphMAE/third_party\n176128\t/home/fuqiang/homework/机器学习课程大作业/GraphMAE/results\n32768\t/home/fuqiang/homework/机器学习课程大作业/GraphMAE/reports\n",
+  "formal_M1_started": false,
+  "agent_response_sha256": "fcb89e109bd1db228a7577a58f8f3352996889652f76923450d7504dc8a3a545",
+  "agent_export_utc": "2026-11-13T05:36:36.596948+00:00"
+}

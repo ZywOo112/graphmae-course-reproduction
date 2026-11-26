@@ -1,0 +1,12 @@
+$ python3 -c import importlib.util,importlib.metadata as m,json; print(json.dumps({p: (m.version(p) if importlib.util.find_spec(s) else None) for p,s in [('torch','torch'),('torch-geometric','torch_geometric'),('dgl','dgl'),('numpy','numpy')]},indent=2)); import torch; print('CUDA build',torch.version.cuda,'available',torch.cuda.is_available())
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'torch'
+{
+  "torch": null,
+  "torch-geometric": null,
+  "dgl": null,
+  "numpy": "1.26.4"
+}
+
+exit_code=1

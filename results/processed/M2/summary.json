@@ -1,0 +1,415 @@
+{
+  "stage": "M2",
+  "status": "passed",
+  "batch": "results/raw/M2/cora/20261114T070950207116Z",
+  "n_formal_runs": 20,
+  "selected_degree_alpha": 0.25,
+  "selection_sha256": "b53ab53915629e278faa79c81a2a38d6b935cf3219ab31bd337edadf2bbad0b3",
+  "validation": [
+    {
+      "degree_alpha": 0,
+      "n_seeds": 5,
+      "validation_accuracy_mean": 0.8004,
+      "validation_accuracy_sample_std": 0.002190890230020666,
+      "validation_correct_sum": 2001,
+      "runtime_mean_seconds": 26.992573872976937,
+      "peak_allocated_mib_mean": 472.7265625,
+      "loss_last_100_mean": 0.40212509787082673
+    },
+    {
+      "degree_alpha": 0.25,
+      "n_seeds": 5,
+      "validation_accuracy_mean": 0.796,
+      "validation_accuracy_sample_std": 0.007615773105863915,
+      "validation_correct_sum": 1990,
+      "runtime_mean_seconds": 28.2186360612046,
+      "peak_allocated_mib_mean": 472.7265625,
+      "loss_last_100_mean": 0.4148927798867226
+    },
+    {
+      "degree_alpha": 0.5,
+      "n_seeds": 5,
+      "validation_accuracy_mean": 0.7852,
+      "validation_accuracy_sample_std": 0.0048166378315169225,
+      "validation_correct_sum": 1963,
+      "runtime_mean_seconds": 27.5381165349856,
+      "peak_allocated_mib_mean": 472.689453125,
+      "loss_last_100_mean": 0.425382695555687
+    },
+    {
+      "degree_alpha": 1,
+      "n_seeds": 5,
+      "validation_accuracy_mean": 0.7615999999999999,
+      "validation_accuracy_sample_std": 0.0220635445928346,
+      "validation_correct_sum": 1904,
+      "runtime_mean_seconds": 29.379509969986977,
+      "peak_allocated_mib_mean": 472.7265625,
+      "loss_last_100_mean": 0.4420834950208664
+    }
+  ],
+  "test_performance": [
+    {
+      "degree_alpha": 0,
+      "accuracy_mean": 0.842,
+      "accuracy_sample_std": 0.0036742346141747707
+    },
+    {
+      "degree_alpha": 0.25,
+      "accuracy_mean": 0.8291999999999999,
+      "accuracy_sample_std": 0.0166643331699771
+    }
+  ],
+  "paired_records": [
+    {
+      "seed": 0,
+      "control_accuracy": 0.842,
+      "selected_degree_alpha": 0.25,
+      "degree_accuracy": 0.801,
+      "difference_percentage_points": -4.0999999999999925
+    },
+    {
+      "seed": 1,
+      "control_accuracy": 0.848,
+      "selected_degree_alpha": 0.25,
+      "degree_accuracy": 0.835,
+      "difference_percentage_points": -1.3000000000000012
+    },
+    {
+      "seed": 2,
+      "control_accuracy": 0.841,
+      "selected_degree_alpha": 0.25,
+      "degree_accuracy": 0.84,
+      "difference_percentage_points": -0.10000000000000009
+    },
+    {
+      "seed": 3,
+      "control_accuracy": 0.841,
+      "selected_degree_alpha": 0.25,
+      "degree_accuracy": 0.842,
+      "difference_percentage_points": 0.10000000000000009
+    },
+    {
+      "seed": 4,
+      "control_accuracy": 0.838,
+      "selected_degree_alpha": 0.25,
+      "degree_accuracy": 0.828,
+      "difference_percentage_points": -1.0000000000000009
+    }
+  ],
+  "paired_difference_mean_percentage_points": -1.279999999999999,
+  "paired_difference_sample_std_percentage_points": 1.6828547174370072,
+  "std_ddof": 1,
+  "mask_groups": [
+    {
+      "degree_alpha": 0,
+      "degree_group": 0,
+      "nodes": 1068,
+      "mask_rate_mean": 0.5000034956304619,
+      "mask_rate_sample_std": 0.0003642910699182967,
+      "mean_masked_times_per_node": 750.0052434456928
+    },
+    {
+      "degree_alpha": 0,
+      "degree_group": 1,
+      "nodes": 942,
+      "mask_rate_mean": 0.49976730360934185,
+      "mask_rate_sample_std": 0.00031273812480825776,
+      "mean_masked_times_per_node": 749.6509554140127
+    },
+    {
+      "degree_alpha": 0,
+      "degree_group": 2,
+      "nodes": 698,
+      "mask_rate_mean": 0.5003086914995224,
+      "mask_rate_sample_std": 0.0003309434224837996,
+      "mean_masked_times_per_node": 750.4630372492836
+    },
+    {
+      "degree_alpha": 0.25,
+      "degree_group": 0,
+      "nodes": 1068,
+      "mask_rate_mean": 0.45684469413233464,
+      "mask_rate_sample_std": 0.00013622614093896436,
+      "mean_masked_times_per_node": 685.2670411985019
+    },
+    {
+      "degree_alpha": 0.25,
+      "degree_group": 1,
+      "nodes": 942,
+      "mask_rate_mean": 0.5052264685067233,
+      "mask_rate_sample_std": 0.0003723948199703762,
+      "mean_masked_times_per_node": 757.839702760085
+    },
+    {
+      "degree_alpha": 0.25,
+      "degree_group": 2,
+      "nodes": 698,
+      "mask_rate_mean": 0.5589778414517671,
+      "mask_rate_sample_std": 0.0005528206763040952,
+      "mean_masked_times_per_node": 838.4667621776504
+    },
+    {
+      "degree_alpha": 0.5,
+      "degree_group": 0,
+      "nodes": 1068,
+      "mask_rate_mean": 0.4155504369538078,
+      "mask_rate_sample_std": 0.0002212123210836927,
+      "mean_masked_times_per_node": 623.3256554307117
+    },
+    {
+      "degree_alpha": 0.5,
+      "degree_group": 1,
+      "nodes": 942,
+      "mask_rate_mean": 0.5092409058740269,
+      "mask_rate_sample_std": 0.00035887231449296047,
+      "mean_masked_times_per_node": 763.8613588110404
+    },
+    {
+      "degree_alpha": 0.5,
+      "degree_group": 2,
+      "nodes": 698,
+      "mask_rate_mean": 0.6167438395415473,
+      "mask_rate_sample_std": 0.0006671117115071789,
+      "mean_masked_times_per_node": 925.115759312321
+    },
+    {
+      "degree_alpha": 1,
+      "degree_group": 0,
+      "nodes": 1068,
+      "mask_rate_mean": 0.34142634207240946,
+      "mask_rate_sample_std": 0.00021081860309154582,
+      "mean_masked_times_per_node": 512.1395131086142
+    },
+    {
+      "degree_alpha": 1,
+      "degree_group": 1,
+      "nodes": 942,
+      "mask_rate_mean": 0.5169214437367303,
+      "mask_rate_sample_std": 0.0003263912596361521,
+      "mean_masked_times_per_node": 775.3821656050956
+    },
+    {
+      "degree_alpha": 1,
+      "degree_group": 2,
+      "nodes": 698,
+      "mask_rate_mean": 0.7197946513849093,
+      "mask_rate_sample_std": 0.00046198446627968655,
+      "mean_masked_times_per_node": 1079.691977077364
+    }
+  ],
+  "classification_groups": [
+    {
+      "degree_alpha": 0,
+      "degree_group": 0,
+      "test_nodes_per_seed": 400,
+      "total_correct_across_seeds": 1575,
+      "total_evaluations": 2000,
+      "accuracy_mean": 0.7875,
+      "accuracy_sample_std": 0.006846531968814572
+    },
+    {
+      "degree_alpha": 0,
+      "degree_group": 1,
+      "test_nodes_per_seed": 348,
+      "total_correct_across_seeds": 1543,
+      "total_evaluations": 1740,
+      "accuracy_mean": 0.8867816091954023,
+      "accuracy_sample_std": 0.0043579743931330605
+    },
+    {
+      "degree_alpha": 0,
+      "degree_group": 2,
+      "test_nodes_per_seed": 252,
+      "total_correct_across_seeds": 1092,
+      "total_evaluations": 1260,
+      "accuracy_mean": 0.8666666666666668,
+      "accuracy_sample_std": 0.003549314249999654
+    },
+    {
+      "degree_alpha": 0.25,
+      "degree_group": 0,
+      "test_nodes_per_seed": 400,
+      "total_correct_across_seeds": 1556,
+      "total_evaluations": 2000,
+      "accuracy_mean": 0.7780000000000001,
+      "accuracy_sample_std": 0.013157697366940764
+    },
+    {
+      "degree_alpha": 0.25,
+      "degree_group": 1,
+      "test_nodes_per_seed": 348,
+      "total_correct_across_seeds": 1519,
+      "total_evaluations": 1740,
+      "accuracy_mean": 0.8729885057471265,
+      "accuracy_sample_std": 0.022753830913596753
+    },
+    {
+      "degree_alpha": 0.25,
+      "degree_group": 2,
+      "test_nodes_per_seed": 252,
+      "total_correct_across_seeds": 1071,
+      "total_evaluations": 1260,
+      "accuracy_mean": 0.85,
+      "accuracy_sample_std": 0.014953526731283173
+    }
+  ],
+  "degree_metadata": {
+    "node_count": 2708,
+    "input_edge_entries": 13264,
+    "self_loop_entries_removed": 2708,
+    "non_self_edge_entries": 10556,
+    "unique_directed_neighbor_pairs": 10556,
+    "duplicate_non_self_entries_removed": 0,
+    "bidirectionally_symmetric": true,
+    "degree_definition": "unique non-self neighbors in symmetric graph",
+    "minimum": 1,
+    "maximum": 168,
+    "mean": 3.8980797636632203,
+    "median": 3,
+    "group_rule": "minimize sum of squared deviations from N/3 over two whole-degree boundaries; tie: smaller boundaries",
+    "low_max_inclusive": 2,
+    "medium_max_inclusive": 4,
+    "groups": [
+      {
+        "group": 0,
+        "name": "low",
+        "nodes": 1068,
+        "minimum_degree": 1,
+        "maximum_degree": 2,
+        "mean_degree": 1.5458801498127341
+      },
+      {
+        "group": 1,
+        "name": "medium",
+        "nodes": 942,
+        "minimum_degree": 3,
+        "maximum_degree": 4,
+        "mean_degree": 3.4129511677282376
+      },
+      {
+        "group": 2,
+        "name": "high",
+        "nodes": 698,
+        "minimum_degree": 5,
+        "maximum_degree": 168,
+        "mean_degree": 8.151862464183381
+      }
+    ],
+    "degree_vector_raw_int64_sha256": "620aaf9feeb6d42ce3ce7a6b5323926619f25a26f8a9f2ead7531dce780f00c3",
+    "files_sha256": {
+      "groups.npy": "a788662079d0aee17a4588de3c48d5ada2016ecdce4b6141fa5e762b4e791eb3",
+      "degree_distribution.csv": "5ed66e33f03d1f57915715acd2fa4c592eeb598751816f6296d0e3557807fdfa",
+      "degrees.npy": "26e67be7b5070414744e887427ab1188281468febdef362e57826094887321b3",
+      "nodes.csv": "84213a0ae47df71be9f22c61f679bc9dc39019ec64a5524156ecd9ea1b50c275"
+    },
+    "labels_used": false
+  },
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "name": "NVIDIA L40",
+    "idle": true,
+    "shared": false
+  },
+  "rng_checks": [
+    {
+      "seed": 0,
+      "initial_model_sha256": "5956829dd3c851bddc9abead0c3a03f0e5c53bf34365131fea77f1a2335dbaef",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5001805157593123,
+        0.5587765042979943,
+        0.616658070678128,
+        0.7198815663801337
+      ]
+    },
+    {
+      "seed": 1,
+      "initial_model_sha256": "ba03698e6dc4e33fa68ead22157ba8fb4d43ed8a0a765d731ed81befee4b0118",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.49981852913085006,
+        0.5586437440305635,
+        0.6165138490926456,
+        0.719487106017192
+      ]
+    },
+    {
+      "seed": 2,
+      "initial_model_sha256": "cdbad526dd397fec4d33613d90b3e196c3f8bfbcbd128c5cc058ceed9a66f543",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5005434574976122,
+        0.5592397325692454,
+        0.6171404011461318,
+        0.7201308500477555
+      ]
+    },
+    {
+      "seed": 3,
+      "initial_model_sha256": "b53beb2123bcf454f736fd91dc61115800d6e1433e743d9e9ce4884b7a989d45",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5003381088825215,
+        0.5584202483285577,
+        0.6158204393505253,
+        0.7191747851002865
+      ]
+    },
+    {
+      "seed": 4,
+      "initial_model_sha256": "e8f2280b427917647dd8553a4cc93003a84f52b03d17cb68ef03173b3e317e4d",
+      "initial_weights_equal": true,
+      "all_epoch_global_rng_and_replacement_traces_equal": true,
+      "high_degree_mask_rates": [
+        0.5006628462273162,
+        0.5598089780324738,
+        0.6175864374403056,
+        0.7202989493791786
+      ]
+    }
+  ],
+  "classification_group_paired_effects": [
+    {
+      "degree_group": 0,
+      "paired_difference_mean_percentage_points": -0.9499999999999996,
+      "paired_difference_sample_std_percentage_points": 1.6046806535881233
+    },
+    {
+      "degree_group": 1,
+      "paired_difference_mean_percentage_points": -1.3793103448275867,
+      "paired_difference_sample_std_percentage_points": 2.3468410332293637
+    },
+    {
+      "degree_group": 2,
+      "paired_difference_mean_percentage_points": -1.6666666666666718,
+      "paired_difference_sample_std_percentage_points": 1.298049780460013
+    }
+  ],
+  "test_count": 10,
+  "unselected_positive_coefficients_tested": false,
+  "old_milestone_files_preserved": true,
+  "final_test_device_exception": {
+    "status": "passed",
+    "physical_gpu": {
+      "physical_index": 2,
+      "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+      "name": "NVIDIA A40",
+      "shared": true
+    },
+    "own_process_mapping": [
+      [
+        "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "2764187",
+        "430"
+      ]
+    ],
+    "context_file": "test_device_override_attempt2.json",
+    "test_evaluations": 1,
+    "original_failed_launch_did_not_evaluate": true
+  }
+}

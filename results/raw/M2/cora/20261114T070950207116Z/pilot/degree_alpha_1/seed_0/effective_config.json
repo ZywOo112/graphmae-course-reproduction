@@ -1,0 +1,141 @@
+{
+  "stage": "M2_pilot",
+  "degree_alpha": 1.0,
+  "seed": 0,
+  "official_args": {
+    "seeds": [
+      0
+    ],
+    "dataset": "cora",
+    "device": 0,
+    "max_epoch": 20,
+    "warmup_steps": -1,
+    "num_heads": 4,
+    "num_out_heads": 1,
+    "num_layers": 2,
+    "num_hidden": 512,
+    "residual": false,
+    "in_drop": 0.2,
+    "attn_drop": 0.1,
+    "norm": null,
+    "lr": 0.001,
+    "weight_decay": 0.0002,
+    "negative_slope": 0.2,
+    "activation": "prelu",
+    "mask_rate": 0.5,
+    "drop_edge_rate": 0.0,
+    "replace_rate": 0.05,
+    "encoder": "gat",
+    "decoder": "gat",
+    "loss_fn": "sce",
+    "alpha_l": 3,
+    "optimizer": "adam",
+    "max_epoch_f": 20,
+    "lr_f": 0.01,
+    "weight_decay_f": 0.0001,
+    "linear_prob": true,
+    "load_model": false,
+    "save_model": false,
+    "use_cfg": true,
+    "logging": false,
+    "scheduler": true,
+    "concat_hidden": false,
+    "pooling": "mean",
+    "deg4feat": false,
+    "batch_size": 32,
+    "num_features": 1433
+  },
+  "official_commit": "9127f25e01aa5ba1cca68b746284aeb7ab2b4850",
+  "initial_model_sha256": "5956829dd3c851bddc9abead0c3a03f0e5c53bf34365131fea77f1a2335dbaef",
+  "mask_rng_seed": 0,
+  "global_rng_after_initialization": [
+    "dbd0a888b5c6912e6446533bf06e8b4f4f45db520814f7afd710431b03862ac5",
+    "374708fff7719dd5979ec875d56cd2286f6d3cf7ec317a3b25632aab28ec37bb"
+  ],
+  "rng_protocol": "Each arm uses dedicated CPU Generator(seed); control actual selection=randperm, positive actual selection=multinomial without replacement. Every arm consumes original CUDA randperm(N) first. Original replacement randperm(k) and donor randperm(N) unchanged. CPU/CUDA global RNG traced each epoch.",
+  "data_sha256": {
+    "cora/processed/data.pt": "2eeaa78850545ecb388d1113ca6543452b46d5ddd3c3356a6f9cb0aedf3e4a19",
+    "cora/processed/pre_filter.pt": "42a86817b56c49da2bf50ecd039532de990d3ecbf7e9d65396e5fca25346ca59",
+    "cora/processed/pre_transform.pt": "d1f3eb6d1179ad1ceab1d0fabf921d7e445593d2623299b7dbb9f93bc193c199",
+    "cora/raw/ind.cora.allx": "9419ba2f26f5c35243db64aba110e0f35a04851609e0dc5433450676ca6b8543",
+    "cora/raw/ind.cora.ally": "2b998f5cc7fedc86e7f97ca2498f47a1ffc1462c29e2d578b23bf3f62b6e7d71",
+    "cora/raw/ind.cora.graph": "58f13302f39dde8852dad6fe6d15b89b077b6d7f837626bce671ef80344b383d",
+    "cora/raw/ind.cora.test.index": "297ce89af2b51a6a194181c7dbe1796c6a1cf9cd9349a88383b1b1e227867875",
+    "cora/raw/ind.cora.tx": "b9afbaa4a400df991f6f02ef677e1e44da55ffc04801fd02f9e673987829226a",
+    "cora/raw/ind.cora.ty": "41f5ac76596a1699cc33f53084a2419e92961c42bb75f36fc38e616d348532ad",
+    "cora/raw/ind.cora.x": "23cfa55d91c6f624233f5eb7b6e3f141f1bd2b2ae39608a63cf5d084bb27baab",
+    "cora/raw/ind.cora.y": "94465c14eb53e04ca262198dcbb2521ee8af60fb3f3d546cd6ca24a511b0e7d1"
+  },
+  "degree_files_sha256": {
+    "groups.npy": "a788662079d0aee17a4588de3c48d5ada2016ecdce4b6141fa5e762b4e791eb3",
+    "degree_distribution.csv": "5ed66e33f03d1f57915715acd2fa4c592eeb598751816f6296d0e3557807fdfa",
+    "degree_metadata.json": "d29ae87950741cd9acbe7ed412e973aba0c5e60026cfa925a8dc5ad11d13900c",
+    "degrees.npy": "26e67be7b5070414744e887427ab1188281468febdef362e57826094887321b3",
+    "nodes.csv": "84213a0ae47df71be9f22c61f679bc9dc39019ec64a5524156ecd9ea1b50c275"
+  },
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2728623",
+        "466"
+      ]
+    ]
+  },
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "deterministic_algorithms": false,
+  "gpu_before_start": {
+    "utc": "2026-11-14T07:12:33.340248+00:00",
+    "gpus": [
+      {
+        "index": 0,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "memory.total": 46068,
+        "memory.free": 45460,
+        "memory.used": 0,
+        "utilization.gpu": 0
+      },
+      {
+        "index": 1,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-69ffb98f-78ce-e791-35be-2837c515f072",
+        "memory.total": 46068,
+        "memory.free": 28054,
+        "memory.used": 17437,
+        "utilization.gpu": 81
+      },
+      {
+        "index": 2,
+        "name": "NVIDIA A40",
+        "uuid": "GPU-ea2c34c5-d296-26b5-ecb1-36cc6c7f5f18",
+        "memory.total": 46068,
+        "memory.free": 27702,
+        "memory.used": 17789,
+        "utilization.gpu": 62
+      },
+      {
+        "index": 3,
+        "name": "NVIDIA L40",
+        "uuid": "GPU-05ec8018-202f-839f-70c6-2125132e4832",
+        "memory.total": 46068,
+        "memory.free": 27966,
+        "memory.used": 17495,
+        "utilization.gpu": 37
+      }
+    ],
+    "full_nvidia_smi": "Sat Nov 14 07:12:33 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 595.91.07              Driver Version: 595.91.07      CUDA Version: 13.2     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  NVIDIA L40                     Off |   00000000:17:00.0 Off |                    0 |\n| N/A   36C    P0             82W /  300W |       0MiB /  46068MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  NVIDIA A40                     Off |   00000000:65:00.0 Off |                    0 |\n|  0%   70C    P0            252W /  300W |   17437MiB /  46068MiB |     93%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   2  NVIDIA A40                     Off |   00000000:CA:00.0 Off |                    0 |\n|  0%   69C    P0            206W /  300W |   17789MiB /  46068MiB |     61%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   3  NVIDIA L40                     Off |   00000000:E3:00.0 Off |                    0 |\n| N/A   69C    P0            188W /  300W |   17495MiB /  46068MiB |     41%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|    1   N/A  N/A         2706090      C   .venv_server/bin/python               17428MiB |\n|    2   N/A  N/A         2704671      C   .venv_server/bin/python               17780MiB |\n|    3   N/A  N/A         2701343      C   ...aconda3/envs/cohba/bin/python      17486MiB |\n+-----------------------------------------------------------------------------------------+\n"
+  },
+  "sources_sha256": {
+    "run_m2.py": "5971e3dad165d1c189012ebdb2f405518133a4313606568969c1cbf89e9377d8",
+    "m2_masking.py": "d0acc1d2c6cb233c20fc3993f64808e74effe37cbf09ce987281e2b0af5f062f",
+    "run_m1.py": "403681dbb6bd39dcd458f2044e46d18e3bbd6b9e98eb83edc1bd5831d8aa20ea"
+  },
+  "test_policy": "No test labels in graph or probe inputs; evaluation deferred until all 20 and sealed alpha selection."
+}

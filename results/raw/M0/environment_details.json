@@ -1,0 +1,52 @@
+{
+  "utc": "2026-11-12T04:03:04.822851+00:00",
+  "python_environments_read_only": {
+    "/home/fuqiang/anaconda3/bin/python": {
+      "returncode": 0,
+      "output": "{\"python\": \"3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]\", \"torch\": null, \"torch-geometric\": null, \"dgl\": null, \"numpy\": \"1.26.4\", \"torch-scatter\": null, \"torch-sparse\": null}\n",
+      "stderr": ""
+    },
+    "/home/fuqiang/homework/机器学习课程大作业/GraphMAE/.venv/bin/python": {
+      "returncode": 0,
+      "output": "{\"python\": \"3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]\", \"torch\": \"2.4.1+cu121\", \"torch-geometric\": \"2.3.1\", \"dgl\": null, \"numpy\": \"1.26.4\", \"torch-scatter\": \"2.1.2+pt24cu121\", \"torch-sparse\": \"0.6.18+pt24cu121\"}\n",
+      "stderr": ""
+    },
+    "/home/fuqiang/anaconda3/envs/domain_eval/bin/python": {
+      "returncode": 0,
+      "output": "{\"python\": \"3.12.13 | packaged by Anaconda, Inc. | (main, Jul  9 2026, 14:38:16) [GCC 14.3.0]\", \"torch\": \"2.11.0+cu130\", \"torch-geometric\": null, \"dgl\": null, \"numpy\": \"2.4.6\", \"torch-scatter\": null, \"torch-sparse\": null}\n",
+      "stderr": ""
+    },
+    "/home/fuqiang/anaconda3/envs/fastapi/bin/python": {
+      "returncode": 0,
+      "output": "{\"python\": \"3.11.17 (main, Oct  1 2026, 20:17:42) [GCC 14.3.0]\", \"torch\": null, \"torch-geometric\": null, \"dgl\": null, \"numpy\": null, \"torch-scatter\": null, \"torch-sparse\": null}\n",
+      "stderr": ""
+    },
+    "/home/fuqiang/anaconda3/envs/llama_factory/bin/python": {
+      "returncode": 0,
+      "output": "{\"python\": \"3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]\", \"torch\": \"2.13.0\", \"torch-geometric\": null, \"dgl\": null, \"numpy\": \"2.4.6\", \"torch-scatter\": null, \"torch-sparse\": null}\n",
+      "stderr": ""
+    },
+    "/home/fuqiang/anaconda3/envs/qwen_grpo/bin/python": {
+      "returncode": 0,
+      "output": "{\"python\": \"3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]\", \"torch\": \"2.13.0\", \"torch-geometric\": null, \"dgl\": null, \"numpy\": \"2.4.6\", \"torch-scatter\": null, \"torch-sparse\": null}\n",
+      "stderr": ""
+    },
+    "/home/fuqiang/anaconda3/envs/trl_ppo/bin/python": {
+      "returncode": 0,
+      "output": "{\"python\": \"3.11.15 (main, Jun 11 2026, 15:20:16) [GCC 14.3.0]\", \"torch\": \"2.13.0\", \"torch-geometric\": null, \"dgl\": null, \"numpy\": \"2.4.6\", \"torch-scatter\": null, \"torch-sparse\": null}\n",
+      "stderr": ""
+    }
+  },
+  "tools": {
+    "uv": "/home/fuqiang/.local/bin/uv",
+    "conda": "/home/fuqiang/anaconda3/bin/conda",
+    "xelatex": null,
+    "latexmk": null,
+    "bibtex": null,
+    "pdflatex": null,
+    "tectonic": null,
+    "pdftotext": null,
+    "fc-list": "/home/fuqiang/anaconda3/bin/fc-list"
+  },
+  "cuda_toolkit_nvcc": "/usr/local/cuda/bin/nvcc"
+}

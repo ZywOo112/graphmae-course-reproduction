@@ -1,0 +1,4 @@
+{
+  "repr": "PreModel(\n  (encoder): GAT(\n    (gat_layers): ModuleList(\n      (0): GATConv(1433, 128, heads=4)\n      (1): GATConv(512, 128, heads=4)\n    )\n    (activation): PReLU(num_parameters=1)\n    (head): Identity()\n  )\n  (decoder): GAT(\n    (gat_layers): ModuleList(\n      (0): GATConv(512, 1433, heads=1)\n    )\n    (activation): PReLU(num_parameters=1)\n    (head): Identity()\n  )\n  (encoder_to_decoder): Linear(in_features=512, out_features=512, bias=False)\n)",
+  "parameter_count": 2000488
+}

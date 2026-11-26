@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": true,
+  "seed": 0,
+  "degree_alpha": 0.5,
+  "initial_model_sha256": "5956829dd3c851bddc9abead0c3a03f0e5c53bf34365131fea77f1a2335dbaef",
+  "best_val_accuracy": 0.756,
+  "best_val_correct": 378,
+  "selected_epoch": 8,
+  "pretrain_epochs": 20,
+  "probe_epochs": 20,
+  "periodic_probes": 0,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 1.0026482343673706,
+  "last_loss": 0.53342604637146,
+  "pretrain_seconds": 0.7549116460140795,
+  "periodic_probe_seconds": 0,
+  "final_probe_seconds": 0.07975782500579953,
+  "total_seconds": 1.7007263749837875,
+  "peak_allocated_mib": 472.689453125,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2728341",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 8882,
+      "mean_masked_times_per_node": 8.316479400749063,
+      "mask_rate_within_group": 0.4158239700374532,
+      "share_of_masked_selections": 0.3279911373707533
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 9544,
+      "mean_masked_times_per_node": 10.13163481953291,
+      "mask_rate_within_group": 0.5065817409766454,
+      "share_of_masked_selections": 0.35243722304283603
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 8654,
+      "mean_masked_times_per_node": 12.398280802292264,
+      "mask_rate_within_group": 0.6199140401146132,
+      "share_of_masked_selections": 0.31957163958641066
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "004ef9dd7e728c16cd045e97fa704f6a209aff32c18827ea2180d0fdceb86c05",
+    "classifier_best_val.pt": "c85dc1339bd2ad8abee92fa992f4108bc8c0023eca41785d03a25be3e067a970"
+  }
+}

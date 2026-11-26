@@ -1,0 +1,67 @@
+{
+  "status": "validation_complete",
+  "pilot": false,
+  "seed": 2,
+  "degree_alpha": 0.0,
+  "initial_model_sha256": "cdbad526dd397fec4d33613d90b3e196c3f8bfbcbd128c5cc058ceed9a66f543",
+  "best_val_accuracy": 0.804,
+  "best_val_correct": 402,
+  "selected_epoch": 300,
+  "pretrain_epochs": 1500,
+  "probe_epochs": 300,
+  "periodic_probes": 7,
+  "test_evaluations": 0,
+  "test_deferred": true,
+  "first_loss": 1.0193918943405151,
+  "last_loss": 0.40389442443847656,
+  "pretrain_seconds": 21.358894687029533,
+  "periodic_probe_seconds": 5.059034970938228,
+  "final_probe_seconds": 0.6827277840347961,
+  "total_seconds": 28.16902117698919,
+  "peak_allocated_mib": 472.875,
+  "peak_reserved_mib": 592.0,
+  "gpu": {
+    "physical_index": 0,
+    "uuid": "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+    "logical_device": "cuda:0",
+    "name": "NVIDIA L40",
+    "shared_at_start": false,
+    "own_process_mapping": [
+      [
+        "GPU-d5c836bd-a705-8d7f-2422-40f4c922fc4f",
+        "2736228",
+        "466"
+      ]
+    ]
+  },
+  "mask_groups": [
+    {
+      "group": 0,
+      "nodes": 1068,
+      "selections": 800917,
+      "mean_masked_times_per_node": 749.9222846441947,
+      "mask_rate_within_group": 0.4999481897627965,
+      "share_of_masked_selections": 0.39434613490891185
+    },
+    {
+      "group": 1,
+      "nodes": 942,
+      "selections": 706014,
+      "mean_masked_times_per_node": 749.484076433121,
+      "mask_rate_within_group": 0.499656050955414,
+      "share_of_masked_selections": 0.3476189069423929
+    },
+    {
+      "group": 2,
+      "nodes": 698,
+      "selections": 524069,
+      "mean_masked_times_per_node": 750.8151862464183,
+      "mask_rate_within_group": 0.5005434574976122,
+      "share_of_masked_selections": 0.2580349581486952
+    }
+  ],
+  "checkpoint_sha256": {
+    "pretrained_final.pt": "484fb97d3312fcfc01b836d226574e4b9519fabd1910ca6638005b3f977fdf1d",
+    "classifier_best_val.pt": "872cabb19eb2c3e18d54d72ff1d75c9762e94a42de894e874621befa3b7f0a53"
+  }
+}

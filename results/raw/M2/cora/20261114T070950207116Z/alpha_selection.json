@@ -1,0 +1,179 @@
+{
+  "utc": "2026-11-14T07:27:47.306577+00:00",
+  "selected_degree_alpha": 0.25,
+  "criterion": "maximum five-seed mean best validation accuracy among positive coefficients; tie choose smaller alpha, using exact integer correct totals",
+  "groups": [
+    {
+      "degree_alpha": 0.0,
+      "validation_correct_sum": 2001,
+      "validation_accuracy_mean": 0.8004,
+      "seed_validation_accuracy": [
+        0.798,
+        0.8,
+        0.804,
+        0.8,
+        0.8
+      ]
+    },
+    {
+      "degree_alpha": 0.25,
+      "validation_correct_sum": 1990,
+      "validation_accuracy_mean": 0.796,
+      "seed_validation_accuracy": [
+        0.8,
+        0.792,
+        0.806,
+        0.796,
+        0.786
+      ]
+    },
+    {
+      "degree_alpha": 0.5,
+      "validation_correct_sum": 1963,
+      "validation_accuracy_mean": 0.7852,
+      "seed_validation_accuracy": [
+        0.788,
+        0.78,
+        0.788,
+        0.78,
+        0.79
+      ]
+    },
+    {
+      "degree_alpha": 1.0,
+      "validation_correct_sum": 1904,
+      "validation_accuracy_mean": 0.7616,
+      "seed_validation_accuracy": [
+        0.748,
+        0.74,
+        0.774,
+        0.794,
+        0.752
+      ]
+    }
+  ],
+  "inputs_sha256": {
+    "control/seed_0": {
+      "result.json": "430f7016a5dd545b120d7bce2a68c24f0b43dcdde21049f78321ae7694f3b8ae",
+      "classifier_selection.json": "3dc798d5ee4bc19a5ac1cb23b44d56fbc313d63990c5b9eee0b9d14bbcf16eea",
+      "pretrained_final.pt": "a829a24e0df27a8468753e7e5c5b5895bce53d4cebbac8a9981955f205055a02",
+      "classifier_best_val.pt": "03cc0b075cb2a2800003e1e7c4a444fabe6b6a0ac2c3d58b5bbabafd9290ad2a"
+    },
+    "control/seed_1": {
+      "result.json": "ff8fe33917234483ddd794cb11831bb7477887ba024f0557545d13b7f16ac790",
+      "classifier_selection.json": "a872931f139aa992a17185e703cd0980dd409f0eb6693a30cdf2bb448a817dd5",
+      "pretrained_final.pt": "c43aa6d7f510954320a2814a91dd58093e642eb4fe91f99f0ab25c5ede2fb13a",
+      "classifier_best_val.pt": "161aa92fce472e1a2817c777b18036725ccff8b0decd287784eca6aad9844c0e"
+    },
+    "control/seed_2": {
+      "result.json": "cf1bb9d8a08dbc6d1a73c887b8aa641d08af7808f857324ed4ec8364f5cf8682",
+      "classifier_selection.json": "3942dbcbd52da3b3bc9e8c59469ab0354e107be3b6697105e4b0c143a2cd4040",
+      "pretrained_final.pt": "484fb97d3312fcfc01b836d226574e4b9519fabd1910ca6638005b3f977fdf1d",
+      "classifier_best_val.pt": "872cabb19eb2c3e18d54d72ff1d75c9762e94a42de894e874621befa3b7f0a53"
+    },
+    "control/seed_3": {
+      "result.json": "9c43154bff960401883f97b2208d1c5428f20821f61731e45284607145b1418d",
+      "classifier_selection.json": "990cf322a5be6d5df951569ae198eeb984ff78c8e1eb95b236bd3daf01c88f75",
+      "pretrained_final.pt": "d0b2270fb8e7e64986f1e99e9186b86f9002a1bf498b2ebaed7d90b65a883b4f",
+      "classifier_best_val.pt": "10925184f39dd185191c9466759954c7b8d347c2d058b30020e4ecd68b24df45"
+    },
+    "control/seed_4": {
+      "result.json": "ac1c2459308e894be88d423aa3e25552b20c87629ad9ef464ef5abf09ec722dd",
+      "classifier_selection.json": "990cf322a5be6d5df951569ae198eeb984ff78c8e1eb95b236bd3daf01c88f75",
+      "pretrained_final.pt": "e38ef22f2a4eca1e3b26c8562b9780419cd65b18430774209d048ff82d41b52f",
+      "classifier_best_val.pt": "c668d78f659bd81f4bb9d3d60007676d5ed288e0bd9276d9c4be063554b95a86"
+    },
+    "degree_alpha_0.25/seed_0": {
+      "result.json": "37273204acdf24450c80beb327c430e0e99e6f62d558089ad134604420f4774f",
+      "classifier_selection.json": "11740fac24022a012eafbaad38a17edf678fa4f5d51e7fa0dba0ee66087ddbb1",
+      "pretrained_final.pt": "5f29dc2759b912d870fc6de711e34e0c6cf2dc93a834ce96b166aa1f13119372",
+      "classifier_best_val.pt": "2813a18088804eb7e6c090dd79df3717f27872f5e75d556d7d024f781b1fe2ba"
+    },
+    "degree_alpha_0.25/seed_1": {
+      "result.json": "ccf448d6dbf3200c2cc33566486e4532f45fc98675e48b5db0ee82faf4d59703",
+      "classifier_selection.json": "893c60e0e2cbc7240863733ea3c65876c6b98c883b5ecbdb6b2130de6cf6b1c7",
+      "pretrained_final.pt": "ceda7e227c8ab5de8ccdec6cc2826e7213dcfdd33d68c0f0be92293eb4615bb0",
+      "classifier_best_val.pt": "a984bddc22f2e50a00064d20d3b1fcea5d52c6fa956b750b310f8f65ba07ce2b"
+    },
+    "degree_alpha_0.25/seed_2": {
+      "result.json": "7d127c3baa9b7f8d5e2317eabd9bd530544b59f1d4a51ea97a9b4f29c87ea6aa",
+      "classifier_selection.json": "53d8e3fcab81f1980005a13ca67eb41a493fb40c90430adcc677ebe3bf3acb89",
+      "pretrained_final.pt": "ea8d4d9d58d5c00bc4fbf6f76ad6a98fde54ebf1f064f1b96572883ee485de61",
+      "classifier_best_val.pt": "c70ed30232129da3d8c7fa724ba5ce1248ade75fde7b5ae8327386b09673627b"
+    },
+    "degree_alpha_0.25/seed_3": {
+      "result.json": "29e56dea4463f3a7bf73ec223fbb9c3d9a0b1e2291d9835656373b472b5a1a34",
+      "classifier_selection.json": "ec64b8d71170409609f3bd48cc4cd7fa709e51c1db034b9bb766987baabbe0cb",
+      "pretrained_final.pt": "35d57dd6f656d9967649103cdbf12ba246baa35c9ac5c812bb5cef4219b65cb1",
+      "classifier_best_val.pt": "67533d3e43b76dc4761057bfdb5803fab3c18ea71341ccdfd4b5875d67b91c29"
+    },
+    "degree_alpha_0.25/seed_4": {
+      "result.json": "59c066289e08e51b8faa24941f66cc48f3452706213c3da5c598e2ff01387b9a",
+      "classifier_selection.json": "2ddaf2afbd808fff91ebcd62717ed102033374f39b6835e8a200e773f12c95bb",
+      "pretrained_final.pt": "d60bcaabc77d6264e856133cb3f3b05f5459f4c75a1f2d25cbb2d4afb58f4600",
+      "classifier_best_val.pt": "9b32a85333645e5ec736f9af237d787d997e671c0562d74d10072316e5cf020b"
+    },
+    "degree_alpha_0.5/seed_0": {
+      "result.json": "9b1f91c0aa3e5a14bfed7ecc069d3b2cf0cf1b34756e96865f480da1e2858118",
+      "classifier_selection.json": "7d3087518188fe9afd121e1b63a147bd7bc347322654bfc5477a171a9b8126fc",
+      "pretrained_final.pt": "3ef9d7d3851b21ae812f24f4d027ee8222b4ecae41f131ffdd7e2417b5647d66",
+      "classifier_best_val.pt": "45b121eeb02e833537a7b84c5b912e6395131f39a3d398b0c64585ec1b37426a"
+    },
+    "degree_alpha_0.5/seed_1": {
+      "result.json": "5b6ea21be35cbd51404035ec8958c1654af0eb8adf86ceb2f75d27b1dc299b51",
+      "classifier_selection.json": "19fe84791b48deca79cce145da521177a8dceea344a0437949f819182a895cfb",
+      "pretrained_final.pt": "c5b6f3018a29d5bfbc09ac9dd7a594a9752e1d5da70361559cc798da30c40336",
+      "classifier_best_val.pt": "64fa9577efd34079e3851bfc96074000d4a2ce3f3377f7fd1efcb34807afff19"
+    },
+    "degree_alpha_0.5/seed_2": {
+      "result.json": "3e1f17d24225557261ead472e7cca1bec7508906570f6d6e227c0dff2a365c87",
+      "classifier_selection.json": "1df2cb1dac06495087711eef58eeeefdd33468f27d85e65b225da2c3d788c70d",
+      "pretrained_final.pt": "b68a9181f2a8bf5abab22188ee71ea84316e24a606b7fa1f6a61f65b99d8a70f",
+      "classifier_best_val.pt": "671fa67a2abaab7db56c8628ee2b846e37b23e67c317d007418f9788721577b7"
+    },
+    "degree_alpha_0.5/seed_3": {
+      "result.json": "b892f400156f1ca7e4bb3c0a3b3fe18dbc3f2690d253f9a040cd24fd741ce301",
+      "classifier_selection.json": "19fe84791b48deca79cce145da521177a8dceea344a0437949f819182a895cfb",
+      "pretrained_final.pt": "66f305063e28f7369ea3c970aae7793f73e3ec8eb960c3ef3423048691e08c48",
+      "classifier_best_val.pt": "6425f291495cdaf7c6c2bfcb3f8827e9ded78df0f50dea3459f5fb1f9edff0e9"
+    },
+    "degree_alpha_0.5/seed_4": {
+      "result.json": "eec7a0b27ba03494d8928ba161c909f799a37f2a2065d79381fe34185586c945",
+      "classifier_selection.json": "b675fe9a41ff119388cecf5254f04c41c89b2d6abf1b25d258ba793bf8700c08",
+      "pretrained_final.pt": "3eaf7ca40277b6cf36d8d5a6219e6da041dc0dcb5e0c8a42991e81ecc4c6e091",
+      "classifier_best_val.pt": "314c4aaf03e902ebcefcba62e4f690dc453af229364e64bf3b6ed60103764a8d"
+    },
+    "degree_alpha_1/seed_0": {
+      "result.json": "a6641e7c0d509462d48f7d58a63489b709d65edc42b1b61de471d4ff5ac1e328",
+      "classifier_selection.json": "e27a3c2e4d3ba0b2bb495e1cb1b4c6f53e80ce7336f15b25e043bbb789ec989f",
+      "pretrained_final.pt": "17aa639895cf21ff910bbe5048eb81382ca2f037cac49456928132a58d71bb47",
+      "classifier_best_val.pt": "6843dc1e97fff92069a64ddebf49125ca179f201ad668da359355d1dc71b8659"
+    },
+    "degree_alpha_1/seed_1": {
+      "result.json": "014d7bc4b0149be1c51ab68f051da1de2403d4d10fe75c66591d7fd20c289293",
+      "classifier_selection.json": "6a36e102a783e851c1465f31d12c285313f1c473d55d90766719b4f6ede4da88",
+      "pretrained_final.pt": "f109c09288cf96199bd603a4c77a6993428a3c86ab29ecb87320790ca194b83b",
+      "classifier_best_val.pt": "2dcb1b4c3bb4209850d85e3ff4d566996270c47e658aa34dfb93e8b96d7e1862"
+    },
+    "degree_alpha_1/seed_2": {
+      "result.json": "3205e771755a7398015eed1f7a0045e86afaff158f31b0cdbf65bb488c1fcfe3",
+      "classifier_selection.json": "3990fdd7565e1127f1114059796268436a44da69c2f8bb36c84a24200cfafe57",
+      "pretrained_final.pt": "4c2508bd432d25dc621891b05ee5103c96b0cf45e6975c86c9a3849c312bdd16",
+      "classifier_best_val.pt": "bada64defedb01da9b6065f37dea1ae3a50925f75c7fe3f5b33279467912d43d"
+    },
+    "degree_alpha_1/seed_3": {
+      "result.json": "290bdb1aacda2f29c4abd35c19c8e5ca440e9ce46b1759acf45a1228a02dc9ed",
+      "classifier_selection.json": "b6681867022687d164eb7fc7f1def46712ff2c4a95f7459d69e76849a093c616",
+      "pretrained_final.pt": "548539d4edc3e39f39110138ce21fbb36259a98bad76e751e9ad8eaa1b6a561a",
+      "classifier_best_val.pt": "dbf25c628b221b518e8e54fc5088b09e5442e9455ff98c01be0debc95cf87019"
+    },
+    "degree_alpha_1/seed_4": {
+      "result.json": "f655c0bee913261b5f26c7adc3fce5366e5aa3fd65786eb54475a62ee8d0fe23",
+      "classifier_selection.json": "ca658bf941494470b2ce0b7fbbb751a5a2d4a22767ef58acb43493e19909077e",
+      "pretrained_final.pt": "753d0d815bf99a6733687149c116a03a0f8cd22f1b49a4ef3b3f5d6d6e1f9e30",
+      "classifier_best_val.pt": "db441224476bfc337a74c5a2f5615248b08ee24b4f9377039822bfe00d6f051c"
+    }
+  },
+  "test_results_available_at_selection": false,
+  "all_20_training_complete": true
+}

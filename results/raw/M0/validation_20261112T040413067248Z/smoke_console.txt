@@ -1,0 +1,80 @@
+$ /home/fuqiang/homework/机器学习课程大作业/GraphMAE/.venv/bin/python /home/fuqiang/homework/机器学习课程大作业/GraphMAE/scripts/smoke_test.py --gpu 0 --allow-shared
+2026-11-12 04:04:21,130 - INFO - Using best configs
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.x
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.tx
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.allx
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.y
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.ty
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.ally
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.graph
+Downloading https://github.com/kimiyoung/planetoid/raw/master/data/ind.cora.test.index
+Processing...
+Done!
+/home/fuqiang/homework/机器学习课程大作业/GraphMAE/.venv/lib/python3.11/site-packages/torch_geometric/datasets/planetoid.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  self.data, self.slices = torch.load(self.processed_paths[0])
+2026-11-12 04:04:33,001 - INFO - start training..
+------ Use best configs ------
+  0%|          | 0/20 [00:00<?, ?it/s]# Epoch 0: train_loss: 0.9990:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch 1: train_loss: 0.6862:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch 2: train_loss: 0.6291:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch 3: train_loss: 0.5950:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch 4: train_loss: 0.5721:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch 5: train_loss: 0.5592:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch 5: train_loss: 0.5592:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 6: train_loss: 0.5477:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 7: train_loss: 0.5357:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 8: train_loss: 0.5395:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 9: train_loss: 0.5342:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 10: train_loss: 0.5331:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 11: train_loss: 0.5351:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 12: train_loss: 0.5315:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 13: train_loss: 0.5284:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 14: train_loss: 0.5333:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 15: train_loss: 0.5260:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 16: train_loss: 0.5251:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 17: train_loss: 0.5352:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 18: train_loss: 0.5230:  30%|███       | 6/20 [00:00<00:00, 56.33it/s]# Epoch 18: train_loss: 0.5230:  95%|█████████▌| 19/20 [00:00<00:00, 95.47it/s]# Epoch 19: train_loss: 0.5295:  95%|█████████▌| 19/20 [00:00<00:00, 95.47it/s]# Epoch 19: train_loss: 0.5295: 100%|██████████| 20/20 [00:00<00:00, 90.79it/s]
+num parameters for finetuning: 3591
+  0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 0, train_loss: 1.9465, val_loss: 1.9385, val_acc:0.182, test_loss: 1.9388, test_acc: 0.1750:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 1, train_loss: 1.9412, val_loss: 1.9371, val_acc:0.4, test_loss: 1.9373, test_acc: 0.3880:   0%|          | 0/20 [00:00<?, ?it/s]  # Epoch: 2, train_loss: 1.9361, val_loss: 1.9353, val_acc:0.47, test_loss: 1.9353, test_acc: 0.4660:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 3, train_loss: 1.9310, val_loss: 1.9324, val_acc:0.474, test_loss: 1.9325, test_acc: 0.4820:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 4, train_loss: 1.9259, val_loss: 1.9288, val_acc:0.598, test_loss: 1.9288, test_acc: 0.5540:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 5, train_loss: 1.9208, val_loss: 1.9245, val_acc:0.69, test_loss: 1.9246, test_acc: 0.6540:   0%|          | 0/20 [00:00<?, ?it/s] # Epoch: 6, train_loss: 1.9157, val_loss: 1.9200, val_acc:0.734, test_loss: 1.9201, test_acc: 0.7200:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 7, train_loss: 1.9106, val_loss: 1.9154, val_acc:0.746, test_loss: 1.9155, test_acc: 0.7440:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 8, train_loss: 1.9055, val_loss: 1.9109, val_acc:0.748, test_loss: 1.9112, test_acc: 0.7450:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 9, train_loss: 1.9005, val_loss: 1.9068, val_acc:0.764, test_loss: 1.9071, test_acc: 0.7430:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 10, train_loss: 1.8955, val_loss: 1.9030, val_acc:0.75, test_loss: 1.9034, test_acc: 0.7380:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 11, train_loss: 1.8905, val_loss: 1.8996, val_acc:0.758, test_loss: 1.8999, test_acc: 0.7300:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 12, train_loss: 1.8855, val_loss: 1.8964, val_acc:0.744, test_loss: 1.8967, test_acc: 0.7210:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 13, train_loss: 1.8805, val_loss: 1.8933, val_acc:0.734, test_loss: 1.8936, test_acc: 0.7150:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 14, train_loss: 1.8756, val_loss: 1.8903, val_acc:0.732, test_loss: 1.8904, test_acc: 0.7170:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 15, train_loss: 1.8706, val_loss: 1.8871, val_acc:0.738, test_loss: 1.8873, test_acc: 0.7180:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 16, train_loss: 1.8657, val_loss: 1.8838, val_acc:0.744, test_loss: 1.8839, test_acc: 0.7200:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 17, train_loss: 1.8608, val_loss: 1.8803, val_acc:0.748, test_loss: 1.8804, test_acc: 0.7250:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 18, train_loss: 1.8559, val_loss: 1.8765, val_acc:0.754, test_loss: 1.8767, test_acc: 0.7260:   0%|          | 0/20 [00:00<?, ?it/s]# Epoch: 18, train_loss: 1.8559, val_loss: 1.8765, val_acc:0.754, test_loss: 1.8767, test_acc: 0.7260:  95%|█████████▌| 19/20 [00:00<00:00, 186.91it/s]# Epoch: 19, train_loss: 1.8511, val_loss: 1.8727, val_acc:0.76, test_loss: 1.8729, test_acc: 0.7300:  95%|█████████▌| 19/20 [00:00<00:00, 186.91it/s] # Epoch: 19, train_loss: 1.8511, val_loss: 1.8727, val_acc:0.76, test_loss: 1.8729, test_acc: 0.7300: 100%|██████████| 20/20 [00:00<00:00, 188.92it/s]
+--- TestAcc: 0.7300, early-stopping-TestAcc: 0.7430, Best ValAcc: 0.7640 in epoch 9 --- 
+{
+  "stage": "M0_smoke_only",
+  "status": "passed",
+  "is_formal_experiment": false,
+  "utc": "20261112T040413960326Z",
+  "commit": "9127f25e01aa5ba1cca68b746284aeb7ab2b4850",
+  "python": "3.11.7 (main, Dec 15 2023, 18:12:31) [GCC 11.2.0]",
+  "torch": "2.4.1+cu121",
+  "torch_cuda": "12.1",
+  "physical_gpu": 0,
+  "gpu_name": "NVIDIA L40",
+  "shared_gpu": true,
+  "gpu_existing_used_mib": 2421,
+  "nodes": 2708,
+  "features": 1433,
+  "classes": 7,
+  "directed_edges_with_self_loops": 13264,
+  "self_loops": 2708,
+  "split_sizes": [
+    140,
+    500,
+    1000
+  ],
+  "embedding_shape": [
+    2708,
+    512
+  ],
+  "masked_nodes": 1354,
+  "forward_loss": 1.0025923252105713,
+  "pretrain_epochs": 20,
+  "probe_epochs": 20,
+  "first_train_loss": 0.9990495443344116,
+  "last_train_loss": 0.5295440554618835,
+  "final_probe_accuracy": 0.73,
+  "validation_selected_probe_test_accuracy": 0.743,
+  "encoder_unchanged_by_probe": true,
+  "dataset_seconds": 10.644994975998998,
+  "pretrain_seconds": 0.22153996210545301,
+  "probe_seconds": 0.10873961902689189,
+  "median_epoch_seconds_excluding_first_two": 0.00801459001377225,
+  "peak_allocated_mib": 509.07470703125,
+  "peak_reserved_mib": 616.0,
+  "data_sha256": {
+    "cora/processed/data.pt": "2eeaa78850545ecb388d1113ca6543452b46d5ddd3c3356a6f9cb0aedf3e4a19",
+    "cora/processed/pre_filter.pt": "42a86817b56c49da2bf50ecd039532de990d3ecbf7e9d65396e5fca25346ca59",
+    "cora/processed/pre_transform.pt": "d1f3eb6d1179ad1ceab1d0fabf921d7e445593d2623299b7dbb9f93bc193c199",
+    "cora/raw/ind.cora.allx": "9419ba2f26f5c35243db64aba110e0f35a04851609e0dc5433450676ca6b8543",
+    "cora/raw/ind.cora.ally": "2b998f5cc7fedc86e7f97ca2498f47a1ffc1462c29e2d578b23bf3f62b6e7d71",
+    "cora/raw/ind.cora.graph": "58f13302f39dde8852dad6fe6d15b89b077b6d7f837626bce671ef80344b383d",
+    "cora/raw/ind.cora.test.index": "297ce89af2b51a6a194181c7dbe1796c6a1cf9cd9349a88383b1b1e227867875",
+    "cora/raw/ind.cora.tx": "b9afbaa4a400df991f6f02ef677e1e44da55ffc04801fd02f9e673987829226a",
+    "cora/raw/ind.cora.ty": "41f5ac76596a1699cc33f53084a2419e92961c42bb75f36fc38e616d348532ad",
+    "cora/raw/ind.cora.x": "23cfa55d91c6f624233f5eb7b6e3f141f1bd2b2ae39608a63cf5d084bb27baab",
+    "cora/raw/ind.cora.y": "94465c14eb53e04ca262198dcbb2521ee8af60fb3f3d546cd6ca24a511b0e7d1"
+  },
+  "note": "20-epoch smoke metrics are diagnostic only, not evidence of reproduction or improvement."
+}
+Artifacts: /home/fuqiang/homework/机器学习课程大作业/GraphMAE/results/raw/M0/smoke_20261112T040413960326Z
+
+exit_code=0
